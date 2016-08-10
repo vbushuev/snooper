@@ -188,6 +188,7 @@
 
     };
     $(document).ready(function(){
+        console.debug("SNOOPER:: set checkout bar(G.cartQuantity["+G.cartQuantity+"]). "+ $("#garan24-cart-quantity").length);
         G.setCartDigits();
         //setTimeout(function(){G.add2cart({quantity:2,price:120,name:"Test good",});},1000);
     });
