@@ -4,13 +4,13 @@
     @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
     #garan24-toper{
         position: fixed;
-        z-index: 999;
         top: 0;
         left:0;
         width:100%;
         height:48px;
         background-color: rgba(85,125,161,1);
         color: rgba(255,255,255,1);
+        z-index: 999;
     }
     @media (min-width: 768px){
         #garan24-toper-content {
@@ -154,6 +154,7 @@
         </ul>
     </div>
 </div>
+<script src="js/snooper.js" crossorigin="anonymous"></script>
 <script>
     /**
      * Number.prototype.format(n, x, s, c)
@@ -170,6 +171,7 @@
          return (c ? num.replace('.', c) : num).replace(new RegExp(re, 'g'), '$&' + (s || ','));
      };
     var G = {
+        currencyRate:76.5,
         cartQuantity:0,
         cartAmount:0,
         add2cart:function(){
@@ -182,14 +184,14 @@
             G.setCartDigits();
         },
         setCartDigits:function(){
-            $("#garan24-cart-quantity").text(G.cartQuantity);
-            $("#garan24-cart-amount").text(G.cartAmount.format(2,3,' ','.')+" руб.");
+            $("#garan24-cart-quantity").html(G.cartQuantity);
+            $("#garan24-cart-amount").html(G.cartAmount.format(0,3,' ','.')+" руб.");
         }
 
     };
     $(document).ready(function(){
         console.debug("SNOOPER:: set checkout bar(G.cartQuantity["+G.cartQuantity+"]). "+ $("#garan24-cart-quantity").length);
         G.setCartDigits();
-        //setTimeout(function(){G.add2cart({quantity:2,price:120,name:"Test good",});},1000);
+        //setTimeout(function(){G.add2cart({quantity:2,price:120,name:"Test good",});},2000);
     });
 </script>

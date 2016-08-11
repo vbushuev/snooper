@@ -2,16 +2,37 @@
 use Http as HttpFetcher;
 class Snooper extends HttpFetcher{
     protected $snoopy;
+    protected $full_url;
     protected $donor;
+    protected $donor_pattern;
     protected $content;
     protected $cache_folder;
     protected $cache_use;
     protected $debug;
     protected $path_pattern;
+    protected $localhost;
     //$_SERVER['REQUEST_URI']
     public function __construct($a){
-        parent::__construct();
-        $this->donor = (is_array($a)&&isset($a["url"]))?$a["url"]:$a;
+        parent::__construct([
+            "mb3PartnerHurra" => "",
+            "fe_typo_user" => "39a8151cbbd2085f4225ae8dc3d59f97",
+            "pgpkl" => "fcc3348979d8686d2287b16f3b80c5ee",
+            "mb3pc" => "%7B%22shoppingbasket%22%3A",
+            "searchbacklink"=>"catalog%7Chttp%3A%2F%2Fwww.",
+            "listview"=>"tiles",
+            "_hjIncludedInSample" => "1",
+            "axd" => "1001610581032400000"
+        ]);
+
+        $this->full_url = (is_array($a)&&isset($a["url"]))?$a["url"]:$a;
+        $donor = parse_url($this->full_url);
+        $this->donor_pattern = "(".$donor["scheme"]."\:)?\/\/(www\.)?".preg_quote($donor["host"]);
+        $donor = $donor["scheme"]."://".$donor["host"];
+        $this->donor = $donor;
+
+
+
+        $this->localhost = $_SERVER["HTTP_HOST"];
         $this->cache_folder = isset($a["cache"]["folder"])?$a["cache"]["folder"]:"/cache/";
         $this->cache_use = isset($a["cache"]["use"])?$a["cache"]["use"]:true;
         $this->debug = isset($a["debug"])?$a["debug"]:false;
@@ -25,14 +46,15 @@ class Snooper extends HttpFetcher{
             $this->_print("Load from cache".$this->cache_use);
             return file_get_contents($file);
         }
-        $this->_print("Getting from ".$this->donor." ..");
-        $this->fetch($this->donor);
+        $this->_print("Getting from ".$this->full_url." ..");
+        $this->fetch($this->full_url);
         $this->content = $this->results;
         $this->_print($this->response);
         $this->_print("Traslating .. ");
         $this->translate();
-        $this->_print("Relinking .. ");
+        $this->_print("Getting media .. ");
         $this->content = $this->getmedia($this->content);
+        $this->_print("Relinking .. ");
         $this->replace();
         $this->addToper();
         $this->_print("Caching .. ");
@@ -72,9 +94,10 @@ class Snooper extends HttpFetcher{
             return $ret;
         };
         //$out = preg_replace_callback($patterns,$replacements,$out);
-        //$out = preg_replace("/(\/\/)?(www\.)?".preg_quote($donor_href["host"])."/i",$_SERVER["HTTP_HOST"],$out);
-        $out = preg_replace("/\<\/head>/i","<script src=\"/js/ajax.prevent.js\"></script></head>",$out);
-        $out = preg_replace("/\<\/body>/i",file_get_contents("../src/toper.php")."<script src=\"/js/snooper.js?arg=1122\"></script></body>",$out);
+        //$out = preg_replace("/".$t->donor_pattern."/im",$this->localhost,$out);
+        //$out = preg_replace("/".$t->donor_pattern."/im",$this->localhost,$out);
+
+
         //$this->content = preg_replace($t->path_pattern,"$6".$this->donor."/$3.$4$5$6",$this->content);
         /*
         $class = 'table01';
@@ -98,11 +121,13 @@ class Snooper extends HttpFetcher{
     protected function getmedia($in){
         $out = $in;
         $t = $this;
+        //$t->_print(__CLASS__.__METHOD__." enter [".$in."]");
+        //echo "<br/>".$t->donor_pattern;
         $patterns = [
             "/['\"\(]\/?(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"\)])/im",
-            //"/['\"]\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|cur|php)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"])/im"
+            "/['\"]".$t->donor_pattern."\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"])/im"
         ];
-        $replacements = function($m) use ($t,$pattern){
+        $replacements = function($m) use ($t){
             $ret = $m[0];
             // remove two dots
             $file = preg_replace("/\.{2}\//im","",$m["path"]).".".$m["extension"];
@@ -110,19 +135,7 @@ class Snooper extends HttpFetcher{
             $file_full = $t->cache_folder."/".$this->_makeFileName($file);
             if(preg_match("/^['\"]?\/\//i",$ret)) return $ret;
             if(in_array($m["extension"],["php","html","htm"])) return $m["quote"].$src.$m["quote"];
-            if(!file_exists($file_full)){
-                try{
-                    $file_data=file_get_contents($src);
-                    //$sn = new Snoopy;
-                    //$sn->fetch($src);
-                    //$file_data=$sn->result;
-                    $file_data=$t->getmedia($file_data);
-                    file_put_contents($file_full,$file_data);
-                }
-                catch(Exception $e){
-                    $this->_print($e->getMessage());
-                }
-            }
+            $t->loadFile($file_full,$src,$m["extension"]);
             $ret = $m["quote"]."/".$file_full.$m["frag"].$m["quote"];
             $t->_print($m[0]."=>".$ret);
             return $ret;
@@ -130,8 +143,22 @@ class Snooper extends HttpFetcher{
         $out = preg_replace_callback($patterns,$replacements,$out);
         return $out;
     }
+    protected function loadFile($file_full,$src,$ext){
+        if(!file_exists($file_full)){
+            try{
+                $file_data=file_get_contents($src);
+                //$this->fetch($src);$file_data=$this->result;
+                if(in_array($ext,["js","css"])) $file_data=$this->getmedia($file_data);
+                file_put_contents($file_full,$file_data);
+            }
+            catch(Exception $e){
+                $this->_print($e->getMessage());
+            }
+        }
+    }
     protected function addToper(){
-        $this->content = preg_replace("/\<\/body>/i",file_get_contents("../src/toper.php")."</body>",$this->content);
+        $this->content = preg_replace("/\<\/head>/i","<script src=\"/js/ajax.prevent.js\"></script></head>",$this->content);
+        $this->content = preg_replace("/\<\/body>/i",file_get_contents("src/toper.php")."</body>",$this->content);
     }
     protected function translate(){
 
@@ -142,14 +169,10 @@ class Snooper extends HttpFetcher{
     protected function _print($s){
         $o="";
         if(is_array($s)){
-            $o="[";
-            foreach ($s as $key => $value) {
-                $o.= $key." => ".$value.", ";
-            }
-            $o.="]";
+            $o=json_encode($s);
         }
         elseif(is_string($s))$o = $s;
-        file_put_contents("../logs/snooper-".date("Y-m-d").".log",$o."\n",FILE_APPEND);
+        file_put_contents("logs/snooper-".date("Y-m-d").".log",date("H:i:s")."\t".__CLASS__."\t".$o."\n",FILE_APPEND);
     }
 };
 ?>
