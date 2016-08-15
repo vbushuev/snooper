@@ -25,9 +25,15 @@
         $(".buBasket").click(function(e){
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
-            var $t = $(this);
-            $t.unbind("click");
+            var $t = $(this),events = $t.data('events');
+            /*if(typeof events !="undefined" && typeof events.click != "undefined"){
+                for(ec in events.click){
+                    var ecl = events.click[ec];
+                    $t.unbind(ecl.type,ecl.hendler);
+                    console.debug("unbinded "+ecl.type+" handler="+ecl.handler);
+                }
+            }*/
+
             var $p = $("#productDetail");
             var price = parseFloat($p.find("#productCurrentPrice1_span").text().replace(/\,/g,"."))*G.currencyRate;
             var amount = $p.find("#productAmountForm_"+selfUID).length;
@@ -54,6 +60,7 @@
     };
     $(document).ajaxSend(function(e, jqXHR, options) {
         var h =  options.url;
+        if(h.match(/garan24/ig))return;
         h = h.replace(pattern,replacement);
         var a = h.split("?q=");
         h = a[0]+((a.length>1)?("?q="+encodeURIComponent(a[1])):"");
@@ -63,11 +70,11 @@
     });
     $(document).ajaxComplete(function(e, jqXHR, options) {
         xhrPool = $.grep(xhrPool, function(x) {return x != jqXHR});
-        //console.debug("jqXHR[" + options.url +"] is finished and removed from pool.");
-
+        console.debug(jqXHR);
+        //console.debug("jqXHR[" + JSON.stringify(jqXHR) +"] is finished and removed from pool.");
     });
     $(document).ajaxStop(function(e, jqXHR, options) {
-        relink();
+        //relink();
     });
     window.abort = function() {
         console.debug("!!! ABORT ALL jqXHR !!!");
@@ -84,8 +91,13 @@
             // if there is a prompt, it will likely give the requests enough time to finish
             abort();
         }
-        console.debug(e.target.activeElement);
+        console.debug(e);
+        console.debug(document.location.hostname);
+        //if(e.target.activeElement.href)
         //return false;
         return r;
     }
+    $.fancybox = function(){
+        console.debug("fancybox called.");
+    };
 })(jQuery);

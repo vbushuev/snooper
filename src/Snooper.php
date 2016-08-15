@@ -157,7 +157,12 @@ class Snooper extends HttpFetcher{
         }
     }
     protected function addToper(){
-        $this->content = preg_replace("/\<\/head>/i","<script src=\"/js/ajax.prevent.js\"></script></head>",$this->content);
+        $jsStart = "";$jsEnd ="";
+        //$jsStart.= "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\" crossorigin=\"anonymous\"></script>";
+        $jsEnd.= "<script src=\"/js/jquery.cookie.js\"></script>";
+        $jsEnd.= "<script src=\"/js/ajax.prevent.js\"></script>";
+        $this->content = preg_replace("/\<head(.*?)>/i","<head$1>".$jsStart,$this->content);
+        $this->content = preg_replace("/\<\/head>/i",$jsEnd."</head>",$this->content);
         $this->content = preg_replace("/\<\/body>/i",file_get_contents("src/toper.php")."</body>",$this->content);
     }
     protected function translate(){
