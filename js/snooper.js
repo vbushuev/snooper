@@ -14,6 +14,7 @@
  };
 function G24(){
     var t = this;
+    this.carthost = "//service.garan24.ru/cart";
     this.id = $.cookie("cart_id");
     this.currencyRate = 72*1.1; //10%
     this.cartQuantity = 0;
@@ -47,9 +48,13 @@ function G24(){
     };
     this.create = function(){
         $.ajax({
-            url:"//service.garan24.bs2/cart/create",
+            url:this.carthost+"/create",
             type:"get",
-            success:function(d){
+            dataType: "json",
+            crossDomain: true,
+            jsonp:false,
+            success:function(data){
+                var d=JSON.parse(data);
                 console.debug(d);
                 G.id=d.id;
                 $.cookie("cart_id",d.id);
@@ -67,9 +72,10 @@ function G24(){
         console.debug(this.order);
         //return ;
         $.ajax({
-            url:"//service.garan24.bs2/cart/update",
+            url:this.carthost+"/update",
             type:"get",
-            dataType:"json",
+            dataType: "json",
+            crossDomain: true,
             data:{id:this.id,value:JSON.stringify(rq)},
             success:function(){console.debug("cart updated");}
         });
@@ -77,11 +83,17 @@ function G24(){
     this.get = function(){
         var t = this;
         $.ajax({
-            url:"//service.garan24.bs2/cart",
+            url:this.carthost+"?id="+this.id,
             type:"get",
-            data:{id:this.id},
-            dataType:"json",
-            success:function(d){
+            dataType: "json",
+            crossDomain: true,
+            //jsonp:false,
+            beforeSend:function(x){
+                console.debug("Getting data");
+                console.debug(x);
+            },
+            success:function(data){
+                var d=JSON.parse(data);
                 console.debug(d);
                 t.order=$.extend(G.order,d.order);
                 for(var i in t.order.items){
@@ -105,11 +117,12 @@ function G24(){
         console.debug(this.order);
         //return ;
         $.ajax({
-            method:"POST",type:"POST",
+            type:"POST",
             //url:"//service.garan24.ru/checkout/",
             //url:"http://service.garan24.bs2/checkout/",
-            url:"https://service.garan24.ru/checkout/",
-            dataType:"json",
+            url:"//service.garan24.ru/checkout",
+            dataType: "json",
+            crossDomain: true,
             data:JSON.stringify(rq),
             beforeSend:function(){
                 $m.find(".garan24-overlay-message-text").html("Ваш заказ обрабатывается...");
@@ -118,7 +131,9 @@ function G24(){
             complete:function(){
                 $m.fadeOut();
             },
-            success:function(d){
+            success:function(data){
+                //var d=JSON.parse(data);
+                var d=data;
                 console.debug("checkout response ");
                 console.debug(d);
                 if(!d.error){
@@ -128,11 +143,14 @@ function G24(){
         });
     };
     // init
-    if(this.id.length && typeof this.id!="undefined"){
+    console.debug("Init cart - "+this.id);
+    if(typeof this.id!="undefined" && this.id.length ){
         this.get();
+        console.debug("Getting snooper data cart");
     }
     else {
         this.create();
+        console.debug("Creating snooper cart");
     }
     this.setCartDigits();
 }
