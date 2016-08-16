@@ -22,7 +22,7 @@ function G24(){
     this.x_secret = "cs_ddde7647b888f21548ca27c6b80a973b20cc6091";
     this.x_key = "ck_d80d9961dfe1d5d9dcee803a6d8d674e265c9220";
     this.version = "1.0";
-    this.response_url = "//"+document.location.hostname+"/response.php?id="+this.id;
+    this.response_url= this.carthost+"/clean?id="+this.id;
     this.order = {
         order_id:this.id,
         order_url:document.location.href,
@@ -42,6 +42,18 @@ function G24(){
         this.setCartDigits();
         this.set();
     };
+    this.remove = function(){
+        console.debug("Garan24::remove from cart(..)");
+        if(!arguments.length){console.debug("nodata to add");return false;}
+        var i = arguments[0],good = this.order.items[i];
+        console.debug(good);
+        this.cartQuantity-=good.quantity;
+        this.cartAmount-=good.regular_price*good.quantity;
+        this.order.order_total = this.cartAmount;
+        this.order.items.splice(i,1);
+        this.setCartDigits();
+        this.set();
+    };
     this.setCartDigits = function(){
         $("#garan24-cart-quantity").html(this.cartQuantity);
         $("#garan24-cart-amount").html(this.order.order_total.format(0,3,' ','.')+" руб.");
@@ -52,12 +64,13 @@ function G24(){
             type:"get",
             dataType: "json",
             crossDomain: true,
-            jsonp:false,
             success:function(data){
-                var d=JSON.parse(data);
+                //var d=JSON.parse(data);
+                var d=data;
+                console.debug("Created cart.");
                 console.debug(d);
                 G.id=d.id;
-                $.cookie("cart_id",d.id);
+                $.cookie("cart_id",d.id,{expires:1});
             }
         });
     };
@@ -111,7 +124,7 @@ function G24(){
             x_secret: "cs_ddde7647b888f21548ca27c6b80a973b20cc6091",
             x_key: "ck_d80d9961dfe1d5d9dcee803a6d8d674e265c9220",
             version: "1.0",
-            response_url: "//"+document.location.hostname+"/response.php?id="+this.id,
+            response_url: this.carthost+"/clean?id="+this.id,
             order:this.order
         },$m = $("#garan24-overlay");
         console.debug(this.order);
@@ -125,7 +138,7 @@ function G24(){
             crossDomain: true,
             data:JSON.stringify(rq),
             beforeSend:function(){
-                $m.find(".garan24-overlay-message-text").html("Ваш заказ обрабатывается...");
+                $m.find(".garan24-overlay-message-text").html("Обрабатываются товары из Вашей корзины...");
                 $m.fadeIn();
             },
             complete:function(){
@@ -137,10 +150,31 @@ function G24(){
                 console.debug("checkout response ");
                 console.debug(d);
                 if(!d.error){
+                    $m.find(".garan24-overlay-message-text").html("Переход на страницу оформления заказа...");
                     document.location.href = d.redirect_url;
                 }
             }
         });
+    };
+    this.showcart = function(){
+        var $c = $("#garan-cart-full"),g="";
+        if($c.hasClass("garan24-visible")){
+            $c.removeClass("garan24-visible").slideUp();
+            return;
+        }
+        g+="<table>";
+        for(var i in this.order.items){
+            g+="<tr>";
+            var itm = this.order.items[i];
+            g+="<td><img alt='"+itm.title+"' src='"+itm.product_img+"'/></td>";
+            g+="<td><a href='javascript:G.remove("+i+")'><i class='fa fa-trash-o'></i></a></td>";
+            g+="<td>"+itm.title+"</td>";
+            g+="</tr>";
+        }
+        g+="<tr class='total'><td>Итого:</td><td colspan='2'>"+this.order.order_total.format(0,3,' ','.')+" руб.</td></tr>";
+        g+="</table>";
+
+        $c.addClass("garan24-visible").html(g).slideDown();
     };
     // init
     console.debug("Init cart - "+this.id);
@@ -164,5 +198,8 @@ $(document).ready(function() {
 
     $("#garan-checkout").click(function(){
         G.checkout();
+    });
+    $("#garan-cart").click(function(){
+        G.showcart();
     });
 });

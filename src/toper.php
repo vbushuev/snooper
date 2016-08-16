@@ -88,6 +88,7 @@
         font-weight: 300;
         height:48px;
         line-height: 48px;
+
     }
     #garan24-toper-content .garan24-toper-menu li{
         display: inline-block;
@@ -98,6 +99,7 @@
     #garan24-toper-content .garan24-toper-menu-right{
         float:right;
         padding-top: 4px;
+
     }
     #garan24-toper-content .garan24-toper-menu li .garan24-cart{
         height: 36px;
@@ -114,6 +116,7 @@
         cursor: pointer;
         position: relative;
         border:solid 2px rgba(85,125,161,1);
+        position: relative;
     }
     #garan24-toper-content .garan24-toper-menu li .garan24-cart:hover{
         border-color: rgba(255,255,255,1);
@@ -167,6 +170,33 @@
         font-size: 14pt;
         text-align: center;
     }
+    #garan-cart-full{
+        display: none;
+        z-index: 1000;
+        background-color: rgba(255,255,255,1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: absolute;
+        padding: 1em;
+        min-width: 360px;
+        overflow: auto;
+        right:0;
+        border:solid 1px rgba(0,0,0,.4);
+    }
+    #garan-cart-full table{
+        border:none;
+    }
+    #garan-cart-full table tr td{
+        border:none;
+    }
+    #garan-cart-full table tr.total td{
+        border-top:dotted 1px rgba(0,0,0,.4);
+        text-align: right;
+        color:rgba(0,0,0,.8);
+        font-size: 110%;
+        font-weight: 700;
+    }
     body{padding-top: 56px;}
 
 </style>
@@ -181,7 +211,9 @@
                     <i class="fa fa-shopping-cart" area-hidden="true"></i>
                     <sup id="garan24-cart-quantity"></sup>
                     <span id="garan24-cart-amount"></span>
+                    <div id="garan-cart-full"></div>
                 </a>
+
             </li>
             <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
         </ul>
