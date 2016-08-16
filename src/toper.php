@@ -134,6 +134,39 @@
         margin-left: 12px;
         font-weight: 400;
     }
+    #garan24-overlay{
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        top:56px;left: 0;
+        background-color: rgba(0,0,0,.3);
+        z-index:999;
+        display: none;
+    }
+    #garan24-overlay-cover{
+        position: absolute;
+        top:0;left: 0;bottom: 0;right: 0;
+        /*
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+        */
+    }
+    #garan24-overlay-message{
+        z-index:1000;
+        background-color: rgba(255,255,255,1);
+        overflow: auto;
+        position: relative;
+        margin: 6em 20%;
+        padding: 2em;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 14pt;
+        text-align: center;
+    }
     body{padding-top: 56px;}
 
 </style>
@@ -152,6 +185,13 @@
             </li>
             <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
         </ul>
+    </div>
+</div>
+<div id="garan24-overlay">
+    <!--<div id="garan24-overlay-cover"></div>-->
+    <div id="garan24-overlay-message">
+        <span class="garan24-overlay-message-text">here is message</span><br />
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
     </div>
 </div>
 <script src="js/snooper.js" crossorigin="anonymous"></script>

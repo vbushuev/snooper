@@ -26,12 +26,14 @@
             }
             //variations:["color":"black"]
         }
-        $t.clone().css({'position' : 'absolute', 'z-index' : '999'}).appendTo($t)
+        var $i = $p.find(".prodImage");
+        $i.clone().css({'position' : 'fixed', 'z-index' : '999'}).appendTo($i)
             .animate({
                 opacity: 0.5,
-                marginLeft: 700, /* Важно помнить, что названия СSS-свойств пишущихся через дефис заменяются на аналогичные в стиле "camelCase" */
+                top: $("#garan24-cart-quantity").offset().top, /* Важно помнить, что названия СSS-свойств пишущихся через дефис заменяются на аналогичные в стиле "camelCase" */
+                left:$("#garan24-cart-quantity").offset().left,
                 width: 50,
-                height: 50},700,function() {$(this).remove();}
+                height: 50},800,function() {$(this).remove();}
             );
         G.add2cart(product);
     }

@@ -101,15 +101,23 @@ function G24(){
             version: "1.0",
             response_url: "//"+document.location.hostname+"/response.php?id="+this.id,
             order:this.order
-        };
+        },$m = $("#garan24-overlay");
         console.debug(this.order);
         //return ;
         $.ajax({
             method:"POST",type:"POST",
             //url:"//service.garan24.ru/checkout/",
-            url:"http://service.garan24.bs2/checkout/",
+            //url:"http://service.garan24.bs2/checkout/",
+            url:"https://service.garan24.ru/checkout/",
             dataType:"json",
             data:JSON.stringify(rq),
+            beforeSend:function(){
+                $m.find(".garan24-overlay-message-text").html("Ваш заказ обрабатывается...");
+                $m.fadeIn();
+            },
+            complete:function(){
+                $m.fadeOut();
+            },
             success:function(d){
                 console.debug("checkout response ");
                 console.debug(d);
