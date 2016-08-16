@@ -144,13 +144,13 @@
         </ul>
         <ul class="garan24-toper-menu garan24-toper-menu-right">
             <li>
-                <a class="garan24-cart" href="#">
+                <a id="garan-cart" class="garan24-cart" href="#">
                     <i class="fa fa-shopping-cart" area-hidden="true"></i>
                     <sup id="garan24-cart-quantity"></sup>
                     <span id="garan24-cart-amount"></span>
                 </a>
             </li>
-            <li><a class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
+            <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
         </ul>
     </div>
 </div>

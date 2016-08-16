@@ -4,6 +4,37 @@
     var xhrPool = [];
     var pattern = /(http|https)?(\:)?(\/\/)?(www\.)?(baby\-walz\.de)?\//i;
     var replacement = "//"+document.location.hostname+"?q=";
+    var add2Basket = function(){
+        var $t = arguments[0];
+        var $p = $("#productDetail");
+        var price = parseFloat($p.find("#productCurrentPrice1_span").text().replace(/\,/g,"."))*G.currencyRate;
+        var amount = $p.find("#productAmountForm_"+selfUID).length;
+        console.debug("Amount="+amount+" Price= "+price+" UID="+selfUID);
+        var product = {
+            product_id: -1,
+            quantity: amount,
+            regular_price: price,
+            title: $p.find(".prodName").text(),
+            description: $p.find(".prodName").text(),//encodeURIComponent($p.find(".productCopytext").html()),
+            product_url: document.location.href,
+            product_img: $p.find(".prodImage .imageOptions img.thumbs:first").attr("src"),//"https://youronlinestore.com/#id.png",
+            weight:"200",
+            dimensions:{
+                "height":"100",
+                "width":"10",
+                "depth":"40"
+            }
+            //variations:["color":"black"]
+        }
+        $t.clone().css({'position' : 'absolute', 'z-index' : '999'}).appendTo($t)
+            .animate({
+                opacity: 0.5,
+                marginLeft: 700, /* Важно помнить, что названия СSS-свойств пишущихся через дефис заменяются на аналогичные в стиле "camelCase" */
+                width: 50,
+                height: 50},700,function() {$(this).remove();}
+            );
+        G.add2cart(product);
+    }
 
     window.replaceDonor = function(s){
         if(typeof s == "undefined") return s;
@@ -23,9 +54,7 @@
             $t.attr("data-replaced","1");
         });
         $(".buBasket").click(function(e){
-            e.preventDefault();
-            e.stopPropagation();
-            var $t = $(this),events = $t.data('events');
+            add2Basket($(this));//,events = $t.data('events');
             /*if(typeof events !="undefined" && typeof events.click != "undefined"){
                 for(ec in events.click){
                     var ecl = events.click[ec];
@@ -33,24 +62,8 @@
                     console.debug("unbinded "+ecl.type+" handler="+ecl.handler);
                 }
             }*/
-
-            var $p = $("#productDetail");
-            var price = parseFloat($p.find("#productCurrentPrice1_span").text().replace(/\,/g,"."))*G.currencyRate;
-            var amount = $p.find("#productAmountForm_"+selfUID).length;
-            console.debug("Amount="+amount+" Price= "+price+" UID="+selfUID);
-            var product = {
-                quantity:amount,
-                price:price,
-                name:$p.find(".prodName").text()
-            }
-            $t.clone().css({'position' : 'absolute', 'z-index' : '999'}).appendTo($t)
-                .animate({
-                    opacity: 0.5,
-                    marginLeft: 700, /* Важно помнить, что названия СSS-свойств пишущихся через дефис заменяются на аналогичные в стиле "camelCase" */
-                    width: 50,
-                    height: 50},700,function() {$(this).remove();}
-                );
-            G.add2cart(product);
+            e.preventDefault();
+            e.stopPropagation();
             return false;
         });
         $(".prodListItem").each(function(){
@@ -60,7 +73,7 @@
     };
     $(document).ajaxSend(function(e, jqXHR, options) {
         var h =  options.url;
-        if(h.match(/garan24/ig))return;
+        if(h.match(/garan24/ig)||h.match(/checkout\.php/ig))return;
         h = h.replace(pattern,replacement);
         var a = h.split("?q=");
         h = a[0]+((a.length>1)?("?q="+encodeURIComponent(a[1])):"");
@@ -70,7 +83,7 @@
     });
     $(document).ajaxComplete(function(e, jqXHR, options) {
         xhrPool = $.grep(xhrPool, function(x) {return x != jqXHR});
-        console.debug(jqXHR);
+        //console.debug(jqXHR);
         //console.debug("jqXHR[" + JSON.stringify(jqXHR) +"] is finished and removed from pool.");
     });
     $(document).ajaxStop(function(e, jqXHR, options) {

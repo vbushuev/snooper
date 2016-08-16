@@ -1,0 +1,72 @@
+{
+    "x_secret":"cs_ddde7647b888f21548ca27c6b80a973b20cc6091",
+    "x_key":"ck_d80d9961dfe1d5d9dcee803a6d8d674e265c9220",
+    "version":"1.0",
+    "response_url":"https://youronlinestore.com/response",
+    "order":
+    {
+        "order_id":"#orderid",
+        "order_url":"https://youronlinestore.com/order/#id",
+        "order_total":"4211.00",
+        "order_currency":"RUB",
+        "items":
+        [
+            {
+                "product_id":"0",
+                "title":"Product title",
+                "description":"Product description",
+                "product_url":"https://youronlinestore.com/#id",
+                "product_img":"https://youronlinestore.com/#id.png",
+                "quantity":"2",
+                "weight":"200",
+                "dimensions":{
+                    "height":"100",
+                    "width":"10",
+                    "depth":"40"
+                },
+                "regular_price":"100.20",
+                "variations":["color":"black"]
+            },
+            {
+                "product_id":"1",
+                "title":"Product title 2",
+                "description":"Product description ",
+                "product_url":"https://youronlinestore.com/#id",
+                "product_img":"https://youronlinestore.com/#id.png",
+                "quantity":"3",
+                "weight":"200",
+                "dimention":{
+                    "height":"100",
+                    "width":"10",
+                    "depth":"40"
+                },
+                "regular_price":"1670.20",
+                "variations":["color":"green"]
+            }
+        ]
+    }
+}
+{
+    "code":0,
+    "error":{},
+    "order":{
+        "order_id":"#yourorderid",
+        "status":"payed",
+    },
+    "shipping":{
+        "code":"post",
+        "title":"Почта России",
+        "address": {
+    		"first_name": "Петр",
+    		"last_name": "Иванов",
+    		"address_1": "ул. Ленина 16, кв.16",
+    		"city": "Кострома",
+    		"state": "",
+    		"postcode": "998821",
+    		"country": "RU",
+    		"phone": "+79261112244",
+    		"email": "customer@mail.ru",
+            "comment":"#customer comments"
+    	}
+    }
+}
