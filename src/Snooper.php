@@ -11,36 +11,75 @@ class Snooper extends HttpFetcher{
     protected $debug;
     protected $path_pattern;
     protected $localhost;
-    //$_SERVER['REQUEST_URI']
-    public function __construct($a){
-        parent::__construct([
-            "mb3PartnerHurra" => "",
+    protected $cookies = [
+        "baby-walz.de" => ["mb3PartnerHurra" => "",
             "fe_typo_user" => "39a8151cbbd2085f4225ae8dc3d59f97",
             "pgpkl" => "fcc3348979d8686d2287b16f3b80c5ee",
             "mb3pc" => "%7B%22shoppingbasket%22%3A",
             "searchbacklink"=>"catalog%7Chttp%3A%2F%2Fwww.",
             "listview"=>"tiles",
             "_hjIncludedInSample" => "1",
-            "axd" => "1001610581032400000"
-        ]);
+            "axd" => "1001610581032400000",
+            "T43_Geschenkefinder" => "generated",
+            "X-Requested-With" => "XMLHttpRequest"
+        ],
+        "www.baby-walz.de" => ["mb3PartnerHurra" => "",
+            "fe_typo_user" => "39a8151cbbd2085f4225ae8dc3d59f97",
+            "pgpkl" => "fcc3348979d8686d2287b16f3b80c5ee",
+            "mb3pc" => "%7B%22shoppingbasket%22%3A",
+            "searchbacklink"=>"catalog%7Chttp%3A%2F%2Fwww.",
+            "listview"=>"tiles",
+            "_hjIncludedInSample" => "1",
+            "axd" => "1001610581032400000",
+            "T43_Geschenkefinder" => "generated",
+            "X-Requested-With" => "XMLHttpRequest"
+        ],
+        "www.kik.de" => [
+            "SERVERID" => "s11",
+            "wt_fweid" => "1d2c49d74941cdb2671fde7e",
+            "wt_feid" => "c67cb56484752e5434adc06474cee722",
+            "wt_geid" =>"814713550460088465884658",
+            "frontend" => "f4f04d89a0a0610756741bc3ce9d9d3b",
+            "EXTERNAL_NO_CACHE" => "1"
+        ]
+    ];
+    //$_SERVER['REQUEST_URI']
+    public function __construct($a){
+        $local = $a["localhost"];
+        $acceptedDonors = ["baby-walz.de","www.baby-walz.de","www.kik.de"];
 
-        $this->full_url = (is_array($a)&&isset($a["url"]))?$a["url"]:$a;
+        $this->localhost = $_SERVER["HTTP_HOST"];
+        //$url = isset($_COOKIE["snooper_donor_host"])?$_COOKIE["snooper_donor_host"]:"http://www.kik.de";
+        $url = preg_replace("/\.".preg_quote($local)."/i","",$this->localhost);
+
+        //$acc = parse_url($url);if(!in_array($acc["host"],$acceptedDonors)) $url="http://www.kik.de";
+
+        $this->full_url = "http://www.".$url.((is_array($a)&&isset($a["url"]))?$a["url"]:$a);
+        $this->_print("Current url ['".$url."']");
         $donor = parse_url($this->full_url);
+        $dhost = $donor["host"];
         $this->donor_pattern = "(".$donor["scheme"]."\:)?\/\/(www\.)?".preg_quote($donor["host"]);
         $donor = $donor["scheme"]."://".$donor["host"];
         $this->donor = $donor;
 
 
-
-        $this->localhost = $_SERVER["HTTP_HOST"];
         $this->cache_folder = isset($a["cache"]["folder"])?$a["cache"]["folder"]:"/cache/";
         $this->cache_use = isset($a["cache"]["use"])?$a["cache"]["use"]:true;
         $this->debug = isset($a["debug"])?$a["debug"]:false;
         $this->cache_folder = preg_replace("/^\/?(.+?)\/?$/","$1",$this->cache_folder);
-        if(!file_exists($this->cache_folder))mkdir($this->cache_folder);
+        if(!file_exists($this->cache_folder)){mkdir($this->cache_folder);}
+        if(!file_exists($this->cache_folder."/".$dhost)){
+            mkdir($this->cache_folder."/".$dhost);
+            mkdir($this->cache_folder."/".$dhost."/js");
+            mkdir($this->cache_folder."/".$dhost."/css");
+            mkdir($this->cache_folder."/".$dhost."/img");
+        }
+        $this->_print("Current host ['".$dhost."']");
+        parent::__construct($this->cookies[$dhost]);
     }
     public function get(){
-        $file = $this->cache_folder."/".$this->_makeFileName($this->donor).date("Ymd");
+        $file = $this->cache_folder."/".$this->_makeFileName($this->full_url).date("Ymd");
+        $fi = pathinfo($file);
         $this->_print("Cache file:".$file);
         if($this->cache_use&&file_exists($file)){
             $this->_print("Load from cache".$this->cache_use);
@@ -50,13 +89,14 @@ class Snooper extends HttpFetcher{
         $this->fetch($this->full_url);
         $this->content = $this->results;
         $this->_print($this->response);
-        $this->_print("Traslating .. ");
-        $this->translate();
         $this->_print("Getting media .. ");
         $this->content = $this->getmedia($this->content);
         $this->_print("Relinking .. ");
         $this->replace();
+        $this->_print("Traslating .. ");
+        if(!in_array($fi["extension"],["js","css","png","gif","jpg","svg"])) $this->content = $this->translate($this->content);
         $this->addToper();
+
         $this->_print("Caching .. ");
         file_put_contents($file,$this->content);
         return $this->content;
@@ -67,34 +107,12 @@ class Snooper extends HttpFetcher{
     protected function replace(){
         $out = $this->content;
         $t = $this;
-        $donor_href = parse_url($this->donor);
-        $patterns = [
-            "/\<(?<tag>a)(.*?)(href|src)=['\"](?<href>.+?)['\"]/im"
-            //"/\<(a|img|script|link)(.*?)(href|src)=['\"](.+?)['\"]/im"
-        ];
-        $replacements = function($m) use ($t){
-            $href = $m["href"];
-            $href_n = $m["href"];
-            $url = parse_url($href);
-            //print_r($url);
-            $donor_host =parse_url($t->donor);
-            $donor_host =$donor_host["host"];
-
-            $rule = "none";
-            if(isset($url["host"]) && $url["host"] == $donor_host){
-                if (in_array($m["tag"],["a"])){
-                    $href_n = $t->localhost."?q=".(isset($url["path"])?$url["path"]:"");
-                    $rule = "relink_href";
-                }
-            }
-            //if($rule=="none")
-            $this->_print("Replaced [".$rule."]:".$href_n." <= ".$href);
-            $ret = "<".$m["tag"].(isset($m[2])?$m[2]:"").$m[3]."=\"".$href_n."\"";
-            //Log::debug("Replaced (".$rule.") [".$href."] => [".$href_n."]");
+        $out = preg_replace_callback("/".$t->donor_pattern."/im",function($m)use($t){
+            $ret = "//".$this->localhost;
+            //$t->_print("Replace [".$m[0]." => ".$ret."]");
             return $ret;
-        };
-        //$out = preg_replace_callback($patterns,$replacements,$out);
-        //$out = preg_replace("/".$t->donor_pattern."/im",$this->localhost,$out);
+        },$out);
+        $out = preg_replace("/\<\!\-\-([\s\S]*?)\-\-\>/im","",$out);
         //$out = preg_replace("/".$t->donor_pattern."/im",$this->localhost,$out);
 
 
@@ -116,6 +134,7 @@ class Snooper extends HttpFetcher{
 
         preg_match($pattern, $text, $m);
         */
+        //$out = preg_replace("/\<base(.*?)href\=\"(.+?)\".*\/\>/","",$out);
         $this->content = $out;
     }
     protected function getmedia($in){
@@ -124,9 +143,10 @@ class Snooper extends HttpFetcher{
         //$t->_print(__CLASS__.__METHOD__." enter [".$in."]");
         //echo "<br/>".$t->donor_pattern;
         $patterns = [
-            "/['\"\(]\/?(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"\)])/im",
+            "/['\"\(]\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"\)])/im",
             "/['\"]".$t->donor_pattern."\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"])/im"
         ];
+        //['\"](http\:)?\/\/(www\.)?kik\.de([a-z0-9\/\-\_\.]+?)\.(png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(\?[a-z-0-9\=\%\&\_\;\#]*)?(['\"])
         $replacements = function($m) use ($t){
             $ret = $m[0];
             // remove two dots
@@ -137,7 +157,7 @@ class Snooper extends HttpFetcher{
             if(in_array($m["extension"],["php","html","htm"])) return $m["quote"].$src.$m["quote"];
             $t->loadFile($file_full,$src,$m["extension"]);
             $ret = $m["quote"]."/".$file_full.$m["frag"].$m["quote"];
-            $t->_print($m[0]."=>".$ret);
+            //$t->_print($m[0]."=>".$ret);
             return $ret;
         };
         $out = preg_replace_callback($patterns,$replacements,$out);
@@ -158,18 +178,53 @@ class Snooper extends HttpFetcher{
     }
     protected function addToper(){
         $jsStart = "";$jsEnd ="";
-        //$jsStart.= "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\" crossorigin=\"anonymous\"></script>";
-        $jsEnd.= "<script src=\"/js/jquery.cookie.js\"></script>";
-        $jsEnd.= "<script src=\"/js/ajax.prevent.js\"></script>";
-        $this->content = preg_replace("/\<head(.*?)>/i","<head$1>".$jsStart,$this->content);
-        $this->content = preg_replace("/\<\/head>/i",$jsEnd."</head>",$this->content);
+        //$jsStart.= "<base href='".$this->localhost."?__garan_query__='/>";
+        $jsStart.= "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\" crossorigin=\"anonymous\"></script>";
+        $jsStart.= "<script src=\"/js/ajax.prevent.js\"></script>\n";
+        $jsEnd.= "<script src=\"/js/jquery.cookie.js\"></script>\n";
+
+        $this->content = preg_replace("/\<head(.*?)>/i","<head$1>\n".$jsStart,$this->content);
+        $this->content = preg_replace("/\<\/head>/i",$jsEnd."\n</head>\n",$this->content);
         $this->content = preg_replace("/\<\/body>/i",file_get_contents("src/toper.php")."</body>",$this->content);
     }
-    protected function translate(){
-
+    protected function translate($args){
+        $keys = [
+            "trnsl.1.1.20160817T222617Z.84e7efab369c4e2b.4c0c011c07fdc44a159659a77765c6b7410707b3",
+            "trnsl.1.1.20160808T114104Z.4fca987aa626b8c2.91ed21fc6a7d733075f78f8cca41fcecf4146acd",
+            "trnsl.1.1.20160817T222757Z.c9df5b86a8e4b808.80a4a66b0d5993e9611c47432b9fc2c225929f55",
+        ];
+        $key=$keys[2];
+        $host="https://translate.yandex.net/api/v1.5/tr.json/translate";
+        $data = is_string($args)?$args:(isset($args["data"])?$args["data"]:null);
+        if(is_null($data))return "";
+        $curlOptions = [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => http_build_query([
+                "text" => $data,
+                "format" => "html",
+            ]),
+            CURLOPT_VERBOSE => 1,
+            CURLOPT_SSL_VERIFYPEER => false,
+            //CURLOPT_FOLLOWLOCATION => true
+        ];
+        $url = $host."?lang=ru&key=".$key;
+        $curl = curl_init($url);
+        curl_setopt_array($curl, $curlOptions);
+        $response = curl_exec($curl);
+        $this->_print("Yandex translate response: ".$response);
+        $response = json_decode($response);
+        return ($response->code=="200")?$response->text[0]:$data;
     }
     protected function _makeFileName($p){
-        return preg_replace("/[\:\/\-\\\]/m","_",$p);
+        $pi = pathinfo($p);
+        $hi = parse_url($this->donor);
+        $dir = $hi["host"]."/";
+        if($pi["extension"]=="js"){$dir.="js/";}
+        elseif($pi["extension"]=="css"){$dir.="css/";}
+        elseif(in_array($pi["extension"],["jpg","gif","png","ico","svg","jpeg"])){$dir.="img/";}
+        $ret = $dir.preg_replace("/[\:\/\-\\\]/m","_",$p);
+        return $ret;
     }
     protected function _print($s){
         $o="";

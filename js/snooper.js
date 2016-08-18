@@ -1,20 +1,7 @@
-/**
- * Number.prototype.format(n, x, s, c)
- *
- * @param integer n: length of decimal
- * @param integer x: length of whole part
- * @param mixed   s: sections delimiter
- * @param mixed   c: decimal delimiter
- */
- Number.prototype.format = function(n, x, s, c) {
-     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\D' : '$') + ')',
-         num = this.toFixed(Math.max(0, ~~n));
-
-     return (c ? num.replace('.', c) : num).replace(new RegExp(re, 'g'), '$&' + (s || ','));
- };
 function G24(){
     var t = this;
-    this.carthost = "//service.garan24.ru/cart";
+    //this.carthost = "//service.garan24.ru/cart";
+    this.carthost = (document.location.hostname.match(/\.bs2/i))?"http://service.garan24.bs2/cart":"https://service.garan24.ru/cart";
     this.id = $.cookie("cart_id");
     this.currencyRate = 72*1.1; //10%
     this.cartQuantity = 0;
@@ -55,8 +42,11 @@ function G24(){
         this.set();
     };
     this.setCartDigits = function(){
-        $("#garan24-cart-quantity").html(this.cartQuantity);
-        $("#garan24-cart-amount").html(this.order.order_total.format(0,3,' ','.')+" руб.");
+        if(!$("#garan24-cart-quantity").length){
+            $("#garan-cart").html('<i class="fa fa-shopping-cart" area-hidden="true"></i><sup id="garan24-cart-quantity">0</sup><span id="garan24-cart-amount">0 руб.</span><div id="garan-cart-full"></div>');
+        }
+        if(!isNaN(t.cartQuantity))$("#garan24-cart-quantity").html(t.cartQuantity);
+        if(!isNaN(t.order.order_total))$("#garan24-cart-amount").html(t.order.order_total.format(0,3,' ','.')+" руб.");
     };
     this.create = function(){
         $.ajax({
@@ -96,23 +86,27 @@ function G24(){
     this.get = function(){
         var t = this;
         $.ajax({
-            url:this.carthost+"?id="+this.id,
+            url:this.carthost,
+            data:{id:this.id},
             type:"get",
             dataType: "json",
             crossDomain: true,
             //jsonp:false,
             beforeSend:function(x){
                 console.debug("Getting data");
-                console.debug(x);
+                //console.debug(x);
             },
             success:function(data){
                 var d=JSON.parse(data);
-                console.debug(d);
-                t.order=$.extend(G.order,d.order);
-                for(var i in t.order.items){
-                    var item = t.order.items[i];
-                    console.debug(item);
-                    t.cartQuantity+=item.quantity;
+                //var d=data;
+                console.debug(d.order);
+                if(typeof d.order != "undefined"){
+                    t.order=$.extend(G.order,d.order);
+                    for(var i in t.order.items){
+                        var item = t.order.items[i];
+                        //console.debug(item);
+                        t.cartQuantity+=((typeof item.quantity != "undefined")&&!isNaN(item.quantity))?item.quantity:0;
+                    }
                 }
                 t.cartAmount = t.order.order_total;
                 t.setCartDigits();
@@ -166,12 +160,18 @@ function G24(){
         for(var i in this.order.items){
             g+="<tr>";
             var itm = this.order.items[i];
-            g+="<td><img alt='"+itm.title+"' src='"+itm.product_img+"'/></td>";
-            g+="<td><a href='javascript:G.remove("+i+")'><i class='fa fa-trash-o'></i></a></td>";
-            g+="<td>"+itm.title+"</td>";
+            var vars = "";
+            for(var v in itm.variations){
+                vars+=v+" "+itm.variations[v];
+            }
+            g+="<td width='20%'><img alt='"+itm.title+"' src='"+itm.product_img+"'/></td>";
+            g+="<td width='5%' style='text-align:left;'><span class='small'>х"+itm.quantity+"</span></td>";
+            g+="<td width='5%'><a href='javascript:G.remove("+i+")'><i class='fa fa-trash-o'></i></a></td>";
+            g+="<td width='50%' style='text-align:left;'>"+itm.title+" <span class='small'>"+vars+"</span></td>";
+            g+="<td width='20%' style='text-align:right;'><span class='currency-amount'>"+itm.regular_price.format(0,3,' ','.')+" руб.</span></td>";
             g+="</tr>";
         }
-        g+="<tr class='total'><td>Итого:</td><td colspan='2'>"+this.order.order_total.format(0,3,' ','.')+" руб.</td></tr>";
+        g+="<tr class='total'><td>Итого:</td><td colspan='4'>"+this.order.order_total.format(0,3,' ','.')+" руб.</td></tr>";
         g+="</table>";
 
         $c.addClass("garan24-visible").html(g).slideDown();
@@ -187,15 +187,13 @@ function G24(){
         console.debug("Creating snooper cart");
     }
     this.setCartDigits();
+    console.debug("snooper loaded!");
 }
+var $ = jQuery.noConflict();
 $(document).ready(function() {
     window.G  = new G24();
-    var pattern = /^(http|https)?(\:)?(\/\/)?(www\.)?(baby\-walz\.de)?\/?/i;
-    var replacement = "//snooper.bs2?q=";
-    console.debug("snooper loaded!");
-    $("#usp_bar, .meta, .headBasket, .footerBox").remove();
-    relink();
-
+    $("#usp_bar, .meta, .headBasket, .footerBox, #headSearch").remove();
+    //relink();
     $("#garan-checkout").click(function(){
         G.checkout();
     });

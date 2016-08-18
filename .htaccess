@@ -1,0 +1,6 @@
+RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} /js/snooper.js$
+#RewriteRule ^(.*)$ /js/snooper.js [NC,L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?__garan_query__=$1 [NC,L,QSA]

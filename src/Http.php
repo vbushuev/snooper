@@ -20,9 +20,9 @@ class Http{
             'Connection:keep-alive',
             'Cookie: '.$cookies,
             'DNT:1',
-            'Upgrade-Insecure-Requests:1',
-            'Host:www.baby-walz.de',
-            'Referer:http://www.baby-walz.de/'
+            //'Upgrade-Insecure-Requests:1',
+            //'Host:www.baby-walz.de',
+            //'Referer:http://www.baby-walz.de/'
         ];
         $curlOptions = [
             CURLOPT_URL => $url,

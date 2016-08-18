@@ -3,12 +3,13 @@
     @import url("//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic");
     @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
     #garan24-toper{
+        font-family: 'Open Sans';
         position: fixed;
         top: 0;
         left:0;
         width:100%;
         height:48px;
-        background-color: rgba(85,125,161,1);
+        background-color: rgba(85,125,161,.9);
         color: rgba(255,255,255,1);
         z-index: 999;
     }
@@ -179,24 +180,40 @@
         border-radius: 5px;
         position: absolute;
         padding: 1em;
-        min-width: 360px;
+        width: 640px;
         overflow: auto;
         right:0;
-        border:solid 1px rgba(0,0,0,.4);
+        border:solid 4px rgba(85,125,161,1);
     }
     #garan-cart-full table{
-        border:none;
+        width:100%;
     }
-    #garan-cart-full table tr td{
+    #garan-cart-full table,#garan-cart-full table tr td{
         border:none;
+        line-height: normal;
+    }
+    #garan-cart-full table tr td a{
+        color:rgba(85,125,161,.7);
+    }
+    #garan-cart-full table tr td a:hover{
+        color:rgba(85,125,161,1);
     }
     #garan-cart-full table tr.total td{
-        border-top:dotted 1px rgba(0,0,0,.4);
+        border-top:dotted 1px rgba(85,125,161,1);
         text-align: right;
         color:rgba(0,0,0,.8);
         font-size: 110%;
         font-weight: 700;
     }
+    #garan-cart-full .small{
+        font-size: 90%;
+        font-weight: 300;
+    }
+
+    #garan-cart-full .currency-amount{
+        font-weight: 700;
+    }
+
     body{padding-top: 56px;}
 
 </style>
@@ -208,10 +225,13 @@
         <ul class="garan24-toper-menu garan24-toper-menu-right">
             <li>
                 <a id="garan-cart" class="garan24-cart" href="#">
-                    <i class="fa fa-shopping-cart" area-hidden="true"></i>
-                    <sup id="garan24-cart-quantity"></sup>
-                    <span id="garan24-cart-amount"></span>
-                    <div id="garan-cart-full"></div>
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw" area-hidden="true"></i>
+                    <!--
+                        <i class="fa fa-shopping-cart" area-hidden="true"></i>
+                        <sup id="garan24-cart-quantity">0</sup>
+                        <span id="garan24-cart-amount">0 руб.</span>
+                        <div id="garan-cart-full"></div>
+                    -->
                 </a>
 
             </li>
@@ -226,4 +246,4 @@
         <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
     </div>
 </div>
-<script src="js/snooper.js" crossorigin="anonymous"></script>
+<script src="/js/snooper.js"></script>
