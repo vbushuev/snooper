@@ -1,0 +1,953 @@
+
+
+
+	<div>
+	
+        
+        <div id="listcontainer" class="">
+			<div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist0">
+				
+    <div id="p_295243719210" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/HAMA-Fotoalbum-Unser-Baby-161921.html?group=125162461910" data-original="//baby-walz.de.gauzy.bs2/HAMA-Fotoalbum-Unser-Baby-161921.html?group=125162461910" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Fotoalbum &quot;Unser Baby&quot;', '295243719210', 'baby_de_DE_101', '99.99', '9480102725014325fa527be8af697334', '6', '8', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/161/161921.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_0MainImage" title="Fotoalbum &quot;Unser Baby&quot; von HAMA"  alt="Fotoalbum &quot;Unser Baby&quot; von HAMA"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/161/161921.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295243719210" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="161921">
+							<a href="//baby-walz.de.gauzy.bs2/HAMA-Fotoalbum-Unser-Baby-161921.html?group=125162461910&ordernumber=161921" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Fotoalbum "Unser Baby"" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/161/161921.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/161/161921.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_0_articleColorTileImage_161921" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295243719210").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/HAMA-Fotoalbum-Unser-Baby-161921.html?group=125162461910" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Fotoalbum &quot;Unser Baby&quot;', '295243719210', 'baby_de_DE_101', '99.99', '9480102725014325fa527be8af697334', '6', '8', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">HAMA
+                <br />
+                <span class="prodName">Fotoalbum "Unser Baby"</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="18,99 €">18,99 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="12,99 €">12,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" data-original-alt="Bewertung: 4" alt="Bewertung: 4" />
+            <span class="normalText rankCount" data-original-html="4">(4)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="161921" data-rankingStars="4" data-rankingCount="4"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295243719210');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist1">
+				
+    <div id="p_295252441410" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/Badewannen-Buch-177215.html?group=125163339710" data-original="//baby-walz.de.gauzy.bs2/Badewannen-Buch-177215.html?group=125163339710" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Badewannen-Buch', '295252441410', 'baby_de_DE_101', '99.99', '5877234213507cd6ac47d9b632cbc7f1', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/177/177215_01.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_6MainImage" title="Badewannen-Buch "  alt="Badewannen-Buch "/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/177/177215_01.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295252441410" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="177215">
+							<a href="//baby-walz.de.gauzy.bs2/Badewannen-Buch-177215.html?group=125163339710&ordernumber=177215" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Badewannen-Buch" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/177/177215_01.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/177/177215_01.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_6_articleColorTileImage_177215" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295252441410").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/Badewannen-Buch-177215.html?group=125163339710" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Badewannen-Buch', '295252441410', 'baby_de_DE_101', '99.99', '5877234213507cd6ac47d9b632cbc7f1', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">
+                <br />
+                <span class="prodName">Badewannen-Buch</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="3,99 €">3,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="15">(15)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="177215" data-rankingStars="5" data-rankingCount="15"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295252441410');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist2">
+				
+    <div id="p_295275548010" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/FEUCHTMANN-Fingermalfarben-Set-821560.html?group=125162769010" data-original="//baby-walz.de.gauzy.bs2/FEUCHTMANN-Fingermalfarben-Set-821560.html?group=125162769010" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Fingermalfarben-Set', '295275548010', 'baby_de_DE_101', '99.99', '7d9e193c46e30ec99ea8c46fe63a37a1', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/821/821560.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_0MainImage" title="Fingermalfarben-Set von FEUCHTMANN"  alt="Fingermalfarben-Set von FEUCHTMANN"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/821/821560.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295275548010" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="821560">
+							<a href="//baby-walz.de.gauzy.bs2/FEUCHTMANN-Fingermalfarben-Set-821560.html?group=125162769010&ordernumber=821560" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Fingermalfarben-Set" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/821/821560.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/821/821560.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_0_articleColorTileImage_821560" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295275548010").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/FEUCHTMANN-Fingermalfarben-Set-821560.html?group=125162769010" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Fingermalfarben-Set', '295275548010', 'baby_de_DE_101', '99.99', '7d9e193c46e30ec99ea8c46fe63a37a1', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">FEUCHTMANN
+                <br />
+                <span class="prodName">Fingermalfarben-Set</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,99 €">6,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice  hasBasePrice">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original="1 kg">1 kg</span> = <span class="baseprice" data-original="7,77 €">7,77 €</span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" data-original-alt="Bewertung: 4" alt="Bewertung: 4" />
+            <span class="normalText rankCount" data-original-html="5">(5)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="821560" data-rankingStars="4" data-rankingCount="5"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295275548010');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			 </div><div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist3">
+				
+    <div id="p_295276949610" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/HAPPY-PEOPLE-Kleine-Badefreunde-7-teilig-638846.html?group=125162462510" data-original="//baby-walz.de.gauzy.bs2/HAPPY-PEOPLE-Kleine-Badefreunde-7-teilig-638846.html?group=125162462510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Kleine Badefreunde, 7-teilig', '295276949610', 'baby_de_DE_101', '99.99', 'f8b8e4c480d3577bdc026d78f0e6fbfb', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/638/638846_03.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_3MainImage" title="Kleine Badefreunde, 7-teilig von HAPPY PEOPLE"  alt="Kleine Badefreunde, 7-teilig von HAPPY PEOPLE"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/638/638846_03.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295276949610" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="638846">
+							<a href="//baby-walz.de.gauzy.bs2/HAPPY-PEOPLE-Kleine-Badefreunde-7-teilig-638846.html?group=125162462510&ordernumber=638846" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Kleine Badefreunde, 7-tei..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/638/638846_03.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/638/638846_03.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_3_articleColorTileImage_638846" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295276949610").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/HAPPY-PEOPLE-Kleine-Badefreunde-7-teilig-638846.html?group=125162462510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Kleine Badefreunde, 7-teilig', '295276949610', 'baby_de_DE_101', '99.99', 'f8b8e4c480d3577bdc026d78f0e6fbfb', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">HAPPY PEOPLE
+                <br />
+                <span class="prodName">Kleine Badefreunde, 7-teilig</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="8,99 €">8,99 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,99 €">6,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" data-original-alt="Bewertung: 4" alt="Bewertung: 4" />
+            <span class="normalText rankCount" data-original-html="25">(25)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="638846" data-rankingStars="4" data-rankingCount="25"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295276949610');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist4">
+				
+    <div id="p_295277049810" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/Rasselkette-642550.html?group=125162461910" data-original="//baby-walz.de.gauzy.bs2/Rasselkette-642550.html?group=125162461910" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Rasselkette', '295277049810', 'baby_de_DE_101', '99.99', '9480102725014325fa527be8af697334', '6', '8', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/642/642550_07.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_4MainImage" title="Rasselkette "  alt="Rasselkette "/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/642/642550_07.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295277049810" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="642550">
+							<a href="//baby-walz.de.gauzy.bs2/Rasselkette-642550.html?group=125162461910&ordernumber=642550" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Rasselkette" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/642/642550_07.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/642/642550_07.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_4_articleColorTileImage_642550" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295277049810").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/Rasselkette-642550.html?group=125162461910" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Rasselkette', '295277049810', 'baby_de_DE_101', '99.99', '9480102725014325fa527be8af697334', '6', '8', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">
+                <br />
+                <span class="prodName">Rasselkette</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="2,99 €">2,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="92">(92)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="642550" data-rankingStars="5" data-rankingCount="92"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295277049810');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist5">
+				
+    <div id="p_295919314710" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/Klettwurfspiel-Clown-830245.html?group=125162462510" data-original="//baby-walz.de.gauzy.bs2/Klettwurfspiel-Clown-830245.html?group=125162462510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Klettwurfspiel &quot;Clown&quot;', '295919314710', 'baby_de_DE_101', '99.99', 'f8b8e4c480d3577bdc026d78f0e6fbfb', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/KI/830/830245.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_4MainImage" title="Klettwurfspiel &quot;Clown&quot; "  alt="Klettwurfspiel &quot;Clown&quot; "/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/KI/830/830245.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295919314710" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="830245">
+							<a href="//baby-walz.de.gauzy.bs2/Klettwurfspiel-Clown-830245.html?group=125162462510&ordernumber=830245" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Klettwurfspiel "Clown"" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/KI/830/830245.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/KI/830/830245.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_4_articleColorTileImage_830245" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295919314710").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/Klettwurfspiel-Clown-830245.html?group=125162462510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Klettwurfspiel &quot;Clown&quot;', '295919314710', 'baby_de_DE_101', '99.99', 'f8b8e4c480d3577bdc026d78f0e6fbfb', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">
+                <br />
+                <span class="prodName">Klettwurfspiel "Clown"</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice isOldPrice">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="7,99 €">7,99 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="7,49 €">7,49 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" data-original-alt="Bewertung: 4" alt="Bewertung: 4" />
+            <span class="normalText rankCount" data-original-html="5">(5)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="830245" data-rankingStars="4" data-rankingCount="5"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295919314710');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			</div>
+	    </div>
+
+
+	
+    </div>
+	
+

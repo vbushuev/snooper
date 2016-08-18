@@ -1,0 +1,3942 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="de">
+<head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script><script src="/js/ajax.prevent.js"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+
+
+
+
+<script src="/cache/www.baby-walz.de/js/typo3temp_javascript_93077bb238.minified.js?1362415643" type="text/javascript"></script>
+
+
+<title>Pampers online kaufen&nbsp;&#124; baby-walz</title>
+<link rel="stylesheet" type="text/css" href="/cache/www.baby-walz.de/css/typo3temp_stylesheet_dad7ecf418.minified.css" />
+
+<script type="text/javascript" src="/cache/www.baby-walz.de/js/typo3temp_javascript_4f8e6c3897.minified.js"></script>
+
+		<script type="text/javascript" src="//baby-walz.de.gauzy.bs2/fileadmin/editor/BABY_Relaunch/js/relaunch_ab_test.js"></script><meta name="mapping" content="">
+
+
+<script type="text/javascript">
+	window.emosTrackVersion = 2;
+	var econdaMarker = [];
+</script>
+<script type="text/javascript" src="/cache/www.baby-walz.de/js/typo3conf_ext_dmc_mb3_partner_js_emos2.js"></script>
+<script type="text/javascript" src="/cache/www.baby-walz.de/js/typo3conf_ext_dmc_mb3_purchaserecommendation_js_econdawidget.js"></script>
+
+
+
+<script type="text/javascript" src="//service.maxymiser.net/cdn/baby-walz/js/mmcore.js"></script>
+
+
+
+<script type="text/javascript">dataLayer = [];</script>
+	
+                                     <script type="text/javascript">
+                window.config = {clientPk: '101', brandId: Math.floor('101' / 100)};
+            </script>            <script type="text/javascript">self.name='main';</script>		  <script type="text/javascript">
+		   var shopDomain = "www.baby-walz.de";
+		    </script><script>var url="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?group=1215302740510&fallbackGroup=1215302740510&L=0&id=gi2003215&type=0&rewriteMap=1"</script>		<script>
+
+		function switchToMobile() {
+			var cookieMobile = $.cookie("X-UA-Device-force");
+
+			if (cookieMobile == "desktop") {
+				$.cookie('X-UA-Device-force', '', { path: '/', expires: -1 });
+				$.cookie('mb3pc', '', { expires: -1 });
+				var marker = 'emosmarker=Shop-Version/Desktop zu Mobile';
+
+				if (url.match(/emosmarker\=[^\?]*/)) {
+					url = url.replace(/emosmarker\=[^\?]*/, marker);
+				} else {
+					if (window.location.search != "") {
+						url = url + '&';
+					} else {
+						url = url + '?';
+					}
+					url = url + marker;
+				}
+				window.location.replace(url);
+			}
+		}
+
+		$(document).ready(function() {
+			var cookieMobile = $.cookie('X-UA-Device-force');
+			if (cookieMobile == "desktop") {
+				$('<div/>', {
+					id: 'switchToMobile'
+				}).prependTo('#pageContainer');
+				$('#switchToMobile').html('<a href="javascript:void(0);" onclick="switchToMobile();">Zur Mobilen Website wechseln</a>');
+			}
+		});
+		</script>       <link rel="shortcut icon" href="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img__misc_favicon.ico"><meta name="keywords" content=""/><meta name="description" content="Pflege &amp; Ernährung -&gt; Pampers | Finden Sie im großen baby-walz Shop alles, was junge Eltern begeistert und Babys glücklich macht! Mehr als 30.000 Markenartikel für eine wunderbare erste Zeit."/><meta name="nav_title" content="Pampers"/>        <meta http-equiv="Content-Style-Type" content="text/css" />        <meta http-equiv="Content-Script-Type" content="text/javascript" /><meta property="og:title" content="" ><meta name="robots" content="index,follow" />        <meta name="msvalidate.01" content="1CC495910BCBA6BF40B83C2F612B3FF6"/><link rel="canonical" href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html"><meta name="google-site-verification" content="TgSCucrrHpy0R-oBsEHvChnQJEzXjoXfeyWCnTYib-I" />
+	<script type="text/javascript">/* <![CDATA[ */
+			if (typeof($.fancybox) == "function") {
+				(function($) {
+					$(document).ready(function() {
+					if ($("*").is(".jqfancybox")) {
+							$(".jqfancybox").fancybox({
+								onClosed: function(){
+									if(typeof fancyBoxOnClosed == "function"){ 
+										fancyBoxOnClosed(this); 
+									}
+								},
+								"padding": 0,
+								"speedIn": 300,
+								"speedOut": 300,
+								"changeSpeed": 300,
+								"transitionIn": "elastic",
+								"transitionOut": "elastic",
+								"titlePosition": "over",
+								"titleShow": false,
+								"easingIn": "swing",
+								"easingOut": "swing",
+								"showCloseButton": true,
+								"showNavArrows": true,
+								"enableEscapeButton": true,
+								"overlayShow": true,
+								"overlayOpacity": 0.4,
+								"overlayColor": "#666",
+								"centerOnScroll": true,
+								"hideOnContentClick": false,
+	                            "scrolling": "auto",
+								"type": "iframe",
+								"popUpMeasures": "292578_1_0_0,309894_1_0_0,289872_10_0_0,289871_1_0_0",
+								 "titleFormat": function(title, currentArray, currentIndex, currentOpts) { return '<span id="fancybox-title-over">Bild ' + (currentIndex + 1) + ' von ' + currentArray.length + (title.length ? ' : &nbsp; ' + title : '') + '</span>';}
+					});
+				 }
+				});})(jQuery);
+			};
+			/* ]]> */
+		</script>
+<script src="/js/jquery.cookie.js"></script>
+
+</head>
+
+<body class="categoryLandingPages">
+        <script>var jsClientIdLangId = '101_de';</script>    <script type="text/javascript">window.onerror=function(err,file,line){if (window.console && console.warn){console.warn('Error in '+file+'['+line+']:');console.warn(err);};return true;};</script>	
+<div id="usp_bar" align="center"><div class="left"><img src="http://cdn.baby-walz.com/fileadmin/editor/BABY_Relaunch/Header/usp_icon_phone.png"> Service Hotline 07524 703 307</div><div class="center"><img src="http://cdn.baby-walz.com/fileadmin/editor/BABY_Relaunch/Header/usp_icon_price.png"> Kauf auf Rechnung gebührenfrei</div><div class="right"><a href="https://baby-walz.de.gauzy.bs2/L/0/Family-Friends.a18878.0.html" target="_blank"><img src="http://cdn.baby-walz.com/fileadmin/editor/BABY_Relaunch/Header/F_F_grau.png"/></a>Bonus-Programm</div></div>
+<div id="cookieheader">
+    <div id="chmain"></div>
+</div>
+<div id="pageContainer">
+    <div id="scrollArea">
+        <div class="meta">
+	
+		<span id="c59826" name="c59826" class="cTypo3"></span>
+	<div id="usermanagementLogin">
+	Willkommen!<a href="https://baby-walz.de.gauzy.bs2/L/0/Login.a18939.0.html">Hier anmelden</a>
+	</div>
+	
+	
+		
+	
+		<span id="c59827" name="c59827" class="cTypo3"></span>
+<div id="usermanagementLogout">
+	<form action="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?group=1215302740510&amp;fallbackGroup=1215302740510&amp;L=0&amp;id=gi2003215&amp;type=0&amp;rewriteMap=1" method="post" name="dmc_mb3_usermanagement_pi2[59827][form]" id="dmc_mb3_usermanagement_pi2[59827][form][logout]">
+		<input type="hidden" name="dmc_mb3_usermanagement_pi2[59827][action][]" id="dmc_mb3_usermanagement_pi2[59827][action][logout]" value="logout" />
+		<span class="" id="usermanagementSalutation"></span><a href="#" class="" onclick="logoutFormSubmit('dmc_mb3_usermanagement_pi2', 59827)">abmelden</a>
+	</form>
+</div>
+
+	<script>
+	$('body').data('dmc_mb3_usermanagement.userlogout_intro_text', 'Hallo');
+	$('body').data('dmc_mb3_usermanagement.notepadinfo', '');
+	$('body').data('dmc_mb3_usermanagement.giftdeskinfo', 'Es befinden sich ###amount### Artikel auf Ihrem Geschenktisch');
+	</script>
+	
+	
+		<ul><li><a href="https://baby-walz.de.gauzy.bs2/L/0/Direkt-bestellen.a18204.0.html" onfocus="blurLink(this);"  class="a18204" id="metanavi_a18204">Direkt bestellen</a></li><li><a href="https://baby-walz.de.gauzy.bs2/L/0/Kontakt.a776.0.html" onfocus="blurLink(this);"  class="a776" id="metanavi_a776">Kontakt</a></li><li><a href="https://baby-walz.de.gauzy.bs2/L/0/Newsletter.a19094.0.html" onfocus="blurLink(this);"  class="a19094" id="metanavi_a19094">Newsletter</a></li><li><a href="//baby-walz.de.gauzy.bs2/L/0/Geschenkgutscheine.29276.0.html" onfocus="blurLink(this);"  class="" id="metanavi_">Geschenkgutscheine</a></li></ul></div>
+        
+        <div class="headFunctions">
+            <div class="logo h1"><a href="//baby-walz.de.gauzy.bs2/">
+	
+		<span id="c150859" name="c150859" class="cTypo3"></span><img src="http://cdn.baby-walz.com/clear.gif" width="1" height="23" border="0" class="spacer-gif" alt="" title="" /><br />
+		
+			<div class="csc-textpic csc-textpic-left csc-textpic-above"><div class="csc-textpic-imagewrap"><div><img src="http://cdn.baby-walz.com/uploads/pics/baby_logo_4c_png1.png" width="250" height="46" border="0" alt="Babyausstattung und Babyartikel kaufen bei Baby Walz" /></div></div></div><div class="csc-textpic-clear"></div>
+		
+			
+	
+		</a></div>
+            <div class="headBasket">
+	
+		<span id="c59825" name="c59825" class="cTypo3"></span>
+	<a name="dmc_mb3_shoppingbasket_display_cached"></a>
+
+    <div class="headBasketInfo">
+        
+			
+			<div id="headTrustedShops"><a href="https://www.trustedshops.com/shop/certificate.php?shop_id=X5F5F34E0E28850AA0422FDFEACA8BF95" target="_blank"><img src="http://cdn.baby-walz.com/fileadmin/editor/BABY_Relaunch/Header/trusted_shops.jpg"/></a></div>
+			
+        
+        <div class="h3"><a class="" href="https://baby-walz.de.gauzy.bs2/dmc_mb3_shoppingbasket_pi2.59825.step/10/L/0/Warenkorb.a948.0.html">Mein Warenkorb</a></div>
+
+        <p >
+			<a href="https://baby-walz.de.gauzy.bs2/dmc_mb3_shoppingbasket_pi2.59825.step/10/L/0/Warenkorb.a948.0.html" class="gotoBasket">
+				<span class="hide" id="freedeliveryInfoId">versandkostenfrei</span>
+			</a>
+			<div class="basketHeadPrice">
+				<a href="https://baby-walz.de.gauzy.bs2/dmc_mb3_shoppingbasket_pi2.59825.step/10/L/0/Warenkorb.a948.0.html" class="gotoBasket">
+					 <span class="articlesAmountContainer">0</span> Artikel für <span class="float_left price" id="basketAmountContainer">0,00 €</span>
+				</a>
+			</div>
+        </p>
+    </div>
+
+    <div id="basketCar" class="basketCar">
+        <a href="https://baby-walz.de.gauzy.bs2/dmc_mb3_shoppingbasket_pi2.59825.step/10/L/0/Warenkorb.a948.0.html" class="gotoBasket articlesAmountContainer">0</a>
+    </div>
+
+    <script>
+		var shoppingBasketConfirmMsg = 'Der Artikel wurde zum Warenkorb hinzugefügt.';
+		if ($.cookie('mb3pc', {raw: true})) {
+			// calls for dmc_mb3_shoppingbasket
+			fillShoppingBasketWithData('basketAmountContainer', '.articlesAmountContainer');
+		} else {
+			jQuery.ajax({
+				url: '//baby-walz.de.gauzy.bs2/index.php?eID=ajaxOrderExists&clientpk=' + 101 + '&languagepk=' + 1,
+				success: function(data, textStatus, jqXHR) {
+					fillShoppingBasketWithData('basketAmountContainer', '.articlesAmountContainer');
+				}
+			});
+		}
+    </script>
+	
+	
+		</div>
+        </div>
+
+        <div class="headSearch">
+	
+		<span id="c59823" name="c59823" class="cTypo3"></span>
+
+
+	<div class="dmc_mb3_integratedsearch_02">
+
+		<form id="headSearch" action="//baby-walz.de.gauzy.bs2/L/0/Suchergebnisliste.a832.0.html" method="get" name="search_0">
+			
+
+			<input autocomplete="off" id="searchInputField" class="searchInput txt datahint" type="search" name="search" value="" data-hint="Geben Sie einen Suchbegriff ein" placeholder="Geben Sie einen Suchbegriff ein"/>
+                        <input type="hidden" name="sf" value="true" />
+			<input id="submitSearch" type="image" value="" src="http://cdn.baby-walz.com/clear.gif" alt="Suche"  />
+		</form>
+
+                <script language="javascript" type="text/javascript">
+		
+		</script>
+	</div>
+	<div style="display: none;" id="suggestLayer" class="suggestLayer"></div>
+	
+
+
+	
+		</div>
+        <div class="topNaviContainer">
+            <div class="topNavi"><ul><li class="tnlButton" id="trigger_a18878"><a href="https://baby-walz.de.gauzy.bs2/L/0/Family-Friends.a18878.0.html" onfocus="blurLink(this);"  >Family Friends</a></li><li class="tnlButton" id="trigger_a18882"><a href="//baby-walz.de.gauzy.bs2/L/0/UEbersicht.a784.0.html" onfocus="blurLink(this);"  >Beratung</a></li><li class="tnlButton" id="trigger_a18883"><a href="//baby-walz.de.gauzy.bs2/L/0/Geschenkefinder.a18883.0.html" onfocus="blurLink(this);"  >Geschenkefinder</a></li><li class="tnlButton" id="trigger_filialen"><a href="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" onfocus="blurLink(this);"  >Filialen</a></li></ul></div>
+            <div class="tnlMywalz topNaviMenu" id="a18878"><p id="myWalza799"><a href="https://baby-walz.de.gauzy.bs2/L/0/Mein-Merkzettel.a799.0.html" onfocus="blurLink(this);"  class="listedLink">Mein Merkzettel</a><span id="myWalza799Info"></span></p><div id="myWalzregister">
+	
+		<span id="c60916" name="c60916" class="cTypo3"></span>
+		
+			<p class="bodytext">Ein Kundenkonto hat <br />viele Vorteile<br /><a href="https://baby-walz.de.gauzy.bs2/L/0/Registrierung.a29303.0.html" class="rank1" >Jetzt anmelden</a></p>
+		
+			
+	
+		</div></div>
+            <div class="tnlService topNaviMenu" id="a18882"><p><a href="//baby-walz.de.gauzy.bs2/L/0/Ratgeber-Baby-Gesundheit.19223.0.html" onfocus="blurLink(this);"  class="listedLink">Ratgeber Baby & Gesundheit</a></p><p><a href="//baby-walz.de.gauzy.bs2/L/0/Produktberatung.18886.0.html" onfocus="blurLink(this);"  class="listedLink">Produktberatung</a></p><p><a href="//baby-walz.de.gauzy.bs2/L/0/Groessenberatung.19224.0.html" onfocus="blurLink(this);"  class="listedLink">Größenberatung</a></p><p><a href="//baby-walz.de.gauzy.bs2/L/0/Checklisten.checklisten.0.html" onfocus="blurLink(this);"  class="listedLink">Checklisten</a></p><p><a href="//baby-walz.de.gauzy.bs2/L/0/babywalz-Vorteile.a19225.0.html" onfocus="blurLink(this);"  class="listedLink">babywalz-Vorteile</a></p><p><a href="//baby-walz.de.gauzy.bs2/L/0/Informationen-zum-Einkauf.20919.0.html" onfocus="blurLink(this);"  class="listedLink">Informationen zum Einkauf</a></p></div>
+            <div class="tnlGiftfinder topNaviMenu" id="a18883">
+	
+		<span id="c60931" name="c60931" class="cTypo3"></span>
+		
+			
+	
+		<span id="c98213" name="c98213" class="cTypo3"></span>
+		
+			<div class="h2">Geschenke für die Kleinen</div>
+		
+			
+	<div class="dmc_mb3_groupnavigation_20">
+        <div class="clearfix">
+			<form action="" method="get" name="dmc_mb3_groupnavigation_pi1_giftFinder" class="giftfinder_form" id="giftfinder_form_98213">
+				<div class="giftQuest giftPrice">
+					<div class="h4">Wie teuer darf es sein?</div>
+					<fieldset>
+                        <div class="formField">
+                            <input type="radio" class="cbox" name="filterPRODUCT_PRICE" value="< 20.00" />
+                            <div class="addLabel">bis 20€</div>
+                        </div>
+                        <div class="formField">
+                            <input type="radio" class="cbox" name="filterPRODUCT_PRICE" value="20 - 40" />
+                            <div class="addLabel">20€ - 40€</div>
+                        </div>
+                        <div class="formField">
+                            <input type="radio" class="cbox" name="filterPRODUCT_PRICE" value="> 40.00" />
+                            <div class="addLabel">> 40€</div>
+                        </div>
+                        <div class="formField">
+                            <input type="radio" class="cbox" name="filterPRODUCT_PRICE" value="" checked />
+                            <div class="addLabel">Egal</div>
+                        </div>
+					</fieldset>
+				</div>
+			</form>
+			<div class="giftFinderCategory_98213 giftQuest giftCause">
+				<div class="h4">Wonach suchen Sie?</div>
+
+				
+				<form id="dummy_form">
+					
+					<fieldset class="formField">
+	                    <label for="category_98213" class="selectBlock">Suche   nach Anlass</label>
+						<input type="radio" class="cbox" name="category" value="" />
+						<select id="category_98213" name="category" class="slct " >
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Geburt.html">Geburt</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Taufe.html">Taufe</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Geburtstag.html">Geburtstag</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Ostern.html">Ostern</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Weihnachten.html">Weihnachten</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-anlass/Einschulung.html">Einschulung</option>
+					
+						</select>
+					</fieldset>
+					
+					<fieldset class="formField">
+	                    <label for="category_98213" class="selectBlock">Suche   nach Kategorie</label>
+						<input type="radio" class="cbox" name="category" value="" />
+						<select id="category_98213" name="category" class="slct " >
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/personalisierte-Geschenke.html">personalisierte Geschenke</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Suesses-zum-Anziehen.html">Süßes zum Anziehen</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Kuscheltiere.html">Kuscheltiere</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Schmusetuecher.html">Schmusetücher</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Mobiles-Spieluhren.html">Mobiles &amp; Spieluhren</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Buecher-Erinnerungen.html">Bücher &amp; Erinnerungen</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Holzspielzeug.html">Holzspielzeug</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Spielzeug.html">Spielzeug</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Kleine-Mitbringsel.html">Kleine Mitbringsel</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Schaukeltiere.html">Schaukeltiere</option>
+					
+							<option value="//baby-walz.de.gauzy.bs2/Geschenkefinder/geschenke-nach-kategorie/Bobby-Car-Co.html">Bobby Car &amp; Co.</option>
+					
+						</select>
+					</fieldset>
+					
+				</form>
+			</div>
+
+        </div>
+		<br />
+		<a id="addToShoppingBasket" href="#" onclick="giftSearchAction('dmc_mb3_groupnavigation_pi1', 98213, 'searchGift', 'searchGift', this); return false;"><img src="/cache/www.baby-walz.de/img/typo3temp_GB_2d1c1ba47c.gif" rel="/typo3temp/GB/2d1c1ba47c.gif###/typo3temp/GB/0dd7828a6a.gif" class="submitButton" /></a>
+
+    </div>
+
+    
+	
+		
+	
+		<span id="c226168" name="c226168" class="cTypo3"></span>
+		
+			
+<div class="mwimagemap" style="height:144px">
+<img src="http://cdn.baby-walz.com/fileadmin/editor/BABY_Relaunch/Geschenkfinder/GeschenkGut_DE_0216.jpg" width="704" height="144" id="tx_mwimagemap_img_226168" usemap="#map_226168"  />
+<map name="map_226168" id="map_226168">
+<area alt="jetzt entdecken" title="jetzt entdecken" shape="rect"  title="jetzt entdecken"  alt="jetzt entdecken" coords="6,6,701,140" href="//baby-walz.de.gauzy.bs2/L/0/Geschenkgutscheine.g125163462310.0.html" />
+
+</map>
+
+<img src="/cache/www.baby-walz.de/img/typo3conf_ext_mwimagemap_pi1_canvas.png" width="704" height="144" id="tx_mwimagemap_img_226168" usemap="#map_226168" style="position:absolute;top: 0px; left: 0px; border:0px" />
+</div>
+
+		
+			
+	
+		
+		
+			
+	
+		</div>
+            <div class="tnlShoplocator topNaviMenu" id="filialen">
+	
+		<span id="c60932" name="c60932" class="cTypo3"></span><div class="simpleFrame">
+		
+			<div class="h4">Finden Sie die Filiale in Ihrer Nähe</div>
+		
+			
+		
+			
+
+
+	
+	<div class="tx-dmcshopfinder-pi1">
+		
+    <form action="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" name="dmcshopfinderSearch3" method="get" onsubmit="return Shopfinder.onSubmitHandler('dmcshopfinderSearch3Input') ? true : false;">
+        <input type="text" id="dmcshopfinderSearch3Input" value="" data-hint="Ort oder PLZ" name="dmcshopfinderLocation" class="txt" />
+        <input type="image" id="dmcshopfinderSearch3Button" alt="Suche abschicken" src="http://cdn.baby-walz.com/clear.gif" class="button" />
+    </form>
+    <br clear="all" />
+    <script type="text/javascript" >
+    $(document).ready(function() {
+        // init Quicksearch
+        Shopfinder.initSearchButton('dmcshopfinderSearch3Input','dmcshopfinderSearch3Button');
+    });
+    </script>
+
+	</div>
+	
+	
+
+	
+		
+			</div>
+	
+		<div class="tnlShoplocatorAdditional">
+	
+		<span id="c62773" name="c62773" class="cTypo3"></span>
+
+
+
+
+
+<div class="">
+	
+		<span id="c84132" name="c84132" class="cTypo3"></span>
+		
+			<div class="csc-textpic csc-textpic-intext-right-nowrap"><div class="csc-textpic-imagewrap"><div><img src="http://cdn.baby-walz.com/uploads/pics/Karte.jpg" width="136" height="160" border="0" alt="" /></div></div><div style="margin-right:136px;"><div class="csc-textpic-text">
+		
+			<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" >Alle Filialen anzeigen</a></p><div class="h4"><p class="bodytext">Top-Services in Ihrer Filiale</p></div><ul><li>freundliche und fachkundige Beratung</li><li>über 10.000 Artikel stets vorrätig</li><li>kostenloser Leihservice für Kinderwagen und Autositze für unsere Kunden</li></ul>
+		
+			</div></div></div><div class="csc-textpic-clear"></div>
+		
+			
+	
+		</div>
+
+
+
+
+
+	
+		</div></div>
+        </div>
+        <div class="groupNavi">
+	
+		<span id="c59822" name="c59822" class="cTypo3"></span>
+		<script type="text/javascript">
+			var ajaxNaviURL = '//baby-walz.de.gauzy.bs2/L/0/Ajax-Group-Navigation.a27468.13.html';
+
+            function mainNaviClose() {
+                $('.groupNaviFlyout').css('display', 'none');
+                $('.groupNavi ul li').removeClass('hover');
+                activeNav = -1;
+
+                checkHover();
+            }
+
+            function topNaviClose() {
+                $('.tnlButton').removeClass('sfhover');
+                $('#'+activeTopNav).css('display','none');
+                activeTopNav = -1;
+            }
+
+            mouseOverMainNavi = false;
+            mouseOverFlyout = false;
+            if (isTablet()) {
+                $('.groupNaviFlyout').live('mouseenter', function(){
+                            mouseOverMainNavi = true;
+                        }).live('mouseleave', function(){
+                                mouseOverMainNavi = false;
+                            });
+                $('.groupNaviLevel1').live('mouseenter', function(){
+                            mouseOverFlyout = true;
+                        }).live('mouseleave', function(){
+                                mouseOverFlyout = false;
+                            });
+                $("html").click(function(){
+                        if (!mouseOverMainNavi && !mouseOverFlyout) {
+                            mainNaviClose();
+                        }
+                    });
+
+                $('.tnlButton > a').attr('href','#');
+                mouseOverTopNavi = false;
+                mouseOverTopNavFlyout = false;
+                $('#'+activeTopNav).live('mouseenter', function(){
+                            mouseOverTopNavFlyout = true;
+                        }).live('mouseleave', function(){
+                                mouseOverTopNavFlyout = false;
+                            });
+                $('.topNaviContainer').live('mouseenter', function(){
+                            mouseOverTopNavi = true;
+                        }).live('mouseleave', function(){
+                                mouseOverTopNavi = false;
+                            });
+                $("html").click(function(){
+                        if (!mouseOverTopNavi && !mouseOverTopNavFlyout) {
+                            topNaviClose();
+                        }
+                    });
+            }
+
+
+		</script>
+		<ul class="groupNaviLevel1 baby_101_1">
+		
+		<li class="first">
+			<a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind.html" class="
+
+				">
+
+				
+
+				
+					<span>Mode für Mama & Kind</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="">
+			<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung.html" class="current
+
+				">
+
+				
+
+				
+					<span>Pflege & Ernährung</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="">
+			<a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen.html" class="
+
+				">
+
+				
+
+				
+					<span>Wohnen & Schlafen</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="">
+			<a href="//baby-walz.de.gauzy.bs2/Spiel-Spass.html" class="
+
+				">
+
+				
+
+				
+					<span>Spiel & Spaß</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="">
+			<a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen.html" class="
+
+				">
+
+				
+
+				
+					<span>Autositze & Kinderwagen</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="">
+			<a href="//baby-walz.de.gauzy.bs2/Kids-2-8-Jahre.html" class="
+
+				">
+
+				
+
+				
+					<span>Kids 2-8 Jahre</span>
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		<li class="last">
+			<a href="//baby-walz.de.gauzy.bs2/SALE.html" class="
+
+				showImage">
+
+				
+
+					
+					
+						<img src="http://walz-images.walz.de/fsicache/static/mb3_media/101/515/DEAT_0614.png" height="42"/>
+					
+
+				
+
+				
+			</a>
+			<div class="groupNaviFlyout"></div></li>
+		
+		</ul>
+
+	
+		</div>
+        <div class="breadcrumps"><div class="breads">Hier sind Sie:&nbsp;&nbsp;<a href="//baby-walz.de.gauzy.bs2/">Home</a>&nbsp;&gt;&nbsp;
+	
+		<span id="c59830" name="c59830" class="cTypo3"></span>
+		
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				if(typeof hasProductBreadcrumb == 'undefined') {
+					$("#groupnavigationBreadcrumb a.last").contents().unwrap();
+				}
+			});
+		</script>
+
+
+		<span id="groupnavigationBreadcrumb">
+		    
+			<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung.html" class="">Pflege & Ernährung</a>
+		    
+    &gt;
+    
+			<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html" class="last">Pampers</a>
+		    
+			<span class="breadcrumbProduct">
+				<span class="separator"> &gt; </span>
+				<span class="text">...</span>
+			</span>
+	
+		</span>
+
+
+
+		
+
+
+<script type="text/javascript">
+	window.partnerContentLabelGrouppath = "Pflege & Ernährung/Pampers/";
+	window.partnerDefInfix = window.partnerContentLabelGrouppath;
+</script>
+
+    
+	
+		</div></div>
+
+        <div class="content">
+            <div class="navContainer">
+                <div id="naviLeft">
+	
+		<span id="c59831" name="c59831" class="cTypo3"></span>
+    <div class="navigation core3">
+	 
+        <div class="h3">Pflege & Ernährung</div>
+		<ul>
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Baden.html" class="l1">Baden</a>
+		
+		</li>
+		
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Wickeln.html" class="l1">Wickeln</a>
+		
+		</li>
+		
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Fuettern.html" class="l1">Füttern</a>
+		
+		</li>
+		
+		<li class="l1 last">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Stillen.html" class="l1">Stillen</a>
+		
+		</li>
+		
+		</ul>
+    </div>
+	
+	<div class="navigation core3">
+		<div class="h3">Markenwelten</div>
+		<ul>
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Angelcare.html" class="l1">Angelcare</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Babymoov.html" class="l1">Babymoov</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/baby-walz-Pflege.html" class="l1">baby-walz Pflege</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/bacino.html" class="l1">bacino</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/bebe-jou.html" class="l1">bebe-jou</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Chicco.html" class="l1">Chicco</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Hipp.html" class="l1">Hipp</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Humana.html" class="l1">Humana</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/laessig-wickeltasche.html" class="l1">Lässig</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Lansinoh.html" class="l1">Lansinoh</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/MAM.html" class="l1">MAM</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/medela.html" class="l1">medela</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/NUK.html" class="l1">NUK</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1 selected">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html" class="l1">Pampers</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/PHILIPS-AVENT.html" class="l1">PHILIPS AVENT</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Rotho-Babydesign.html" class="l1">Rotho Babydesign</a>
+		
+		</li>
+	
+	
+	
+		<li class="l1 last">
+		<a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Woerner.html" class="l1">Wörner</a>
+		
+		</li>
+	</ul></div>
+	
+
+	
+  
+	
+		</div>
+            </div>
+            <div class="contentContainer">
+            	
+	
+		<span id="c309894" name="c309894" class="cTypo3"></span>
+		
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap"><div><img src="http://cdn.baby-walz.com/uploads/pics/Pampers_0816_01.jpg" width="700" height="172" border="0" alt="" /></div></div></div><div class="csc-textpic-clear"></div>
+		
+			
+	
+		
+	
+		<span id="c289872" name="c289872" class="cTypo3"></span>
+
+
+<div class="dmc_mb3_integratedsearch_06" style="margin-bottom:40px">
+
+	
+		
+	
+
+	
+
+	
+
+	
+				<div class="clear">
+					
+		
+
+
+			<script type="text/javascript">
+				econdojo.addOnLoad(function() {
+					var widget = new econda.widgets.VisualWidget({
+						wid: '44',
+						aid: '0000159d-62b38fde-7be6-404b-a418-4deff8253fb3-9',
+						wi_ti: 'Unsere Topseller',
+
+						rp: {
+							type: 'cs',
+							'ctxcat.ct': 'productcategory',
+							'ctxcat.cid': '2003215'
+						}
+					});
+					
+					widget.loadWidgetDesign('recommendations');
+
+				});
+				
+			</script>
+
+			<div style="clear: both;"></div>
+			<div id="recommendations"></div>
+		
+	
+				</div>
+				<br />
+	
+
+	
+	<div class="prodListHead">
+		<div class="articlesAmountInfo">
+			<h1>Pampers bei baby-walz: 44 Artikel</h1>
+		</div>
+		<div class="sortingLabel">
+				Sortieren nach
+		</div>
+		<div class="sorting">
+			<script type="text/javascript">
+				$(function(){
+					Utils.FancySelect('dmc_mb3_integratedsearch_sorting_dd', 'beliebteste Artikel', 'beliebteste Artikel', 'onClick', 'searchFilterJump');
+					// save url for backlink on PDS
+					if (dmc.WALZ.Search.FilterUrl == null || dmc.WALZ.Search.FilterUrl == "") {
+						$.cookie('searchbacklink', 'catalog'+'|'+document.location.href, { path: '/' });
+					}
+					$.cookie('pgpkl', '4f6eeda169bc5674eca4aef3a6798608', { path: '/' });
+				});
+			</script>
+			<select id="dmc_mb3_integratedsearch_sorting_dd" style="display:none">
+				
+					
+					<option value="//baby-walz.de.gauzy.bs2/Pflege-ErnaehrungPampers/group/1215302740510/L/0/Pampers.gi2003215.11.html" selected="selected">beliebteste Artikel</option>
+					
+				
+					
+				
+					
+				
+					
+					<option value="//baby-walz.de.gauzy.bs2/Pflege-ErnaehrungPampers/group/1215302740510/L/0/Pampers.gi2003215.11.html?sortPRODUCT_PRICE=asc">Preis aufsteigend</option>
+					
+				
+					
+					<option value="//baby-walz.de.gauzy.bs2/Pflege-ErnaehrungPampers/group/1215302740510/L/0/Pampers.gi2003215.11.html?sortPRODUCT_PRICE=desc">Preis absteigend</option>
+					
+				
+					
+				
+					
+					<option value="//baby-walz.de.gauzy.bs2/Pflege-ErnaehrungPampers/group/1215302740510/L/0/Pampers.gi2003215.11.html?sortPRODUCT_PRICE_SAVINGS=desc">Sale</option>
+					
+				
+					
+				
+					
+					<option value="//baby-walz.de.gauzy.bs2/Pflege-ErnaehrungPampers/group/1215302740510/L/0/Pampers.gi2003215.11.html?sortPRODUCT_RATING=desc">beste Bewertungen</option>
+					
+				
+			</select>
+		</div>
+		<p class="view">
+			<span>Ihre Ansicht</span>
+			<img id="tilelist" class="" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_icons_view_1.gif" alt="" onclick="setListview('tiles');"/><img id="linelist" class="active" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_icons_view_2_active.gif" alt="" onclick="setListview('lines');" />
+		</p>
+	</div>
+
+	<div class="paging ajaxmodePaging">
+		
+
+	<div class="pageselector">
+		<span class="pageselectorDd"><select id="dmc_mb3_integratedsearch_per_page_top" style="display:none">
+			
+			<option value="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?show=60" selected="selected">60</option>
+			
+			<option value="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?show=120">120</option>
+			
+			<option value="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?show=all">alle</option>
+			
+		</select></span>
+		<span class="pageselectorLabel">Artikel pro Seite</span>
+	</div>
+
+	
+
+	<script type="text/javascript">
+		$(function(){
+			dmc.WALZ.ProductList.FancySelect('dmc_mb3_integratedsearch_per_page_top');
+		});
+	</script>
+
+
+	</div>
+	
+
+	
+	<script type="text/javascript">
+		if(typeof(window.lazyloadConfig) === "undefined"){
+			window.lazyloadConfig = {};
+		}
+		window.lazyloadConfig = {
+			"ajaxPageParameter"				: "page",
+			"currentPage"					: "1",
+			"currentLink"					: "//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Pampers.html?show=60",
+			"maxAjaxCall"					: "6",
+			"show"                          : "60",
+			"preloadedProducts"				: 12,
+			"ajaxProductsPerPage"			: 12,
+			"lazyloadedProductsPerRequest"	: 6,
+			"totalItems"					: 44,
+			"init"							: true,
+			"maxView"						: "60",
+			"listContainer"					: "#listcontainer",
+			"ajaxPageAlias"					: "ajax830",
+			"threshold"						: 800,
+			"nextLazyLoadedPage"			: 3
+		}
+	</script>
+	
+
+	
+	<script type="text/javascript">
+	
+	</script>
+
+	<div class="dmc_mb3_productlist_02">
+        <div id="listcontainer" class="" data-colors="">
+
+			<div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist0">
+				
+    <div id="p_2915442789110" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr1-2-5-kg-Tragepack-21-St-6043798.html?group=125163497510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr1-2-5-kg-Tragepack-21-St-6043798.html?group=125163497510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'New Baby Sensitive Windeln Gr.1, 2-5 kg Tragepack 21 St.', '2915442789110', 'baby_de_DE_101', '99.89', 'fdd3ff6192284f7cdbcfed9dd0f2674c', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043798_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi158677_0MainImage" title="New Baby Sensitive Windeln Gr.1, 2-5 kg Tragepack 21 St. von PAMPERS"  alt="New Baby Sensitive Windeln Gr.1, 2-5 kg Tragepack 21 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043798_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915442789110" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6043798">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr1-2-5-kg-Tragepack-21-St-6043798.html?group=125163497510&ordernumber=6043798" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="New Baby Sensitive Windel..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/604/3/6043798_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/604/3/6043798_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi158677_0_articleColorTileImage_6043798" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915442789110").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr1-2-5-kg-Tragepack-21-St-6043798.html?group=125163497510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'New Baby Sensitive Windeln Gr.1, 2-5 kg Tragepack 21 St.', '2915442789110', 'baby_de_DE_101', '99.89', 'fdd3ff6192284f7cdbcfed9dd0f2674c', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">New Baby Sensitive Windeln Gr.1, 2-5 kg ...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="7,49 €">7,49 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,40 €">6,40 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice  hasBasePrice">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original="1 st">1 st</span> = <span class="baseprice" data-original="0,31 €">0,31 €</span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915442789110');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist1">
+				
+    <div id="p_2915001570610" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-Travelpack-12-St-6021506.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-Travelpack-12-St-6021506.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive Travelpack 12 St.', '2915001570610', 'baby_de_DE_101', '99.88', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021506_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_1MainImage" title="Feuchtt&uuml;cher Sensitive Travelpack 12 St. von PAMPERS"  alt="Feuchtt&uuml;cher Sensitive Travelpack 12 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021506_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001570610" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021506">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-Travelpack-12-St-6021506.html?group=1215302740510&ordernumber=6021506" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Sensitive Tr..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021506_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021506_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_1_articleColorTileImage_6021506" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001570610").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-Travelpack-12-St-6021506.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive Travelpack 12 St.', '2915001570610', 'baby_de_DE_101', '99.88', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Sensitive Travelpack 12 St.</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="0,59 €">0,59 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="0,40 €">0,40 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001570610');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist2">
+				
+    <div id="p_2915001547510" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-1er-Pack-50-St-6021565.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-1er-Pack-50-St-6021565.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher New Baby Sensitive 1er Pack 50 St.', '2915001547510', 'baby_de_DE_101', '99.81', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021565_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_2MainImage" title="Feuchtt&uuml;cher New Baby Sensitive 1er Pack 50 St. von PAMPERS"  alt="Feuchtt&uuml;cher New Baby Sensitive 1er Pack 50 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021565_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001547510" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021565">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-1er-Pack-50-St-6021565.html?group=1215302740510&ordernumber=6021565" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher New Baby Sen..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021565_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021565_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_2_articleColorTileImage_6021565" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001547510").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-1er-Pack-50-St-6021565.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher New Baby Sensitive 1er Pack 50 St.', '2915001547510', 'baby_de_DE_101', '99.81', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher New Baby Sensitive 1er Pack...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="1,90 €">1,90 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001547510');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			 </div><div class="prodLine">
+
+			
+			<div class="productOverviewContainer" id="plist3">
+				
+    <div id="p_2915001605410" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-12er-Pack-672-St-6021476.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-12er-Pack-672-St-6021476.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 12er Pack 672 St.', '2915001605410', 'baby_de_DE_101', '99.81', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021476_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_3MainImage" title="Feuchtt&uuml;cher Sensitive 12er Pack 672 St. von PAMPERS"  alt="Feuchtt&uuml;cher Sensitive 12er Pack 672 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021476_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001605410" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021476">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-12er-Pack-672-St-6021476.html?group=1215302740510&ordernumber=6021476" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Sensitive 12..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021476_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021476_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_3_articleColorTileImage_6021476" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001605410").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-12er-Pack-672-St-6021476.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 12er Pack 672 St.', '2915001605410', 'baby_de_DE_101', '99.81', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Sensitive 12er Pack 672 St.</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="14,90 €">14,90 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6021476" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001605410');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist4">
+				
+    <div id="p_2915001578010" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-1er-Pack-56-St-6021468.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-1er-Pack-56-St-6021468.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 1er Pack 56 St.', '2915001578010', 'baby_de_DE_101', '99.78', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021468_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_4MainImage" title="Feuchtt&uuml;cher Sensitive 1er Pack 56 St. von PAMPERS"  alt="Feuchtt&uuml;cher Sensitive 1er Pack 56 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021468_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001578010" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021468">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-1er-Pack-56-St-6021468.html?group=1215302740510&ordernumber=6021468" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Sensitive 1e..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021468_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021468_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_4_articleColorTileImage_6021468" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001578010").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-1er-Pack-56-St-6021468.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 1er Pack 56 St.', '2915001578010', 'baby_de_DE_101', '99.78', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Sensitive 1er Pack 56 St.</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="1,99 €">1,99 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="1,80 €">1,80 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star4.png" data-original-alt="Bewertung: 4" alt="Bewertung: 4" />
+            <span class="normalText rankCount" data-original-html="2">(2)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6021468" data-rankingStars="4" data-rankingCount="2"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001578010');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist5">
+				
+    <div id="p_2915001593710" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-9er-Pack-504-St-6021417.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-9er-Pack-504-St-6021417.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 9er Pack 504 St.', '2915001593710', 'baby_de_DE_101', '99.72', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021417_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_5MainImage" title="Feuchtt&uuml;cher Sensitive 9er Pack 504 St. von PAMPERS"  alt="Feuchtt&uuml;cher Sensitive 9er Pack 504 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021417_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001593710" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021417">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-9er-Pack-504-St-6021417.html?group=1215302740510&ordernumber=6021417" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Sensitive 9e..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021417_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021417_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_5_articleColorTileImage_6021417" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001593710").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-9er-Pack-504-St-6021417.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 9er Pack 504 St.', '2915001593710', 'baby_de_DE_101', '99.72', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Sensitive 9er Pack 504 St.</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="11,19 €">11,19 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="9,90 €">9,90 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6021417" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001593710');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+				
+			
+
+			 </div><div class="prodLine">
+
+			
+			<div class="productOverviewContainer" id="plist6">
+				
+    <div id="p_2915442798310" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr2-3-6-kg-Tragepack-27-St-6043577.html?group=125163497510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr2-3-6-kg-Tragepack-27-St-6043577.html?group=125163497510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'New Baby Sensitive Windeln Gr.2, 3-6 kg Tragepack 27 St.', '2915442798310', 'baby_de_DE_101', '99.71', 'fdd3ff6192284f7cdbcfed9dd0f2674c', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043577_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi158677_1MainImage" title="New Baby Sensitive Windeln Gr.2, 3-6 kg Tragepack 27 St. von PAMPERS"  alt="New Baby Sensitive Windeln Gr.2, 3-6 kg Tragepack 27 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043577_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915442798310" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6043577">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr2-3-6-kg-Tragepack-27-St-6043577.html?group=125163497510&ordernumber=6043577" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="New Baby Sensitive Windel..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/604/3/6043577_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/604/3/6043577_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi158677_1_articleColorTileImage_6043577" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915442798310").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-New-Baby-Sensitive-Windeln-Gr2-3-6-kg-Tragepack-27-St-6043577.html?group=125163497510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'New Baby Sensitive Windeln Gr.2, 3-6 kg Tragepack 27 St.', '2915442798310', 'baby_de_DE_101', '99.71', 'fdd3ff6192284f7cdbcfed9dd0f2674c', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">New Baby Sensitive Windeln Gr.2, 3-6 kg ...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="7,40 €">7,40 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice  hasBasePrice">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original="1 st">1 st</span> = <span class="baseprice" data-original="0,27 €">0,27 €</span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915442798310');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist7">
+				
+    <div id="p_2915001615010" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-6er-Pack-336-St-6021409.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-6er-Pack-336-St-6021409.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 6er Pack 336 St.', '2915001615010', 'baby_de_DE_101', '99.67', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021409_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_7MainImage" title="Feuchtt&uuml;cher Sensitive 6er Pack 336 St. von PAMPERS"  alt="Feuchtt&uuml;cher Sensitive 6er Pack 336 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021409_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001615010" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021409">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-6er-Pack-336-St-6021409.html?group=1215302740510&ordernumber=6021409" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Sensitive 6e..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021409_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021409_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_7_articleColorTileImage_6021409" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001615010").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Sensitive-6er-Pack-336-St-6021409.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Sensitive 6er Pack 336 St.', '2915001615010', 'baby_de_DE_101', '99.67', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Sensitive 6er Pack 336 St.</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="7,49 €">7,49 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,20 €">6,20 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001615010');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist8">
+				
+    <div id="p_2915442760310" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr3-5-9-kg-Monatsbox-204-St-6043836.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr3-5-9-kg-Monatsbox-204-St-6043836.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Premium Protection Windeln Gr.3, 5-9 kg Monatsbox 204 St.', '2915442760310', 'baby_de_DE_101', '99.63', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043836_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_8MainImage" title="Premium Protection Windeln Gr.3, 5-9 kg Monatsbox 204 St. von PAMPERS"  alt="Premium Protection Windeln Gr.3, 5-9 kg Monatsbox 204 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043836_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915442760310" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6043836">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr3-5-9-kg-Monatsbox-204-St-6043836.html?group=1215302740510&ordernumber=6043836" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Premium Protection Windel..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/604/3/6043836_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/604/3/6043836_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_8_articleColorTileImage_6043836" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915442760310").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr3-5-9-kg-Monatsbox-204-St-6043836.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Premium Protection Windeln Gr.3, 5-9 kg Monatsbox 204 St.', '2915442760310', 'baby_de_DE_101', '99.63', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Premium Protection Windeln Gr.3, 5-9 kg ...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="49,80 €">49,80 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice  hasBasePrice">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original="1 st">1 st</span> = <span class="baseprice" data-original="0,24 €">0,24 €</span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6043836" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915442760310');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			 </div><div class="prodLine">
+
+			
+			<div class="productOverviewContainer" id="plist9">
+				
+    <div id="p_2915442769510" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr4-8-16-kg-Monatsbox-168-St-6043844.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr4-8-16-kg-Monatsbox-168-St-6043844.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Premium Protection Windeln Gr.4, 8-16 kg Monatsbox 168 St.', '2915442769510', 'baby_de_DE_101', '99.63', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043844_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_9MainImage" title="Premium Protection Windeln Gr.4, 8-16 kg Monatsbox 168 St. von PAMPERS"  alt="Premium Protection Windeln Gr.4, 8-16 kg Monatsbox 168 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/604/3/6043844_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915442769510" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6043844">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr4-8-16-kg-Monatsbox-168-St-6043844.html?group=1215302740510&ordernumber=6043844" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Premium Protection Windel..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/604/3/6043844_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/604/3/6043844_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_9_articleColorTileImage_6043844" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915442769510").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Premium-Protection-Windeln-Gr4-8-16-kg-Monatsbox-168-St-6043844.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Premium Protection Windeln Gr.4, 8-16 kg Monatsbox 168 St.', '2915442769510', 'baby_de_DE_101', '99.63', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Premium Protection Windeln Gr.4, 8-16 kg...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="49,40 €">49,40 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice  hasBasePrice">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original="1 st">1 st</span> = <span class="baseprice" data-original="0,29 €">0,29 €</span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915442769510');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist10">
+				
+    <div id="p_2915001638110" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Fresh-Clean-12er-Pack-768-St-6021573.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Fresh-Clean-12er-Pack-768-St-6021573.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Fresh Clean 12er Pack 768 St.', '2915001638110', 'baby_de_DE_101', '99.62', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021573_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_10MainImage" title="Feuchtt&uuml;cher Fresh Clean 12er Pack 768 St. von PAMPERS"  alt="Feuchtt&uuml;cher Fresh Clean 12er Pack 768 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021573_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001638110" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021573">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Fresh-Clean-12er-Pack-768-St-6021573.html?group=1215302740510&ordernumber=6021573" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher Fresh Clean ..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021573_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021573_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_10_articleColorTileImage_6021573" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001638110").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-Fresh-Clean-12er-Pack-768-St-6021573.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher Fresh Clean 12er Pack 768 St.', '2915001638110', 'baby_de_DE_101', '99.62', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher Fresh Clean 12er Pack 768 S...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="14,79 €">14,79 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="11,80 €">11,80 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6021573" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001638110');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			<div class="productOverviewContainer" id="plist11">
+				
+    <div id="p_2915001563410" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-12er-Pack-600-St-6021425.html?group=1215302740510" data-original="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-12er-Pack-600-St-6021425.html?group=1215302740510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher New Baby Sensitive 12er Pack 600 St.', '2915001563410', 'baby_de_DE_101', '99.61', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021425_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1289872_11MainImage" title="Feuchtt&uuml;cher New Baby Sensitive 12er Pack 600 St. von PAMPERS"  alt="Feuchtt&uuml;cher New Baby Sensitive 12er Pack 600 St. von PAMPERS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/602/1/6021425_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915001563410" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6021425">
+							<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-12er-Pack-600-St-6021425.html?group=1215302740510&ordernumber=6021425" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Feuchttücher New Baby Sen..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/602/1/6021425_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/602/1/6021425_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1289872_11_articleColorTileImage_6021425" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915001563410").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/PAMPERS-Feuchttuecher-New-Baby-Sensitive-12er-Pack-600-St-6021425.html?group=1215302740510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Feuchtt&uuml;cher New Baby Sensitive 12er Pack 600 St.', '2915001563410', 'baby_de_DE_101', '99.61', 'af698c5d830c230cd0de7cc778a347cb', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">PAMPERS
+                <br />
+                <span class="prodName">Feuchttücher New Baby Sensitive 12er Pac...</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice isRecommendedPrice">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="14,79 €">14,79 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="11,80 €">11,80 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="6021425" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915001563410');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+
+			
+
+			
+
+			
+			</div>
+	    </div>
+		<div id="loadingImg"><img src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader.gif" /></div>
+
+		<div id="jsLazyloadanchors">
+			<a href="#pageContainer" onclick="this.style.display = 'none';" class="goTopBtn">nach oben</a>
+		</div>
+
+	</div>
+	
+	
+
+
+<script type="text/javascript">
+					var owaParams = owaParams || {};
+					owaParams.page_type = "category";
+					owaParams.category_name = "Pampers";
+					owaParams.category_id = "1215302740510";
+				</script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			dmc.WALZ.ProductList.LL = {};
+			dmc.WALZ.ProductList.LL.availableInDifferentSizes = "in verschiedenen Größen";
+			dmc.WALZ.ProductList.LL.availableInDifferentVersions = "in verschiedenen Ausführungen";
+			
+			dmc.WALZ.ProductList.constants = {};
+			dmc.WALZ.ProductList.constants.reducedPercentage = "5";
+
+			dmc.WALZ.ProductList.Init();
+		});
+    </script>
+	
+
+	
+	<div class="paging ajaxmodePaging">
+		
+
+	
+
+
+	</div>
+	
+
+	
+
+	
+
+</div>
+	
+
+
+	
+		
+	
+		<span id="c289871" name="c289871" class="cTypo3"></span>
+	<span id="lsp"></span>
+		<script type="text/javascript">
+		var preventWrongBacklink = function(){
+			if ($.cookie('searchbacklink') != null) {
+				// remember the value as array
+				var cookie = $.cookie('searchbacklink').split("|");
+
+				if (cookie[0] == 'catalog') {
+					// delete the cookie
+					$.cookie('searchbacklink', null, { path: '/' });
+				}
+			}
+		}
+		var lspTmpl = ''
+				+'<div class="productOverviewContainer lsp">'
+					+'<div class="prodListItem lsp ###reduced###">'
+						+'<div class="prodListImage">'
+							+'<div class="sale-icon">'
+								+'<img class="banner" src="###banner###" alt="">'
+							+'</div>'
+
+							+'<a class="prodImageTiles" href="###link###">'
+								+'<img width="167" border="0" height="167" alt="###name### ###brand###" title="###name### ###brand###"   src="###img###" />'
+							+'</a>'
+						+'</div>'
+
+						+'<div class="prodListInfo ">'
+							+'<a href="###link###">'
+								+'<div class="stdInfos">'
+									+'<span class="brand">###brand###'
+									+'<br>'
+									+'<span class="prodName">###name###</span></span>'
+								+'</div>'
+
+							+'<div class="prices">'
+								+'<div class="priceList">'
+									+'<span class="referencePrice">###oldprice###</span>'
+									+'<span class="currentPriceCcontainer">'
+										+'<span class="currentPrice ###reduced###" >###price###</span>'
+									+'</span>'
+								+'</div>'
+							+'</div>'
+
+							+'###baseUnitPrice###'
+
+
+						+'</a>'
+					+'</div>'
+				+'</div>'
+			+'</div>'
+		;
+
+		var baseUnitPriceTmpl = '<div class="baseUnitPrice">'
+												+'<span class="basepricelabel">###llBaseUnit###:</span>'
+												+'<span class="unit">###baseUnit###</span> = <span class="baseprice">###baseUnitPrice###</span>'
+										   +'</div>';
+		var reducedPriceTmpl = '###oldprice###';
+		var regularPriceTmpl = '<span class="priceformatcode"></span><br />###price###';
+
+
+		if (typeof(localStorage) !== 'undefined' && localStorage !== null) {
+			var lsp_string = localStorage.getItem('mb3StorageLastSeenProduct');
+		} else {
+			var lsp_string = $.cookie('mb3CookieLastSeenProduct');
+		}
+
+		if (lsp_string == null) {
+			lsp_string = '[]';
+		}
+
+		if (typeof(lsp_string) !== 'undefined') {
+			var lsp_oldlist = JSON.parse(lsp_string);
+		}
+
+		var j 			= 0;
+		var output 		= '';
+		var wrappedoutput = '<div class="lastseenPues"><p id="lsp_headline">Zuletzt gesehene Artikel</p><div class="dmc_mb3_productlist_producttracker"><div class="prodLine">';
+		var bannerpath = '/typo3conf/ext/dmc_mb3_product/images/101/de/';
+
+		for (var i = 0; i < lsp_oldlist.length; i++) {
+
+			if (j < 4 ) {
+
+				output = lspTmpl.replace("###reduced###", lsp_oldlist[i]['reduced']);
+
+				if (typeof(lsp_oldlist[i]['reduced']) !== 'undefined' && lsp_oldlist[i]['reduced'] === 'reduced') {
+					lsp_oldlist[i]['banner'] = bannerpath + 'banner_512_reduced.png';
+
+					output = output.replace(/###reducedImg###/g,        '510_reduced');
+					output = output.replace("###oldprice###",     lsp_oldlist[i]['oldprice']);
+				} else {
+					output = output.replace("###reduced###",        '');
+					output = output.replace("###oldprice###",     '');
+				}
+
+				if (typeof(lsp_oldlist[i]['banner']) == 'undefined' || lsp_oldlist[i]['banner'] == '') {
+					lsp_oldlist[i]['banner'] = bannerpath + 'banner_512_no.png';
+				}
+
+				output = output.replace("###link###",   lsp_oldlist[i]['link']);
+				output = output.replace("###img###",    lsp_oldlist[i]['img']);
+				output = output.replace("###alt###",    lsp_oldlist[i]['alt']);
+				output = output.replace(/###brand###/g, lsp_oldlist[i]['brand']);
+				output = output.replace(/###name###/g,  lsp_oldlist[i]['name']);
+				output = output.replace("###banner###", lsp_oldlist[i]['banner']);
+				output = output.replace(/###price###/g, lsp_oldlist[i]['price']);
+
+				if (typeof(lsp_oldlist[i]['baseUnitPrice']) !== 'undefined') {
+					output = output.replace("###withBaseUnitPrice###", 'withBaseUnitPrice');
+					output = output.replace("###baseUnitPrice###",     baseUnitPriceTmpl);
+					output = output.replace("###llBaseUnit###",        lsp_oldlist[i]['llBaseUnit']);
+					output = output.replace("###baseUnit###",          lsp_oldlist[i]['baseUnit']);
+					output = output.replace("###baseUnitPrice###",     lsp_oldlist[i]['baseUnitPrice']);
+				} else {
+					output = output.replace("###withBaseUnitPrice###", '');
+					output = output.replace("###baseUnitPrice###", '');
+				}
+
+				wrappedoutput += output;
+				j++;
+			}
+		}
+		wrappedoutput += '</div></div></div>';
+		if(j > 0){
+			$('#lsp').append(wrappedoutput);
+		}
+		$('.lastseenPues').click(function() {
+			preventWrongBacklink();
+		});
+
+	</script>
+	
+	
+		
+            	
+            </div>
+        </div>
+    <br clear="all" />
+    <div id="footer">
+        <div id="footerGfx"></div>
+        <div id="footerHead">
+	
+		<span id="c62758" name="c62758" class="cTypo3"></span>
+		
+			<ul><li><span class="footerHeadItem">Über 30.000 Artikel</span> </li><li><span class="footerHeadItem">Markenvielfalt</span> </li><li><span class="footerHeadItem">Kompetente Beratung</span> </li><li><span class="footerHeadItem">Sichere Zahlarten</span> </li></ul>
+		
+			
+	
+		<span></span></div>
+    </div>
+    </div>
+    <div id="scrollHide">
+        <div class="footerBox">
+	
+		<span id="c60925" name="c60925" class="cTypo3"></span><div class="rowLanding">
+    <div class="col col_4b_1">
+	
+		<span id="c60926" name="c60926" class="cTypo3"></span>
+		
+			<div class="h5">Shopping</div>
+		
+			
+		
+			<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind.html" target="_top" >Mode für Mama &amp; Kind</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode.html" target="_top" class="listedLink" >Umstandsmode</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandskleider.html" target="_top" class="listedLink" >Umstandskleider</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandshosen.html" target="_top" class="listedLink" >Umstandshosen</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandsbademode.html" target="_top" class="listedLink" >Umstandsbademode</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandsunterwaesche.html" target="_top" class="listedLink" >Umstandsunterwäsche</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandsunterwaesche/Schwangerschafts-BHs.html" target="_top" class="listedLink" >Schwangerschafts-BHs</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/babykleidung.html" target="_top" class="listedLink" >Babykleidung</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/babykleidung/kindermuetzen.html" target="_top" class="listedLink" >Babymützen</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/babykleidung/kinderjacke.html" target="_top" class="listedLink" >Babyjacken</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/babykleidung/Regenbekleidung/kinderregenbekleidung.html" target="_top" class="listedLink" >Baby-Regenkleidung</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/babykleidung/Strampler.html" target="_top" class="listedLink" >Strampler</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen.html" target="_top" class="listedLink" >Wohnen&nbsp;&amp; Schlafen</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Babyzimmer.html" target="_top" class="listedLink" >Babymöbel</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Babyzimmer/Moebel-Komplettsets.html" target="_top" class="listedLink" >Möbel-Komplettsets</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Kinderzimmer/Kinderbetten.html" target="_top" class="listedLink" >Kinderbetten</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Rund-ums-Schlafen/babywippe.html" target="_top" class="listedLink" >Babywippe</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Babyzimmer/Babyschlafsaecke-tuecher.html" target="_top" class="listedLink" >Babyschlafsack</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Rund-ums-Schlafen/babymatratze.html" target="_top" class="listedLink" >Babymatratze</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Sicher-Wohnen/Schutzgitter/Treppenschutzgitter.html" target="_top" class="listedLink" >Treppenschutzgitter</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Babyzimmer/Laufgitter.html" target="_top" class="listedLink" >Laufgitter</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass.html" target="_top" class="listedLink" >Spiel&nbsp;&amp; Spaß</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass/Babyspielzeug.html" target="_top" class="listedLink" >Babyspielzeug</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass/Tolles-Spielzeug-fuer-draussen/Kinderfahrzeuge/bobby-car.html" target="_top" class="listedLink" >Bobby Car</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass/Babyspielzeug/Lern-Motorikspielzeug.html" target="_top" class="listedLink" >Motorikspielzeug</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass/Tolles-Spielzeug-fuer-draussen/sandkasten.html" target="_top" class="listedLink" >Sandkasten</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Spiel-Spass/Babyspielzeug/Activity-Center-Spielboegen.html" target="_top" class="listedLink" >Activity Center</a></p>
+		
+			
+	
+		</div>
+    <div class="col col_4b_2">
+	
+		<span id="c62501" name="c62501" class="cTypo3"></span><img src="http://cdn.baby-walz.com/clear.gif" width="1" height="49" border="0" class="spacer-gif" alt="" title="" /><br />
+		
+			<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen.html" target="_top" class="listedLink" >Autositze&nbsp;&amp; Kinderwagen</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Kinderwagen/buggy.html" target="_top" class="listedLink" >Buggys</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Kinderwagen/kombikinderwagen.html" target="_top" class="listedLink" >Kombikinderwagen</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Kinderwagen/geschwisterwagen.html" target="_top" class="listedLink" >Geschwisterkinderwagen</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Kinderwagen-Zubehoer/fusssack.html" target="_top" class="listedLink" >Kinderwagen-Fußsäcke</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/kindersitze.html" target="_top" class="listedLink" >Autositz</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Tragen-Taschen/Tragetuecher.html" target="_top" class="listedLink" >Baby-Tragetücher</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung.html" target="_top" class="listedLink" >Pflege&nbsp;&amp; Ernährung</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Umstandsmode/umstandsunterwaesche/Still-BHs.html" target="_top" class="listedLink" >Still-BH</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Stillen/stillkissen.html" target="_top" class="listedLink" >Stillkissen</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Stillen/milchpumpe.html" target="_top" class="listedLink" >Milchpumpe</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Wickeln/wickeltasche.html" target="_top" class="listedLink" >Wickeltasche</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Wickeln/Wickelauflagen.html" target="_top" class="listedLink" >Wickelauflage</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Wickeln/Windeleimer.html" target="_top" class="listedLink" >Windeleimer</a>&nbsp;</p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Pflege-Ernaehrung/Baden/Toepfchen-WC-Sitze.html" target="_top" class="listedLink" >Töpfchen</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/L/0/Marken-A-Z.markenabisz.0.html" target="_top" class="listedLink" >TOP-MARKEN</a> </span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/ABC-Design.html" target="_top" class="listedLink" >ABC-Design</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Alvi.html" target="_top" class="listedLink" >Alvi</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Feetje.html" target="_top" class="listedLink" >Feetje</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Anita.html" target="_top" class="listedLink" >Anita</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Mode-fuer-Mama-Kind/Noppies.html" target="_top" class="listedLink" >Noppies</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Maxi-Cosi.html" target="_top" class="listedLink" >Maxi-Cosi</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/JOOLZ.html" target="_top" class="listedLink" >Joolz</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/CYBEX.html" target="_top" class="listedLink" >Cybex</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Britax-Roemer.html" target="_top" class="listedLink" >Römer</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Peg-Perego.html" target="_top" class="listedLink" >Peg Perego</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Wohnen-Schlafen/Stokke.html" target="_top" class="listedLink" >Stokke</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Autositze-Kinderwagen/Teutonia.html" target="_top" class="listedLink" >Teutonia</a></p>
+		
+			
+	
+		</div>
+    <div class="col col_4b_3">
+	
+		<span id="c197514" name="c197514" class="cTypo3"></span>
+		
+			<h5>Service</h5>
+		
+			
+		
+			<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/L/0/Family-Friends.a18878.0.html" >FAMILY &amp; FRIENDS</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Login.a18939.0.html" class="listedLink" >Login/Registrierung</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Mein-Merkzettel.a799.0.html" class="listedLink" >Merkzettel</a></p>
+<p class="bodytext">&nbsp;</p>
+		
+			
+	
+		
+	
+		<span id="c197515" name="c197515" class="cTypo3"></span>
+		
+			<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span style="FONT-SIZE: 16px"><a href="//baby-walz.de.gauzy.bs2/L/0/UEbersicht.a784.0.html" >Service</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Informationen-zum-Einkauf.20385.0.html" class="listedLink" >Information zum Einkauf</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/babywalz-Vorteile.18618.0.html" class="listedLink" >baby-walz Vorteile</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Kontakt.a776.0.html" class="listedLink" >Kontakt</a></p>
+<p class="bodytext"><a href="http://cs.photoprintit.com/web/85019631/" target="_blank" class="listedLink" rel="nofollow">CEWE Fotoservice</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Sitemap.17770.0.html" class="listedLink" >Sitemap</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/Geschenkgutschein-1999000.html" target="_blank" class="listedLink" >Geschenk-Gutscheine</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Kooperationspartner.kooperation.0.html" class="listedLink" >Kooperationspartner</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Marken-A-Z.markenabisz.0.html" class="listedLink" >Marken A-Z</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Ihre-Zahlarten.28834.0.html" class="listedLink" >Zahlarten</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Presse.33330.0.html" class="listedLink" >Presse</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="http://www.versandhaus-walz.de/" rel="nofollow">Unternehmen</a></span></p>
+<p class="bodytext"><a href="http://www.versandhaus-walz.de/jobs-karriere2.html" target="_blank" class="listedLink" rel="nofollow">Jobs &amp; Karriere</a></p>
+<p class="bodytext"><a href="http://www.versandhaus-walz.de/unternehmen/nachhaltigkeit.html" class="listedLink" rel="nofollow">Nachhaltigkeit</a></p>
+<p class="bodytext"><a href="http://www.versandhaus-walz.de/no_cache/archiv.html" rel="nofollow" class="listedLink">News</a></p>
+<p class="bodytext"><a href="http://www.babywalz.com/international" target="_blank" class="listedLink" rel="nofollow">baby-walz international</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Filialexpansion.33713.0.html" target="_blank" class="listedLink" >Filialexpansion</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/L/0/AGB.a780.0.html" >Rechtliches</a></span></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/AGB.a780.0.html" class="listedLink" >AGB</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Widerrufsrecht-formular.a11370.0.html" class="listedLink" >Widerrufsrecht/-formular</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Datenschutz.a777.0.html" class="listedLink" >Datenschutz</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Impressum.impressum.0.html" class="listedLink" >Impressum</a></p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Entsorgung-Umweltschutz.41613.0.html" class="listedLink" >Entsorgung &amp; Umweltschutz</a></p>
+		
+			
+	
+		</div>
+    <div class="col col_4b_4">
+	
+		<span id="c122905" name="c122905" class="cTypo3"></span>
+		
+			<div class="h5">Sicher Einkaufen</div>
+		
+			
+		
+			<div class="csc-textpic csc-textpic-left csc-textpic-below"><div class="csc-textpic-text"></div><div class="csc-textpic-imagewrap"><div class="csc-textpic-imagecolumn" style="width:113px;"><div><a href="http://www.shopinfo.net/zertifizierte-shops/zertifikat/index.html?memberkey=BVH&amp;shopurl=www.baby-walz.de" title="Sicher Einkaufen" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/BEVH-17-14_BEVH_EHI_Guetesiegel_RGB_medium.gif" width="113" height="57" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:57px;"><div><a href="http://shop-usability-award.de/" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/usability_award.gif" width="57" height="55" border="0" alt="" /></a></div></div></div></div><div class="csc-textpic-clear"></div>
+		
+			<img src="http://cdn.baby-walz.com/clear.gif" width="1" height="10" border="0" class="spacer-gif" alt="" title="" /><br />
+	
+		
+	
+		<span id="c115141" name="c115141" class="cTypo3"></span>
+		
+			<a target="_blank" href="https://www.trustedshops.de/bewertung/info_X5F5F34E0E28850AA0422FDFEACA8BF95.html" title="Kundenbewertungen von baby-walz.de einsehen" rel="nofollow"><img class="bewertung" alt="Kundenbewertungen von baby-walz.de" border="0" src="https://www.trustedshops.com/bewertung/widget/widgets/X5F5F34E0E28850AA0422FDFEACA8BF95.gif"/></a>
+		
+			<img src="http://cdn.baby-walz.com/clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /><br />
+	
+		
+	
+		<span id="c212086" name="c212086" class="cTypo3"></span>
+		
+			<script type="text/javascript">
+    (function () { 
+    var _tsid = 'X5F5F34E0E28850AA0422FDFEACA8BF95'; 
+    _tsConfig = { 
+        'yOffset': '50', //offset from page bottom
+        'variant': 'reviews' //text, default, small, reviews
+    };
+    var _ts = document.createElement('script');
+    _ts.type = 'text/javascript'; 
+    _ts.charset = 'utf-8'; 
+    _ts.src = '//widgets.trustedshops.com/js/' + _tsid + '.js'; 
+    var __ts = document.getElementsByTagName('script')[0];
+    __ts.parentNode.insertBefore(_ts, __ts);
+    })();
+</script>
+<style>
+#tscard_db8d3657bdbe440c985ae127463eaad4 {
+	display: none !important;
+}
+</style>
+		
+			
+	
+		
+	
+		<span id="c246647" name="c246647" class="cTypo3"></span>
+		
+			<script type="text/javascript">
+/**
+
+	Some WorkAround for Android Tablets with Stock Browser for
+	correct display of the main menu bar
+
+*/
+
+var cssId = 'stockBrowserSpecialCss'; 
+
+//
+// create special style sheet in head for stock browsers
+//
+
+function createStyleSheetForStockBrowser()
+{
+	if (!document.getElementById(cssId))
+	{
+		var head  = document.getElementsByTagName('head')[0];
+		var style = document.createElement('style');
+		style.id   = cssId;
+		style.type = 'text/css';
+		head.appendChild(style);
+
+		styleSheet =  ".groupNavi ul.groupNaviLevel1 li a span { font-size: 14.5px; letter-spacing: -1px; padding: 10px 9px 0 4px !important; }";
+
+		$("#" + cssId).html(styleSheet);
+
+	}
+}
+
+//
+// check if device is android stock browser
+//
+var navU = navigator.userAgent;
+var isAndroidMobile = navU.indexOf('Linux') > -1 && navU.indexOf('Mozilla/5.0') > -1 && navU.indexOf('AppleWebKit') > -1;
+
+var regExAppleWebKit = new RegExp(/AppleWebKit\/([\d.]+)/);
+var resultAppleWebKitRegEx = regExAppleWebKit.exec(navU);
+var appleWebKitVersion = null;
+
+if(resultAppleWebKitRegEx !== null)
+{
+	appleWebKitVersion = parseFloat(regExAppleWebKit.exec(navU)[1]);
+}
+
+//
+// check if it is real chrome or fake user agent of stock browser on (updated) android 4.4
+// fake browser has same user agent, but no audiodevice support
+//
+
+var isStockFakeChromeBrowser = false;
+
+if(typeof AudioContext == 'undefined' && appleWebKitVersion != null && isAndroidMobile && appleWebKitVersion >= 537)
+{
+	isStockFakeChromeBrowser = true;
+} 
+
+
+var isAndroidStockBrowser = isAndroidMobile && appleWebKitVersion != null && appleWebKitVersion < 537;
+
+if(isAndroidStockBrowser || isStockFakeChromeBrowser)
+{
+	createStyleSheetForStockBrowser();
+}
+</script>
+		
+			
+	
+		
+	
+		<span id="c60929" name="c60929" class="cTypo3"></span><img src="http://cdn.baby-walz.com/clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /><br />
+		
+			<div class="h5">Kontakt</div>
+		
+			
+		
+			<div class="csc-textpic csc-textpic-left csc-textpic-below"><div class="csc-textpic-text">
+		
+			<p class="bodytext"><span style="FONT-SIZE: 16px"><a href="//baby-walz.de.gauzy.bs2/L/0/Kontakt.a776.0.html" >Unsere Service-Hotline</a></span></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><a href="//baby-walz.de.gauzy.bs2/L/0/Kontakt.a776.0.html" ><span style="FONT-SIZE: 16px">07524 / 703 - 307&nbsp;</span></a><span style="FONT-SIZE: 16px"><a href="//baby-walz.de.gauzy.bs2/L/0/Kontakt.a776.0.html" >&nbsp;</a></span></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span style="FONT-SIZE: 16px"><a href="//baby-walz.de.gauzy.bs2/L/0/Social-Media.20436.0.html" >Mit uns vernetzen</a></span></p>
+		
+			</div><div class="csc-textpic-imagewrap"><div class="csc-textpic-imagecolumn" style="width:36px;"><div><a href="https://www.facebook.com/babywalz" title="Kontakt" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/facebook_35.gif" width="36" height="36" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:36px;"><div><a href="https://www.pinterest.com/babywalz" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/Pinterest.png" width="36" height="36" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:36px;"><div><a href="https://twitter.com/babywalz_news" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/twitter.gif" width="36" height="36" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:36px;"><div><a href="https://plus.google.com/+babywalz/posts" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/gplus.gif" width="36" height="36" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:36px;"><div><a href="http://Blog.baby-Walz.de" target="_blank" ><img src="http://cdn.baby-walz.com/uploads/pics/blog.gif" width="36" height="36" border="0" alt="" /></a></div></div></div></div><div class="csc-textpic-clear"></div>
+		
+			<img src="http://cdn.baby-walz.com/clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /><br />
+	
+		
+	
+		<span id="c61619" name="c61619" class="cTypo3"></span>
+		
+			
+	
+		<span id="c60937" name="c60937" class="cTypo3"></span>
+	<div class="formNewsletterMiniBox  ">
+		<form action="//baby-walz.de.gauzy.bs2/L/0/Newsletter-Anmeldung.a19109.0.html" method="post" target="main" >
+            <input type="hidden" name="dmc_mb3_newsletter_pi1[61962][user][email]" value=""/>
+                <span class="homeFooterNewsletterIcon"></span>
+                <input type="email" name="dmc_mb3_newsletter_pi1[61962][customer][email]" data-hint="Ihre Email Adresse"  maxlength="49" class="txt" placeholder = "Ihre Email Adresse"/>
+                <input type="image" alt="Newsletter" src="http://cdn.baby-walz.com/clear.gif" value="" class="submitNewsletter" />
+		</form>
+	</div>
+	
+	
+		
+		
+			<img src="http://cdn.baby-walz.com/clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /><br />
+	
+		
+	
+		<span id="c66562" name="c66562" class="cTypo3"></span>
+		
+			<div class="h5">Filialen</div>
+		
+			
+		
+			<p class="bodytext"><span class="headline"><a href="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" >Die Filialen in Ihrer Nähe</a></span></p>
+		
+			
+	
+		
+	
+		<span id="c62195" name="c62195" class="cTypo3"></span>
+		
+			
+		
+			
+		
+			
+
+
+	
+	<div class="tx-dmcshopfinder-pi1">
+		
+    <ul id="dmcshopfinderFooterList">
+        <li class="dmcshopfinderFooterListTemplate" style="display:none">
+            <a href="#JSDETAILINK#" class="listedLink">#JSSHOPNAME#</a>
+        </li>
+        <li>
+            <a href="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" class="listedLink">Alle anzeigen</a>
+        </li>
+    </ul>
+    <form action="//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html" name="dmcshopfinderSearch2" method="get" onsubmit="return Shopfinder.onSubmitHandler('dmcshopfinderSearch2Input') ? true : false;">
+        <label>Suchen Sie eine andere Filiale?</label><br/>
+        <input type="text" id="dmcshopfinderSearch2Input" value="" data-hint="Ort oder PLZ" name="dmcshopfinderLocation" class="txt" placeholder="Ort oder PLZ"/>
+        <input type="image" id="dmcshopfinderSearch2Button" alt="Suche abschicken" src="http://cdn.baby-walz.com/clear.gif" class="button" />
+    </form>
+    <script type="text/javascript" >
+    $(document).ready(function() {
+        // Shopfinder config-object
+        var ShopfinderFooterConf = {
+            countryCode:    'de',
+            linkDetail:     '//baby-walz.de.gauzy.bs2/L/0/Filialdetails.19140.0.html',
+            linkMain:       '//baby-walz.de.gauzy.bs2/L/0/Filialen.filialen.0.html',
+            shopListPid:    '19140',
+            inputErr:       'Bitte geben Sie eine gültige Postleitzahl an. Sollten Sie keine PLZ angeben wollen, muss Ihre Suche nach einem Ort mindestens einen Buchstaben lang sein.',
+            inputDefault:   'Ort oder PLZ',
+            linkNameShowAll:'Alle anzeigen'
+        };
+        // init Footer
+        Shopfinder.init(ShopfinderFooterConf);
+        Shopfinder.initSearchButton('dmcshopfinderSearch2Input', 'dmcshopfinderSearch2Button');
+        Shopfinder.updateCookie('showFooter');
+    });
+    </script>
+
+	</div>
+	
+	
+
+	
+		
+			
+	
+		
+	
+		<span id="c118491" name="c118491" class="cTypo3"></span><img src="http://cdn.baby-walz.com/clear.gif" width="1" height="10" border="0" class="spacer-gif" alt="" title="" /><br />
+		
+			<div class="h5">Wir empfehlen</div>
+		
+			
+		
+			<p class="bodytext"><a href="http://www.walzkidzz.de/?utm_source=baby-walz.de&amp;utm_medium=referral&amp;utm_campaign=Interner%2BTraffic" target="_blank" ><img src="/cache/www.baby-walz.de/img/uploads_RTEmagicC_kidzz_logo.gif.gif" height="40" width="110" alt="" /></a></p>
+		
+			
+	
+		</div>
+</div>
+	
+		</div>
+        <div class="shopInfo">
+	
+		<span id="c62372" name="c62372" class="cTypo3"></span>
+		
+			<p class="bodytext">Alle Preise inkl. gesetzlicher MwSt., <a href="//baby-walz.de.gauzy.bs2/L/0/Versandkosten.a23240.0.html" target="_blank" class="jqfancybox" >zzgl. 1,95 € Versandkosten.<br /></a></p>
+<p class="bodytext">* Unverbindliche Preisempfehlung des Herstellers.</p>
+<p class="bodytext">** inkl. gesetzlicher MwSt., <a href="//baby-walz.de.gauzy.bs2/L/0/Versandkosten.a23240.0.html" target="_blank" class="jqfancybox" >ggf. zzgl. Versandkosten&nbsp;</a></p>
+		
+			
+	
+		</div>
+    </div>
+</div>
+
+	
+		<span id="c73552" name="c73552" class="cTypo3"></span>
+
+	
+	
+		
+		<script type="text/javascript">
+			window.partnerTypoScriptPageTitle = 'Pampers online kaufen';
+		</script>
+			<script type="text/javascript">window.partnerDbPrefix = decodeURIComponent('');window.partnerDefPrefix = 'Shop';window.partnerDbPageTitle = decodeURIComponent('Pampers%20online%20kaufen');window.partnerDbInfix = decodeURIComponent('');</script>
+
+
+<script type="text/javascript">
+	var addPageTitle = true;
+	if (typeof(window.partnerDefInfix) == "undefined") {
+		window.partnerDefInfix = "";
+	}
+	if (typeof(window.partnerContentLabelIgnoreTypoScriptPageTitle) == "undefined") {
+		window.partnerContentLabelPageTitle = window.partnerTypoScriptPageTitle;
+	}
+	if (!window.partnerThisIsDetail && (typeof(window.partnerContentLabelGrouppath) != "undefined")) {
+		window.partnerContentLabelPageTitle = window.partnerContentLabelGrouppath.replace(/^.*\/([^\/]*)\/$/, "$1");
+		window.partnerContentLabelGrouppath = window.partnerContentLabelGrouppath.replace(/[^\/]+\/$/, "");
+		window.partnerDefInfix = window.partnerContentLabelGrouppath;
+	}
+	window.partnerContentLabel = "";
+	if (typeof(window.partnerDbPrefix) != "undefined" && window.partnerDbPrefix != "") {
+		window.partnerContentLabel = window.partnerDbPrefix + "/";
+	} else if (typeof(window.partnerDefPrefix) != "undefined" && window.partnerDefPrefix != "") {
+		window.partnerContentLabel = window.partnerDefPrefix + "/";
+	}
+	if (typeof(window.partnerDbInfix) != "undefined" && window.partnerDbInfix != "") {
+		window.partnerContentLabel += window.partnerDbInfix + "/";
+	} else if (typeof(window.partnerDefInfix) != "undefined" && window.partnerDefInfix != "") {
+		window.partnerContentLabel += window.partnerDefInfix + "/";
+	}
+	if (typeof(emospro) != "undefined") {
+		if (typeof(emospro.orderProcess) != "undefined") {
+			window.partnerContentLabel+= emospro.orderProcess + '/';
+			var addPageTitle = false;
+		}
+	}
+	if (typeof(window.partnerContentLabelPageTitle) != "undefined") {
+		window.partnerContentLabel+= window.partnerContentLabelPageTitle + '/';
+		var addPageTitle = false;
+	}
+	if (typeof(window.partnerContentLabelSuffix) != "undefined") {
+		window.partnerContentLabel+= window.partnerContentLabelSuffix;
+		var addPageTitle = false;
+	}
+	window.emosproContent = window.partnerContentLabel;
+	if (window.emosproContent.substr(window.emosproContent.length - 1) == "/" && (addPageTitle == false || (addPageTitle == true && typeof (window.partnerTypoScriptPageTitle) == "undefined") ) ) {
+		window.emosproContent = window.emosproContent.substr(0, window.emosproContent.length - 1);
+	}
+	window.emosproContent = window.emosproContent.replace(/[\/]+/g, "/");
+</script>
+
+
+
+<script type="text/javascript">
+	var product = {
+		category: ['Pflege & Ernährung', 'Pampers']
+	};
+</script>
+
+
+
+<script type="text/javascript">
+	if (typeof(emospro) == "undefined") var emospro = {};
+	var cookieStr = cookie_get("mb3PartnerEconda");
+	if (cookieStr != null && cookieStr != "") {
+		var cContent = cookieStr.split("|");
+		emospro.ec_Event = [[cContent[0], cContent[1], cContent[2], cContent[3], cContent[4], cContent[5], cContent[6], cContent[7], cContent[8]]];
+		document.cookie = "mb3PartnerEconda=; path=/";
+	}
+
+	var cookieStr = cookie_get("partner");
+	if (cookieStr != null && cookieStr != "") {
+		var cContent = cookieStr.split("|");
+		if (cContent[0] == "Contact") {
+			emospro.scontact = cContent[1];
+		} else if (cContent[0] == "Register") {
+			emospro.register = [[cContent[1], decodeURIComponent(escape(cContent[2]))]];
+			if (cContent[4] != "0"){
+				econdaMarker.push( decodeURIComponent(escape(cContent[4])) );
+			}
+			if (cContent[3] != "0"){
+				econdaMarker.push( window.emosproContent.substring(0, window.emosproContent.lastIndexOf("/") + 1) + decodeURIComponent(escape(cContent[3])) );
+			}
+			if (cContent[2] != "0"){
+				window.emosproContent += "/" + decodeURIComponent(escape(cContent[2]));
+			}
+		} else if (cContent[0] == "Newsletter") {
+			if (cContent[1] != "0"){
+				window.emosproContent += "/" + decodeURIComponent(escape(cContent[1]));
+			}
+			if (cContent[2] != "0"){
+				window.emosproContent += "/" + decodeURIComponent(escape(cContent[2]));
+			}
+		} else if (cContent[0] == "Login") {
+			emospro.login = [[cContent[1], cContent[2]]];
+		} else if (cContent[0] == "Search") {
+			cContent[1] = cContent[1].replace(/\+/g, " ");
+			cContent[4] = cContent[4].replace(/\+/g, " ");
+			emospro.search = [[cContent[1], cContent[2], cContent[3], cContent[4], cContent[5]]];
+		}
+		document.cookie = "partner=; path=/";
+	}
+
+	if (typeof(window.emosproContent) == "undefined") window.emosproContent = "";
+	emospro.pageId = "f08678cd27190c84ff57bb7d5e5f0d25";
+	emospro.siteid = "baby";
+	emospro.langid = "de";
+	emospro.countryid = "de";
+	emospro.content = window.emosproContent;
+	emospro.entrypage = window.emosproContent;
+	emospro.app = "Desktop"
+	emosmarker = dmc.Utils.findQueryStringParam("emosmarker");
+	if (typeof(emosmarker) != "undefined" && typeof(emosmarker[0]) != "undefined") {
+		econdaMarker.push( decodeURIComponent(emosmarker) );
+	}
+	if (econdaMarker.length > 0) {
+		emospro.marker = econdaMarker[0];
+	}
+	window.emosPropertiesEvent(emospro);
+	if (econdaMarker.length > 1) {
+		pushEcondaMarker(econdaMarker, true);
+	}
+</script>
+
+
+
+				
+
+				<script>
+					if (typeof(ga) == 'undefined') {
+						(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+						{ (i[r].q=i[r].q||[]).push(arguments)}
+						,i[r].l=1*new Date();a=s.createElement(o),
+						m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+						ga('create', 'UA-8388299-1', 'auto');
+					}
+					ga('set', 'anonymizeIp', true);
+					ga('send', 'pageview');
+				</script>
+
+				
+				
+
+
+
+<script type="text/javascript">
+				var owaParams = owaParams || {};
+				owaParams.hid = "";
+
+				var cookieUserdata = cookie_get("mb3pc");
+				if (cookieUserdata != null && cookieUserdata != "") {
+					cookieUserdata = JSON.parse(cookieUserdata);
+					if (cookieUserdata.usermanagement && cookieUserdata.usermanagement.customerhurrahid) {
+						owaParams.hid = cookieUserdata.usermanagement.customerhurrahid;
+					}
+				}
+
+				var cookiePartner = cookie_get("mb3PartnerHurra");
+				if (cookiePartner != null && cookiePartner != "") {
+					var cContent = cookiePartner.split("|");
+
+					owaParams.order_articles = cContent[0];
+					owaParams.order_prices = cContent[1];
+					owaParams.page_type = cContent[2];
+					owaParams.category_names = cContent[3];
+
+					document.cookie = "mb3PartnerHurra=; path=/";
+				}
+			</script>
+
+<script type="text/javascript">
+				var owatagCid = 450;
+				(function(){
+					function d(){b.qo33OrmjMAEReady=1}
+					var a=document,b=window;b.addEventListener?b.addEventListener("load",d,false):b.attachEvent?b.attachEvent("onload",d):d();
+					var c=a.createElement("script");c.type="text/javascript";c.async=true;c.src="http"+("https:"==a.location.protocol?"s":"")+"://ssl.hurra.com/owatag.js";
+					a=a.getElementsByTagName("script")[0];a.parentNode.insertBefore(c,a);
+				})();
+			</script>
+
+			<noscript>
+				<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WPR878" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+			</noscript>
+			<script>
+				(function(w,d,s,l,i){
+					w[l]=w[l]||[];
+					w[l].push(
+						{"gtm.start": new Date().getTime(),event:"gtm.js"}
+					);
+					var f=d.getElementsByTagName(s)[0],
+						j=d.createElement(s),
+						dl=l!="dataLayer"?"&l="+l:"";
+					j.async=true;
+					j.src="//www.googletagmanager.com/gtm.js?id="+i+dl;
+					f.parentNode.insertBefore(j,f);
+				})(window,document,"script","dataLayer","GTM-WPR878");
+			</script>
+			
+
+
+<script type="text/javascript">
+	(function(){
+		var s   = document.createElement('script');
+		var x   = document.getElementsByTagName('script')[0];
+		s.type  = 'text/javascript';
+		s.async = true;
+		s.src   = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'eu-sonar.sociomantic.com/js/2010-07-01/adpan/baby-walz-de';
+		x.parentNode.insertBefore(s, x);
+	})();
+</script>
+
+
+
+
+<style>
+    @import url("//fonts.googleapis.com/css?family=Lato");
+    @import url("//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic");
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+    #garan24-toper{
+        font-family: 'Open Sans';
+        position: fixed;
+        top: 0;
+        left:0;
+        width:100%;
+        height:48px;
+        background-color: rgba(85,125,161,.9);
+        color: rgba(255,255,255,1);
+        z-index: 999;
+    }
+    @media (min-width: 768px){
+        #garan24-toper-content {
+            width: 750px;
+        }
+    }
+    @media (min-width: 992px){
+        #garan24-toper-content {
+            width: 970px;
+        }
+    }
+    @media (min-width: 1200px){
+        #garan24-toper-content{
+            width: 1170px;
+        }
+    }
+    #garan24-toper .garan24-logo{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #garan24-toper .garan24-logo code{
+        border:solid 2px rgba(255,255,255,1);
+        color:rgba(255,255,255,1);
+        font-weight: 400;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        height:24px;
+        line-height: 24px;
+        font-family: 'Lato';
+        padding:0 4px;
+        font-size: 14px;
+    }
+    #garan24-toper .garan24-button{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        padding: 0 8px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(85,125,161,.8);
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        text-transform: uppercase;
+        border:solid 2px rgba(85,125,161,1);
+    }
+    #garan24-toper .garan24-button:hover{
+        background-color: rgba(255, 255, 255, 1);
+        color:rgba(85,125,161,1);
+        border-color: rgba(255, 255, 255, 1);
+    }
+    #garan24-toper .garan24-button.garan24-button-success{
+        background-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    #garan24-toper .garan24-button.garan24-button-success:hover{
+        border-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    #garan24-toper-content {
+        padding: 0 16px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #garan24-toper-content .garan24-toper-menu{
+        list-style: none;
+        display: inline-block;
+        font-size: 12pt;
+        font-family: 'Lato','Open Sans';
+        font-weight: 300;
+        height:48px;
+        line-height: 48px;
+
+    }
+    #garan24-toper-content .garan24-toper-menu li{
+        display: inline-block;
+        vertical-align: middle;
+        height:48px;
+        line-height: 48px;
+    }
+    #garan24-toper-content .garan24-toper-menu-right{
+        float:right;
+        padding-top: 4px;
+
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(0,0,0,.6); /*rgba(92,184,92,1)*/
+        text-align: center;
+        padding: 0 5px;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        border:solid 2px rgba(85,125,161,1);
+        position: relative;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart:hover{
+        border-color: rgba(255,255,255,1);
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-quantity{
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        width:12px;
+        height:12px;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: rgba(255,255,255,1);
+        padding:0 5px;
+        font-size: 10px;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-amount{
+        display: inline-block;
+        margin-left: 12px;
+        font-weight: 400;
+    }
+    #garan24-overlay{
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        top:56px;left: 0;
+        background-color: rgba(0,0,0,.3);
+        z-index:999;
+        display: none;
+    }
+    #garan24-overlay-cover{
+        position: absolute;
+        top:0;left: 0;bottom: 0;right: 0;
+        /*
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+        */
+    }
+    #garan24-overlay-message{
+        z-index:1000;
+        background-color: rgba(255,255,255,1);
+        overflow: auto;
+        position: relative;
+        margin: 6em 20%;
+        padding: 2em;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 14pt;
+        text-align: center;
+    }
+    #garan-cart-full{
+        display: none;
+        z-index: 1000;
+        background-color: rgba(255,255,255,1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: absolute;
+        padding: 1em;
+        width: 640px;
+        overflow: auto;
+        right:0;
+        border:solid 4px rgba(85,125,161,1);
+    }
+    #garan-cart-full table{
+        width:100%;
+    }
+    #garan-cart-full table,#garan-cart-full table tr td{
+        border:none;
+        line-height: normal;
+    }
+    #garan-cart-full table tr td a{
+        color:rgba(85,125,161,.7);
+    }
+    #garan-cart-full table tr td a:hover{
+        color:rgba(85,125,161,1);
+    }
+    #garan-cart-full table tr.total td{
+        border-top:dotted 1px rgba(85,125,161,1);
+        text-align: right;
+        color:rgba(0,0,0,.8);
+        font-size: 110%;
+        font-weight: 700;
+    }
+    #garan-cart-full .small{
+        font-size: 90%;
+        font-weight: 300;
+    }
+
+    #garan-cart-full .currency-amount{
+        font-weight: 700;
+    }
+
+    body{padding-top: 56px;}
+
+</style>
+<div id="garan24-toper">
+    <div id="garan24-toper-content">
+        <ul class="garan24-toper-menu garan24-toper-menu-left">
+            <li class="garan24-logo">G&nbsp;<code>24</code></li>
+        </ul>
+        <ul class="garan24-toper-menu garan24-toper-menu-right">
+            <li>
+                <a id="garan-cart" class="garan24-cart" href="#">
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw" area-hidden="true"></i>
+                    <!--
+                        <i class="fa fa-shopping-cart" area-hidden="true"></i>
+                        <sup id="garan24-cart-quantity">0</sup>
+                        <span id="garan24-cart-amount">0 руб.</span>
+                        <div id="garan-cart-full"></div>
+                    -->
+                </a>
+
+            </li>
+            <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
+        </ul>
+    </div>
+</div>
+<div id="garan24-overlay">
+    <!--<div id="garan24-overlay-cover"></div>-->
+    <div id="garan24-overlay-message">
+        <span class="garan24-overlay-message-text">here is message</span><br />
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+    </div>
+</div>
+<script src="/js/snooper.js"></script>
+</body>
+</html>

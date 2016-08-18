@@ -1,0 +1,929 @@
+
+
+
+	<div>
+	
+        
+        <div id="listcontainer" class="">
+			<div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist0">
+				
+    <div id="p_2915794064610" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Werkbank-6062253.html?group=130349164310" data-original="//baby-walz.de.gauzy.bs2/CLEMENTONI-Werkbank-6062253.html?group=130349164310" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Werkbank', '2915794064610', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062253_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1240336_29MainImage" title="Werkbank von CLEMENTONI"  alt="Werkbank von CLEMENTONI"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062253_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915794064610" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6062253">
+							<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Werkbank-6062253.html?group=130349164310&ordernumber=6062253" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Werkbank" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/606/2/6062253_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/606/2/6062253_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1240336_29_articleColorTileImage_6062253" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915794064610").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Werkbank-6062253.html?group=130349164310" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Werkbank', '2915794064610', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">CLEMENTONI
+                <br />
+                <span class="prodName">Werkbank</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="8,99 €">8,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915794064610');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist1">
+				
+    <div id="p_2915794082910" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Formensortierbox-6062300.html?group=130349164310" data-original="//baby-walz.de.gauzy.bs2/CLEMENTONI-Formensortierbox-6062300.html?group=130349164310" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Formensortierbox', '2915794082910', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062300_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1240336_30MainImage" title="Formensortierbox von CLEMENTONI"  alt="Formensortierbox von CLEMENTONI"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062300_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915794082910" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6062300">
+							<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Formensortierbox-6062300.html?group=130349164310&ordernumber=6062300" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Formensortierbox" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/606/2/6062300_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/606/2/6062300_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1240336_30_articleColorTileImage_6062300" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915794082910").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Formensortierbox-6062300.html?group=130349164310" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Formensortierbox', '2915794082910', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">CLEMENTONI
+                <br />
+                <span class="prodName">Formensortierbox</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="8,99 €">8,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915794082910');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist2">
+				
+    <div id="p_2915794091710" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Stapelautos-6062261.html?group=130349164310" data-original="//baby-walz.de.gauzy.bs2/CLEMENTONI-Stapelautos-6062261.html?group=130349164310" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Stapelautos', '2915794091710', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062261_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi1240336_31MainImage" title="Stapelautos von CLEMENTONI"  alt="Stapelautos von CLEMENTONI"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/2/6062261_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915794091710" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6062261">
+							<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Stapelautos-6062261.html?group=130349164310&ordernumber=6062261" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Stapelautos" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/606/2/6062261_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/606/2/6062261_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi1240336_31_articleColorTileImage_6062261" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915794091710").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/CLEMENTONI-Stapelautos-6062261.html?group=130349164310" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Stapelautos', '2915794091710', 'baby_de_DE_101', '100', '3365e0e7d2a5694b1e111aef614c9196', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">CLEMENTONI
+                <br />
+                <span class="prodName">Stapelautos</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="8,99 €">8,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915794091710');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			 </div><div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist3">
+				
+    <div id="p_2915835092810" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/WINFUN-Wasserspass-Frosch-Spritzen-Lachen-6064477.html?group=125162462510" data-original="//baby-walz.de.gauzy.bs2/WINFUN-Wasserspass-Frosch-Spritzen-Lachen-6064477.html?group=125162462510" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Wasserspa&szlig; Frosch - Spritzen &amp; Lachen', '2915835092810', 'baby_de_DE_101', '100', '068cdfda38cbc7c5888ac2458d34f761', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/4/6064477_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_2MainImage" title="Wasserspa&szlig; Frosch - Spritzen &amp; Lachen von WINFUN"  alt="Wasserspa&szlig; Frosch - Spritzen &amp; Lachen von WINFUN"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/606/4/6064477_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2915835092810" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="6064477">
+							<a href="//baby-walz.de.gauzy.bs2/WINFUN-Wasserspass-Frosch-Spritzen-Lachen-6064477.html?group=125162462510&ordernumber=6064477" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Wasserspaß Frosch - Sprit..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/606/4/6064477_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/606/4/6064477_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_2_articleColorTileImage_6064477" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2915835092810").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/WINFUN-Wasserspass-Frosch-Spritzen-Lachen-6064477.html?group=125162462510" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Wasserspa&szlig; Frosch - Spritzen &amp; Lachen', '2915835092810', 'baby_de_DE_101', '100', '068cdfda38cbc7c5888ac2458d34f761', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">WINFUN
+                <br />
+                <span class="prodName">Wasserspaß Frosch - Spritzen & Lachen</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="9,99 €">9,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2915835092810');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist4">
+				
+    <div id="p_295239837810" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/RAVENSBURGER-MINISTEPS-Wenn-kleine-Tiere-muede-sind-147065.html?group=125162464310" data-original="//baby-walz.de.gauzy.bs2/RAVENSBURGER-MINISTEPS-Wenn-kleine-Tiere-muede-sind-147065.html?group=125162464310" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Wenn kleine Tiere m&uuml;de sind', '295239837810', 'baby_de_DE_101', '99.99', 'd27181b6fa4d18d1dfe26a89ff22ea69', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/147/147065.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_2MainImage" title="Wenn kleine Tiere m&uuml;de sind von RAVENSBURGER MINISTEPS"  alt="Wenn kleine Tiere m&uuml;de sind von RAVENSBURGER MINISTEPS"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/147/147065.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295239837810" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="147065">
+							<a href="//baby-walz.de.gauzy.bs2/RAVENSBURGER-MINISTEPS-Wenn-kleine-Tiere-muede-sind-147065.html?group=125162464310&ordernumber=147065" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Wenn kleine Tiere müde si..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/147/147065.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/147/147065.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_2_articleColorTileImage_147065" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295239837810").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/RAVENSBURGER-MINISTEPS-Wenn-kleine-Tiere-muede-sind-147065.html?group=125162464310" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Wenn kleine Tiere m&uuml;de sind', '295239837810', 'baby_de_DE_101', '99.99', 'd27181b6fa4d18d1dfe26a89ff22ea69', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">RAVENSBURGER MINISTEPS
+                <br />
+                <span class="prodName">Wenn kleine Tiere müde sind</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="7,95 €">7,95 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="6">(6)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="147065" data-rankingStars="5" data-rankingCount="6"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295239837810');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist5">
+				
+    <div id="p_295242830010" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/Gipsabdruck-Set-3-D-Erinnerungen-159128.html?group=125162690710" data-original="//baby-walz.de.gauzy.bs2/Gipsabdruck-Set-3-D-Erinnerungen-159128.html?group=125162690710" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Gipsabdruck Set &quot;3-D Erinnerungen&quot;', '295242830010', 'baby_de_DE_101', '99.99', '9d82e181c64645c65c84b6f1e797fba6', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/159/159128_02.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_3MainImage" title="Gipsabdruck Set &quot;3-D Erinnerungen&quot; "  alt="Gipsabdruck Set &quot;3-D Erinnerungen&quot; "/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/159/159128_02.tif" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_295242830010" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="159128">
+							<a href="//baby-walz.de.gauzy.bs2/Gipsabdruck-Set-3-D-Erinnerungen-159128.html?group=125162690710&ordernumber=159128" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Gipsabdruck Set "3-D Erin..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/159/159128_02.tif"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/159/159128_02.tif" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_3_articleColorTileImage_159128" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_295242830010").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/Gipsabdruck-Set-3-D-Erinnerungen-159128.html?group=125162690710" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Gipsabdruck Set &quot;3-D Erinnerungen&quot;', '295242830010', 'baby_de_DE_101', '99.99', '9d82e181c64645c65c84b6f1e797fba6', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">
+                <br />
+                <span class="prodName">Gipsabdruck Set "3-D Erinnerungen"</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,99 €">6,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star3.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star3.png" data-original-alt="Bewertung: 3" alt="Bewertung: 3" />
+            <span class="normalText rankCount" data-original-html="9">(9)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="159128" data-rankingStars="3" data-rankingCount="9"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_295242830010');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			</div>
+	    </div>
+
+
+	
+    </div>
+	
+
