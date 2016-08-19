@@ -1031,7 +1031,8 @@ var JSON = {
                         return !0
                     },
                     error: function(a) {
-                        throw a
+                        console.debug("throw "+a);
+                        //throw a
                     },
                     parseJSON: function(b) {
                         if (typeof b !== "string" || !b) return null;

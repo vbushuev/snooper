@@ -11,50 +11,12 @@ class Snooper extends HttpFetcher{
     protected $debug;
     protected $path_pattern;
     protected $localhost;
-    protected $cookies = [
-        "baby-walz.de" => ["mb3PartnerHurra" => "",
-            "fe_typo_user" => "39a8151cbbd2085f4225ae8dc3d59f97",
-            "pgpkl" => "fcc3348979d8686d2287b16f3b80c5ee",
-            "mb3pc" => "%7B%22shoppingbasket%22%3A",
-            "searchbacklink"=>"catalog%7Chttp%3A%2F%2Fwww.",
-            "listview"=>"tiles",
-            "_hjIncludedInSample" => "1",
-            "axd" => "1001610581032400000",
-            "T43_Geschenkefinder" => "generated",
-            "X-Requested-With" => "XMLHttpRequest"
-        ],
-        "www.baby-walz.de" => ["mb3PartnerHurra" => "",
-            "fe_typo_user" => "39a8151cbbd2085f4225ae8dc3d59f97",
-            "pgpkl" => "fcc3348979d8686d2287b16f3b80c5ee",
-            "mb3pc" => "%7B%22shoppingbasket%22%3A",
-            "searchbacklink"=>"catalog%7Chttp%3A%2F%2Fwww.",
-            "listview"=>"tiles",
-            "_hjIncludedInSample" => "1",
-            "axd" => "1001610581032400000",
-            "T43_Geschenkefinder" => "generated",
-            "X-Requested-With" => "XMLHttpRequest"
-        ],
-        "www.kik.de" => [
-            "SERVERID" => "s11",
-            "wt_fweid" => "1d2c49d74941cdb2671fde7e",
-            "wt_feid" => "c67cb56484752e5434adc06474cee722",
-            "wt_geid" =>"814713550460088465884658",
-            "frontend" => "f4f04d89a0a0610756741bc3ce9d9d3b",
-            "EXTERNAL_NO_CACHE" => "1"
-        ]
-    ];
-    //$_SERVER['REQUEST_URI']
     public function __construct($a){
         $local = $a["localhost"];
-        $acceptedDonors = ["baby-walz.de","www.baby-walz.de","www.kik.de"];
-
         $this->localhost = $_SERVER["HTTP_HOST"];
-        //$url = isset($_COOKIE["snooper_donor_host"])?$_COOKIE["snooper_donor_host"]:"http://www.kik.de";
         $url = preg_replace("/\.".preg_quote($local)."/i","",$this->localhost);
-
-        //$acc = parse_url($url);if(!in_array($acc["host"],$acceptedDonors)) $url="http://www.kik.de";
-
-        $this->full_url = "http://www.".$url.((is_array($a)&&isset($a["url"]))?$a["url"]:$a);
+        $url = $a["enabledSites"][$url];
+        $this->full_url = "http://".$url.((is_array($a)&&isset($a["url"]))?$a["url"]:$a);
         $this->_print("Current url ['".$url."']");
         $donor = parse_url($this->full_url);
         $dhost = $donor["host"];
@@ -75,10 +37,10 @@ class Snooper extends HttpFetcher{
             mkdir($this->cache_folder."/".$dhost."/img");
         }
         $this->_print("Current host ['".$dhost."']");
-        parent::__construct($this->cookies[$dhost]);
+        parent::__construct($a["cookies"][$dhost]);
     }
     public function get(){
-        $file = $this->cache_folder."/".$this->_makeFileName($this->full_url).date("Ymd");
+        $file = $this->cache_folder."/".$this->_makeFileName($this->full_url);//.date("Ymd");
         $fi = pathinfo($file);
         $this->_print("Cache file:".$file);
         if($this->cache_use&&file_exists($file)){
@@ -93,7 +55,7 @@ class Snooper extends HttpFetcher{
         $this->content = $this->getmedia($this->content);
         $this->_print("Relinking .. ");
         $this->replace();
-        $this->_print("Traslating .. ");
+        $this->_print("Traslating ..[".$fi["extension"]."] file=".$file);
         if(!in_array($fi["extension"],["js","css","png","gif","jpg","svg"])) $this->content = $this->translate($this->content);
         $this->addToper();
 
@@ -181,7 +143,7 @@ class Snooper extends HttpFetcher{
         //$jsStart.= "<base href='".$this->localhost."?__garan_query__='/>";
         $jsStart.= "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\" crossorigin=\"anonymous\"></script>";
         $jsStart.= "<script src=\"/js/ajax.prevent.js\"></script>\n";
-        $jsEnd.= "<script src=\"/js/jquery.cookie.js\"></script>\n";
+        
 
         $this->content = preg_replace("/\<head(.*?)>/i","<head$1>\n".$jsStart,$this->content);
         $this->content = preg_replace("/\<\/head>/i",$jsEnd."\n</head>\n",$this->content);

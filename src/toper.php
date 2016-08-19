@@ -3,6 +3,7 @@
     @import url("//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic");
     @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
     #garan24-toper{
+        display: none;
         font-family: 'Open Sans';
         position: fixed;
         top: 0;
@@ -27,6 +28,9 @@
         #garan24-toper-content{
             width: 1170px;
         }
+    }
+    #garan24-toper-content{
+        height:48px;
     }
     #garan24-toper .garan24-logo{
         font-size: 16px;
@@ -89,17 +93,17 @@
         font-weight: 300;
         height:48px;
         line-height: 48px;
-
+        margin:0;
+        vertical-align: middle;
     }
     #garan24-toper-content .garan24-toper-menu li{
         display: inline-block;
-        vertical-align: middle;
         height:48px;
         line-height: 48px;
+        margin:0;
     }
     #garan24-toper-content .garan24-toper-menu-right{
         float:right;
-        padding-top: 4px;
 
     }
     #garan24-toper-content .garan24-toper-menu li .garan24-cart{
@@ -195,6 +199,9 @@
     #garan-cart-full table tr td a{
         color:rgba(85,125,161,.7);
     }
+    #garan-cart-full table tr td img{
+        height: 64px;
+    }
     #garan-cart-full table tr td a:hover{
         color:rgba(85,125,161,1);
     }
@@ -214,7 +221,7 @@
         font-weight: 700;
     }
 
-    body{padding-top: 56px;}
+    /*body{padding-top: 56px;}*/
 
 </style>
 <div id="garan24-toper">
@@ -246,4 +253,5 @@
         <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
     </div>
 </div>
+<script src="/js/jquery.cookie.js"></script>
 <script src="/js/snooper.js"></script>

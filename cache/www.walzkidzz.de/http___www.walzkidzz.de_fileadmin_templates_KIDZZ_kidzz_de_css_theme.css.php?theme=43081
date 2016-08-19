@@ -1,0 +1,302 @@
+
+
+#col3 {
+  border-left:1px solid #F27E1B;
+  border-right:1px solid #F27E1B;
+}
+
+body #breadcrumbContent,
+body #breadcrumbContent a {
+	color        : #F27E1B;
+}
+
+body #col1 div.navigation h1.shopColor {
+	color        : #666;
+}
+
+body #col1 div.box span.title,
+body #col1 div.box h1,
+body #col1 div.box h2,
+body #col1 div.box h3,
+body #col1 div.box h4,
+body #col1 div.navigation h1 {
+	background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_band_band_1a.gif) bottom left no-repeat;
+}
+body #col1  div .lastseenBox  h1{
+        background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_band_band_0a.gif) bottom left no-repeat;
+}
+
+body #col1 div.box div.lastSeen {
+	border: 1px solid #1;
+}
+
+body #col1 div.navigation li.l1 a {
+	background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_bop_Punkt1_b.gif) 0 3px no-repeat;
+}
+
+
+body #col1 div.navigation li.l1 a:hover,
+body #col1 div.navigation li.l1 a.selected,
+body #col1 div.navigation li.l1 a.selected:hover  {
+	color           : #666;
+	background: #F8BE8E url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_bop_Punkt1_a.gif) 0 4px no-repeat;
+}
+
+body #col1 div.listNavigation li.l2 a,body #col1 div.listNavigation li.l3 a  {
+	color           : #666;
+    background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_bop_Punkt1_b.gif) 0 center no-repeat;
+}
+
+body #col1 div.navigation li.l1 ul li.l2 a:hover,
+#col1_content div.listNavigation ul li.l2 a:hover,
+body #col1 div.navigation li.l1 ul li.l3 a:hover,
+#col1_content div.listNavigation ul li.l3 a:hover {
+    color           : #666;
+    background: #F8BE8E url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_bop_Punkt1_b.gif) 0 center no-repeat;
+}
+
+body #col1 div.navigation li.l1 ul li.l2 a.selected,
+body #col1 div.navigation li.l1 ul li.l2 a.selected:hover,
+#col1_content div.listNavigation ul li.l2 a.selected,
+#col1_content div.listNavigation ul li.l2 a.selected:hover,
+body #col1 div.navigation li.l1 ul li.l3 a.selected,
+body #col1 div.navigation li.l1 ul li.l3 a.selected:hover,
+#col1_content div.listNavigation ul li.l3 a.selected,
+#col1_content div.listNavigation ul li.l3 a.selected:hover {
+
+	background: #F8BE8E url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_bop_Punkt1_a.gif) 0 center no-repeat;
+}
+
+body div.teaser .title {
+	color : #F27E1B;
+}
+
+body div.topPaginator,
+body div.productDetail div.fittingArticle h2,
+.div.productDetail div.dmc_mb3_productranking_03 h2,
+.dmc_mb3_productlist_20 h2 {
+	background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_band_band_1b.gif) bottom left repeat-x;
+}
+
+
+div.productDetail #productDeliveryNotice {
+    font-size: 13px;
+    color: #F27E1B;
+}
+
+body div.bottomPaginator {
+	background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_band_band_1b.gif) top left no-repeat;
+}
+
+
+body div.noBorder {
+	border: none;
+}
+
+body div.topPaginator,
+body div.bottomPaginator,
+body div#col3_content div.topPaginator a,
+body div#col3_content div.topPaginator a:hover,
+body div#col3_content div.bottomPaginator a,
+body div#col3_content div.bottomPaginator a:hover,
+.dmc_mb3_productlist_20 h2 {
+	color:#666;
+}
+
+h2.productList,
+#article_prepic h2 {
+	padding: 4px 0;
+	text-indent: 4px;
+	color: #FFF;
+	background-color: #F27E1B;
+	font-size: 14px;
+}
+
+div.productOverviewContainer {
+	background-color: #F8BE8E;
+}
+
+body div.productDetail h1,
+body div.productDetail h2 {
+	color: #F27E1B;
+    border-bottom:1px solid #F27E1B;
+}
+
+body div.productChange div.productDetail h1 {
+    border-bottom: 2px solid #F8BE8E;
+}
+
+#col3_content ul.moreServices,
+#col3_content ul.moreServices li {
+	color:#F27E1B;
+}
+
+
+body div.productDetail hr {
+	color: #F27E1B;
+	border-bottom:2px solid #F27E1B;
+}
+
+
+#formRecommendation div.formElementContainer form input.error,
+#formRecommendation div.formElementContainer form select.error,
+#formRecommendation div.formElementContainer form textarea.error {
+	border-color:#CC0000;
+}
+
+
+
+div.textContainer a.underlinedWithThemeOnHover:hover {
+	color:#F27E1B;
+}
+
+a.underlinedWithThemeOnHover:hover {
+	color:#F27E1B;
+}
+
+a.arrowHeadSortDown {
+	background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_arrow_bottom_1.gif) 0 0 no-repeat;
+
+}
+
+a.arrowHeadSortUp {
+	background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_arrow_top_1.gif) 0 0 no-repeat;
+}
+
+a.arrowHeadPreviousPage {
+	background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_arrow_left_1.gif) left center no-repeat;
+}
+
+a.arrowHeadNextPage {
+	background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_arrow_right_1.gif) left center no-repeat;
+}
+
+a.arrowHeadFirstPage {
+	background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_anfang_1.gif) left center no-repeat;
+}
+a.arrowHeadLastPage {
+	background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_arrow_ende_1.gif) left center no-repeat;
+}
+
+
+body div.topPaginator a.PageHeadAktiv ,
+body div.bottomPaginator a.PageHeadAktiv,
+body div#col3_content div.topPaginator a.PageHeadAktiv ,
+body div#col3_content div.topPaginator a.PageHeadAktiv:hover,
+body div#col3_content div.bottomPaginator a.PageHeadAktiv:hover,
+body div#col3_content div.bottomPaginator a.PageHeadAktiv:hover
+{
+	background-color: #F27E1B;
+    color:#FFF !important;
+}
+
+.imageBackground{
+  background-color:#F8BE8E;
+}
+/*.imageBackgroundBottom .video,
+.imageBackgroundBottom .enlarge {
+    background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_zoom_1.gif) top left no-repeat;
+}
+
+.imageBackgroundBottom .enlarge a,
+.imageBackgroundBottom .video a {
+    background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_zoom_1.gif) top right no-repeat;
+}*/
+
+
+.imageBackgroundChange,
+#col3_content .imageBackgroundChange {
+    border: 1px solid #CCC;
+    padding:2px;
+	background-color: #F8BE8E;
+}
+
+.imageBackgroundBottom,
+#col3_content .imageBackgroundBottom a	 {
+	background-color: #F8BE8E;
+	color           : #666666;
+}
+
+
+#col3_content .imageBackgroundBottom ul li a.aktiv {
+    background-color: #F27E1B;
+    color: #FFF;
+}
+
+
+
+.imageBackgroundBottom .enlarge a  {
+    background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_loupe_Lupe_1.gif) top left no-repeat;
+}
+
+.imageBackgroundBottom .video a  {
+    background:transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_video_video_1.gif) top left no-repeat;
+ }
+
+/*
+ * Weitere Ansichten
+ */
+
+div.furtherViews h2 {
+	color:#F27E1B;
+}
+
+div.furtherViewsContent {
+	border  : 1px solid #F27E1B;
+}
+
+div.furtherViewsContent a:hover {
+	border  : 1px solid #F27E1B;
+}
+
+.popupwk .productInCart{
+    background: none;
+    background: transparent url)/cache/www.walzkidzz.de/img/fileadmin_templates_KIDZZ_kidzz_global_img_band_band_1b.gif) top left no-repeat;
+}
+
+div.productInCart img {
+    background-color:#F8BE8E;
+}
+.popupwk #footer {
+    border-top:1px solid #F27E1B;
+}
+
+
+/*
+ * Konkrete weitere Ansicht
+ */
+
+div.furtherView h2 {
+	color:#F27E1B;
+}
+
+#col3_content div.furtherViewContent img {
+	border  : 1px solid #F27E1B;
+}
+
+/*
+ * WK-Popup
+ */
+
+div.productInCart {
+}
+
+/* Product Ranking */
+.dmc_mb3_productranking_03 .productranking_comment,
+.dmc_mb3_productranking_03 .productranking_comment_footer{
+	border-top: 1px solid #F27E1B;
+}
+
+.productranking_commentPagination a.PageHeadAktiv{
+	background-color: #F27E1B;
+}
+
+.scrollGallery .scrollnaviNext,
+.scrollGallery .scrollnaviPrev {
+    background-color: #F27E1B;
+}
+
+
+/* Mein Baby-Walz */
+
+/* Mein Baby-Walz */

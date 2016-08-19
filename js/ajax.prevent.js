@@ -1,3 +1,4 @@
+
 /**
  * Number.prototype.format(n, x, s, c)
  *
@@ -19,34 +20,7 @@ Number.prototype.format = function(n, x, s, c) {
     window.g_pattern = /(http|https)?(\:)?(\/\/)?(www\.)?(baby\-walz\.de|kik\.de)?\//i;
     var replacement = "//"+document.location.hostname+"?__garan_query__=";
     var add2Basket = function(){
-        var $t = arguments[0];
-        var $p = $("#productDetail");
-        var price = parseFloat($p.find("#productCurrentPrice1_span").text().replace(/\,/g,"."))*G.currencyRate;
-        var amount = parseInt($p.find("#productAmountForm_"+selfUID).val());
-        var variations = [];
-        if($p.find(".productComponent_"+selfUID).length){
-            var v = $p.find(".productComponent_"+selfUID).val();
-            var k = $p.find(".productComponent_"+selfUID).parent().find("label").text();
-            variations[k]=v;
-        }
-        console.debug("Amount="+amount+" Price= "+price+" UID="+selfUID);
-        var product = {
-            product_id: -1,
-            quantity: amount,
-            regular_price: price,
-            title: $p.find(".prodName").text(),
-            description: $p.find(".prodName").text(),//encodeURIComponent($p.find(".productCopytext").html()),
-            product_url: document.location.href,
-            product_img: $p.find(".prodImage .imageOptions img.thumbs:first").attr("src"),//"https://youronlinestore.com/#id.png",
-            weight:"200",
-            dimensions:{
-                "height":"100",
-                "width":"10",
-                "depth":"40"
-            },
-            variations:variations
-        }
-        var $i = $p.find(".prodImage");
+
         $i.clone().css({'position' : 'fixed', 'z-index' : '999'}).appendTo($i)
             .animate({
                 opacity: 0.5,

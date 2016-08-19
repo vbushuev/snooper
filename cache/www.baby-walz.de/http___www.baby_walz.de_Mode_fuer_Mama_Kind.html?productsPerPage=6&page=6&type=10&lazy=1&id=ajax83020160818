@@ -1,0 +1,941 @@
+
+
+
+	<div>
+	
+        
+        <div id="listcontainer" class="">
+			<div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist0">
+				
+    <div id="p_2913084457210" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Strumpfhose-uni-5818036.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Strumpfhose-uni-5818036.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Strumpfhose uni', '2913084457210', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818036_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_22MainImage" title="Strumpfhose uni von STERNTALER"  alt="Strumpfhose uni von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818036_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913084457210" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818036">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Strumpfhose-uni-5818036.html?group=125162624110&ordernumber=5818036" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Strumpfhose uni" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818036_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818036_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_22_articleColorTileImage_5818036" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913084457210").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Strumpfhose-uni-5818036.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Strumpfhose uni', '2913084457210', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Strumpfhose uni</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="9,99 €">9,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="5818036" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913084457210');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist1">
+				
+    <div id="p_2913084983210" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Anti-Rutsch-Socken-uni-5818117.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Anti-Rutsch-Socken-uni-5818117.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Anti- Rutsch Socken uni', '2913084983210', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818117_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_23MainImage" title="Anti- Rutsch Socken uni von STERNTALER"  alt="Anti- Rutsch Socken uni von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818117_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913084983210" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818117">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Anti-Rutsch-Socken-uni-5818117.html?group=125162624110&ordernumber=5818117" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Anti- Rutsch Socken uni" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818117_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818117_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_23_articleColorTileImage_5818117" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913084983210").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Anti-Rutsch-Socken-uni-5818117.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Anti- Rutsch Socken uni', '2913084983210', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Anti- Rutsch Socken uni</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,99 €">6,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="5818117" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913084983210');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist2">
+				
+    <div id="p_2913085293410" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5818060.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5818060.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Thermostrumpfhose uni', '2913085293410', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818060_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_24MainImage" title="Thermostrumpfhose uni von STERNTALER"  alt="Thermostrumpfhose uni von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818060_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913085293410" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818060">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5818060.html?group=125162624110&ordernumber=5818060" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Thermostrumpfhose uni" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818060_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818060_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_24_articleColorTileImage_5818060" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913085293410").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5818060.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Thermostrumpfhose uni', '2913085293410', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Thermostrumpfhose uni</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="12,99 €">12,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="5818060" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913085293410');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			 </div><div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist3">
+				
+    <div id="p_2913085355610" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5817951.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5817951.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Thermostrumpfhose uni', '2913085355610', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/7/5817951_02.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_25MainImage" title="Thermostrumpfhose uni von STERNTALER"  alt="Thermostrumpfhose uni von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/7/5817951_02.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913085355610" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5817951">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5817951.html?group=125162624110&ordernumber=5817951" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Thermostrumpfhose uni" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/7/5817951_02.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/7/5817951_02.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_25_articleColorTileImage_5817951" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913085355610").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Thermostrumpfhose-uni-5817951.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Thermostrumpfhose uni', '2913085355610', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Thermostrumpfhose uni</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="12,99 €">12,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		<div class="dmc_mb3_productranking_06">
+			<img class="rankImage" data-original-src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_stars_star5.png" data-original-alt="Bewertung: 5" alt="Bewertung: 5" />
+            <span class="normalText rankCount" data-original-html="1">(1)</span> &nbsp;
+			<ul class="articleList" style="display: none;"><li data-orderNumber="5817951" data-rankingStars="5" data-rankingCount="1"></li></ul>
+		</div>
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913085355610');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist4">
+				
+    <div id="p_2913088056910" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Baby-Schuh-Eisbaer-5818800.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Baby-Schuh-Eisbaer-5818800.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Baby Schuh &quot;Eisb&auml;r&quot;', '2913088056910', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818800_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_26MainImage" title="Baby Schuh &quot;Eisb&auml;r&quot; von STERNTALER"  alt="Baby Schuh &quot;Eisb&auml;r&quot; von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818800_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913088056910" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818800">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Baby-Schuh-Eisbaer-5818800.html?group=125162624110&ordernumber=5818800" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Baby Schuh "Eisbär"" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818800_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818800_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_26_articleColorTileImage_5818800" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913088056910").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Baby-Schuh-Eisbaer-5818800.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Baby Schuh &quot;Eisb&auml;r&quot;', '2913088056910', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Baby Schuh "Eisbär"</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="17,99 €">17,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913088056910');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist5">
+				
+    <div id="p_2913088743110" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818460.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818460.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'F&auml;ustel mit Daumen', '2913088743110', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818460_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_27MainImage" title="F&auml;ustel mit Daumen von STERNTALER"  alt="F&auml;ustel mit Daumen von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818460_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913088743110" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818460">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818460.html?group=125162624110&ordernumber=5818460" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Fäustel mit Daumen" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818460_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818460_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_27_articleColorTileImage_5818460" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913088743110").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818460.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'F&auml;ustel mit Daumen', '2913088743110', 'baby_de_DE_101', '100', '57c1d9f80629c92d09c26603edfa84ae', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Fäustel mit Daumen</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="12,99 €">12,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913088743110');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			</div>
+	    </div>
+
+
+	
+    </div>
+	
+

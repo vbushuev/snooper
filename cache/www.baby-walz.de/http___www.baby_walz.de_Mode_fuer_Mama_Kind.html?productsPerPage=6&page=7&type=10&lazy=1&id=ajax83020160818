@@ -1,0 +1,901 @@
+
+
+
+	<div>
+	
+        
+        <div id="listcontainer" class="">
+			<div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist0">
+				
+    <div id="p_2913088758810" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818664.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818664.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'F&auml;ustel mit Daumen', '2913088758810', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818664_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_28MainImage" title="F&auml;ustel mit Daumen von STERNTALER"  alt="F&auml;ustel mit Daumen von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818664_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913088758810" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818664">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818664.html?group=125162624110&ordernumber=5818664" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Fäustel mit Daumen" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818664_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818664_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_28_articleColorTileImage_5818664" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913088758810").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Faeustel-mit-Daumen-5818664.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'F&auml;ustel mit Daumen', '2913088758810', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Fäustel mit Daumen</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="12,99 €">12,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913088758810');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist1">
+				
+    <div id="p_2913088836010" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-Schal-5818605.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-Schal-5818605.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Schal', '2913088836010', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818605_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_29MainImage" title="Schal von STERNTALER"  alt="Schal von STERNTALER"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/581/8/5818605_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913088836010" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5818605">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Schal-5818605.html?group=125162624110&ordernumber=5818605" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Schal" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/581/8/5818605_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/581/8/5818605_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_29_articleColorTileImage_5818605" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913088836010").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-Schal-5818605.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Schal', '2913088836010', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER
+                <br />
+                <span class="prodName">Schal</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="9,99 €">9,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913088836010');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist2">
+				
+    <div id="p_2913935335310" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/CELAVI-Gummistiefel-Elefant-5911028.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/CELAVI-Gummistiefel-Elefant-5911028.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Gummistiefel Elefant', '2913935335310', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/591/1/5911028_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_30MainImage" title="Gummistiefel Elefant von CELAVI"  alt="Gummistiefel Elefant von CELAVI"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/591/1/5911028_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2913935335310" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5911028">
+							<a href="//baby-walz.de.gauzy.bs2/CELAVI-Gummistiefel-Elefant-5911028.html?group=125162624110&ordernumber=5911028" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Gummistiefel Elefant" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/591/1/5911028_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/591/1/5911028_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_30_articleColorTileImage_5911028" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2913935335310").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/CELAVI-Gummistiefel-Elefant-5911028.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Gummistiefel Elefant', '2913935335310', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">CELAVI
+                <br />
+                <span class="prodName">Gummistiefel Elefant</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="39,95 €">39,95 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_no.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2913935335310');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			 </div><div class="prodLine">
+			
+			<div class="productOverviewContainer" id="plist3">
+				
+    <div id="p_2914516489510" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Krabbelstrumpfhose-Isidor-5973554.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Krabbelstrumpfhose-Isidor-5973554.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Krabbelstrumpfhose Isidor', '2914516489510', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/597/3/5973554_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_31MainImage" title="Krabbelstrumpfhose Isidor von STERNTALER ISIDOR"  alt="Krabbelstrumpfhose Isidor von STERNTALER ISIDOR"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/597/3/5973554_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2914516489510" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5973554">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Krabbelstrumpfhose-Isidor-5973554.html?group=125162624110&ordernumber=5973554" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Krabbelstrumpfhose Isidor" data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/597/3/5973554_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/597/3/5973554_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_31_articleColorTileImage_5973554" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2914516489510").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Krabbelstrumpfhose-Isidor-5973554.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Krabbelstrumpfhose Isidor', '2914516489510', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER ISIDOR
+                <br />
+                <span class="prodName">Krabbelstrumpfhose Isidor</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="14,99 €">14,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2914516489510');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist4">
+				
+    <div id="p_2914516531710" data-reduced="" class="prodListItem ">
+        <a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Fliesen-Flitzer-Air-Isidor-5973570.html?group=125162624110" data-original="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Fliesen-Flitzer-Air-Isidor-5973570.html?group=125162624110" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Fliesen Flitzer Air Isidor', '2914516531710', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/597/3/5973570_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi170365_32MainImage" title="Fliesen Flitzer Air Isidor von STERNTALER ISIDOR"  alt="Fliesen Flitzer Air Isidor von STERNTALER ISIDOR"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/597/3/5973570_01.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_new.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+
+			<div class="availableArticlesBox" data-numElements="1">
+				<div id="carousel_2914516531710" class="previewCarousel nobtns" >
+					<ul>
+						
+						<li onmouseover="dmc.InjectThumbnail.inject(this)" data-orderNumber="5973570">
+							<a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Fliesen-Flitzer-Air-Isidor-5973570.html?group=125162624110&ordernumber=5973570" >
+								<img width="30" height="30" class="articleColorTileImage selected" data-color="" data-previewText="Fliesen Flitzer Air Isido..." data-bigImage="http://walz-images.walz.de/fsicache/images?type=image&profile=551&source=images/BW/597/3/5973570_01.jpg"  border="0" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=552&source=images/BW/597/3/5973570_01.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_dot.png" id="dmc_mb3_product_pi170365_32_articleColorTileImage_5973570" />
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+			</div>
+
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2914516531710").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/STERNTALER-ISIDOR-Fliesen-Flitzer-Air-Isidor-5973570.html?group=125162624110" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Fliesen Flitzer Air Isidor', '2914516531710', 'baby_de_DE_101', '100', '8c9f86340bef755f9420c066cecf41a0', '6', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo ">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">STERNTALER ISIDOR
+                <br />
+                <span class="prodName">Fliesen Flitzer Air Isidor</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice hide">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original=""></span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original=""></span>
+						<span class="currentPrice" data-original="6,99 €">6,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_new.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2914516531710');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			<div class="productOverviewContainer" id="plist5">
+				
+    <div id="p_2914618676810" data-reduced="reduced" class="prodListItem reduced ">
+        <a href="//baby-walz.de.gauzy.bs2/BORNINO-HOME-Schlafsack-GROSSER-MIKE-Tencel-5987539.html?group=125162573010" data-original="//baby-walz.de.gauzy.bs2/BORNINO-HOME-Schlafsack-GROSSER-MIKE-Tencel-5987539.html?group=125162573010" class="urldetail dynamicLink" onclick="factfinder_clicktracking(this, '', 'Schlafsack GROSSER MIKE - Tencel', '2914618676810', 'baby_de_DE_101', '100', '899e74ec700ce04b7e76b4f79d964c7e', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+			<div class="prodImage">
+				<div class="previewLayer">
+					<span class="previewText"></span>
+					<br>
+					<ul class="previewsizes"></ul>
+				</div>
+				<img width="218" height="218" border="0" class="mainImage" data-original="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/598/7/5987539_11.jpg" src="/cache/www.baby-walz.de/img/fileadmin_templates_BABY_baby_global_img_misc_ajax_loader_pBig.gif" id="dmc_mb3_product_pi188349_2MainImage" title="Schlafsack GROSSER MIKE - Tencel von BORNINO HOME"  alt="Schlafsack GROSSER MIKE - Tencel von BORNINO HOME"/>
+				<noscript><img src="http://walz-images.walz.de/fsicache/images?type=image&profile=551_baby&source=images/BW/598/7/5987539_11.jpg" /></noscript>
+			</div>
+			<span class="sale-icon icon"><img alt="" data-original="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_512_reduced.png"  /></span>
+		</a>
+
+
+		<div class="articleListContainer" >
+			
+		</div>
+		
+		<script type="text/javascript">
+			(function($){
+				if (isTablet()) {
+					var previewLinks = $("#carousel_2914618676810").find('a');
+					previewLinks.each(function(){
+						var link = $(this).attr('href');
+						$(this).data('currentLink', link);
+						$(this).attr('href','javascript:void(0)');
+						var item = $(this).parent();
+						var ul = $(this).closest('.articleListContainer');
+
+						Hammer(item[0]).on("doubletap", function(e) {
+							e.preventDefault();
+							location.replace(window.location.origin + link);
+						});
+
+						Hammer(item[0]).on("tap", function(e) {
+							e.preventDefault();
+							if(ul.data('tapped') == item.data('ordernumber')){
+								location.replace(window.location.origin + link);
+							}else{
+								dmc.InjectThumbnail.inject(item[0]);
+								ul.data('tapped', item.data('ordernumber'));
+							}
+						});
+					});
+				}
+			})($);
+		</script>
+
+		<a href="//baby-walz.de.gauzy.bs2/BORNINO-HOME-Schlafsack-GROSSER-MIKE-Tencel-5987539.html?group=125162573010" class="urldetail"  onclick="factfinder_clicktracking(this, '', 'Schlafsack GROSSER MIKE - Tencel', '2914618676810', 'baby_de_DE_101', '100', '899e74ec700ce04b7e76b4f79d964c7e', '12', '1', $('div#listcontainer').data('searchinstance'))" >
+
+        <div class="prodListInfo largePrice">
+
+            <div class="colorText"></div>
+            <div class="stdInfos">
+				<span class="brand">BORNINO HOME
+                <br />
+                <span class="prodName">Schlafsack GROSSER MIKE - Tencel</span></span>
+            </div>
+
+			<div class="prices">
+				<div class="priceList">
+					<span class="oldPrice isOldPrice">
+						Alter Preis
+					</span>
+					<span class="recommendedPrice hide">
+						UVP<span class="uvp_asterisk_list">*</span>
+					</span>
+					<span class="referencePrice" data-original="44,99 €">44,99 €</span>
+					<span class="currentPriceCcontainer">
+						<span class="priceformatcode" data-original="ab ">ab </span>
+						<span class="currentPrice" data-original="29,99 €">29,99 €</span>
+					</span>
+				</div>
+            </div>
+
+			<div class="baseUnitAndPrice hide ">
+				<span class="basepricelabel">Grundpreis:</span> <span class="unit" data-original=""></span> = <span class="baseprice" data-original=""></span>
+
+			</div>
+
+
+            <div class="features">
+                
+		
+		
+		
+	
+				<img alt="" src="/cache/www.baby-walz.de/img/typo3conf_ext_dmc_mb3_product_images_101_de_banner_551_reduced.png" class="banner bannerSmall" />
+            </div>
+        </div>
+		</a>
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// avoid pollution of global namespace
+			(function($){
+				var el = $('#p_2914618676810');
+				// preselect Article that has selected baseColor
+				var colors = $('#listcontainer').data('colors');
+				var selectedColors = colors.split(',');
+				if(selectedColors instanceof Array){
+					if(selectedColors.length > 0){
+						var found = false;
+						for(var i=selectedColors.length; i>0 ;i--){
+							if(found || selectedColors[i-1] == ""){
+								break;
+							}
+							el.find('.articleColorTileImage').each(function(){
+								if( $(this).data('color') == selectedColors[i-1]){
+									el.find('.selected').removeClass('selected');
+									$(this).addClass('selected');
+									var newlink = $(this).parent().attr('href');
+									var newImage = $(this).data('bigImage');
+									el.find('.urldetail').attr('href', newlink).data('original',newlink);
+									el.find('.mainImage').data('original',newImage);
+									found = true;
+								}
+							});
+						}
+					}
+				}
+				el.find('img').unveil();
+			})($);
+		});
+	</script>
+
+
+	
+			</div>
+			
+			
+			</div>
+	    </div>
+
+
+	
+    </div>
+	
+

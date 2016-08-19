@@ -1,3 +1,4 @@
+var $ = jQuery.noConflict();
 function G24(){
     var t = this;
     //this.carthost = "//service.garan24.ru/cart";
@@ -45,8 +46,8 @@ function G24(){
         if(!$("#garan24-cart-quantity").length){
             $("#garan-cart").html('<i class="fa fa-shopping-cart" area-hidden="true"></i><sup id="garan24-cart-quantity">0</sup><span id="garan24-cart-amount">0 руб.</span><div id="garan-cart-full"></div>');
         }
-        if(!isNaN(t.cartQuantity))$("#garan24-cart-quantity").html(t.cartQuantity);
-        if(!isNaN(t.order.order_total))$("#garan24-cart-amount").html(t.order.order_total.format(0,3,' ','.')+" руб.");
+        if(!isNaN(this.cartQuantity))$("#garan24-cart-quantity").html(this.cartQuantity);
+        if(!isNaN(this.order.order_total))$("#garan24-cart-amount").html(this.order.order_total.format(0,3,' ','.')+" руб.");
     };
     this.create = function(){
         $.ajax({
@@ -60,7 +61,7 @@ function G24(){
                 console.debug("Created cart.");
                 console.debug(d);
                 G.id=d.id;
-                $.cookie("cart_id",d.id,{expires:1});
+                $.cookie("cart_id",d.id,{expires:1,domain:'.gauzy.bs2'});
             }
         });
     };
@@ -127,9 +128,8 @@ function G24(){
             type:"POST",
             //url:"//service.garan24.ru/checkout/",
             //url:"http://service.garan24.bs2/checkout/",
-            url:"//service.garan24.ru/checkout",
+            url:"https://service.garan24.ru/checkout",
             dataType: "json",
-            crossDomain: true,
             data:JSON.stringify(rq),
             beforeSend:function(){
                 $m.find(".garan24-overlay-message-text").html("Обрабатываются товары из Вашей корзины...");
@@ -186,10 +186,98 @@ function G24(){
         this.create();
         console.debug("Creating snooper cart");
     }
+    $("body").animate({
+            paddingTop:"56px"
+        },
+        800,
+        function() {
+            $("#garan24-toper").slideDown();
+        }
+    );
     this.setCartDigits();
     console.debug("snooper loaded!");
 }
-var $ = jQuery.noConflict();
+
+function globalAdd2Cart(){
+    var e = arguments[0],
+        p = arguments[1],
+        i = arguments[2];
+
+
+    if(typeof i != "undefined"){
+        i.clone().css({'position' : 'fixed', 'z-index' : '999'}).appendTo(i).animate({
+            opacity: 0.5,
+            top: $("#garan24-cart-quantity").offset().top, /* Важно помнить, что названия СSS-свойств пишущихся через дефис заменяются на аналогичные в стиле "camelCase" */
+            left:$("#garan24-cart-quantity").offset().left,
+            width: 50,
+            height: 50},800,function() {$(this).remove();}
+        );
+    }
+    G.add2cart(p);
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+}
+var ctshirts = function(){
+    $("#add-to-cart").click(function(e){
+        var qty = parseInt($(".price__qty-input.price__qty-input--main:first").val()), //
+        amt = parseFloat($(".price.price__display.regular:first").text().replace(/\,/g,".").replace(/[^\d\.]/g,""))*G.currencyRate;
+        console.debug("amt = "+ amt+" qty="+ qty);
+        var p = {
+            product_id:0,
+            quantity:qty,
+            regular_price:amt,
+            title: $(".product-name").text(),
+            description: $("[itemprop=productID]:first").text().replace(/[\n\r\s]*/g,""),
+            product_url:document.location.href,
+            product_img:$(".slick-current.slick-active a.main-image").attr("href"),
+            weight:"200",
+            dimensions:{
+                "height":"100",
+                "width":"10",
+                "depth":"40"
+            },
+            variations:[]
+        },
+        i = $(".slick-current:first");
+        globalAdd2Cart(e,p,i);
+    });
+}
+var babywalz = function(){
+    $(".buBasket").click(function(e){
+        var $t = arguments[0];
+        var $p = $("#productDetail");
+        var _uid = (typeof selfUID != "undefined")?selfUID:"58688";
+        var price = parseFloat($p.find("#productCurrentPrice1_span").text().replace(/\,/g,"."))*G.currencyRate;
+        var amount = parseInt($p.find("#productAmountForm_"+_uid).val());
+        var variations = [];
+
+        if($p.find(".productComponent_"+_uid).length){
+            var v = $p.find(".productComponent_"+_uid).val();
+            var k = $p.find(".productComponent_"+_uid).parent().find("label").text();
+            variations[k]=v;
+        }
+        console.debug("Amount="+amount+" Price= "+price+" UID="+_uid);
+        var product = {
+            product_id: -1,
+            quantity: amount,
+            regular_price: price,
+            title: $p.find(".prodName").text(),
+            description: $p.find(".prodName").text(),//encodeURIComponent($p.find(".productCopytext").html()),
+            product_url: encodeURIComponent(document.location.href),
+            product_img: $p.find(".prodImage img.articleImage:first").attr("src"),//"https://youronlinestore.com/#id.png",
+            weight:"200",
+            dimensions:{
+                "height":"100",
+                "width":"10",
+                "depth":"40"
+            },
+            variations:variations
+        }
+        var $i = $p.find(".prodImage");
+        globalAdd2Cart(e,product,$i);
+    });
+}
 $(document).ready(function() {
     window.G  = new G24();
     $("#usp_bar, .meta, .headBasket, .footerBox, #headSearch").remove();
@@ -200,4 +288,7 @@ $(document).ready(function() {
     $("#garan-cart").click(function(){
         G.showcart();
     });
+
+    babywalz();
+    ctshirts();
 });
