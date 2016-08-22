@@ -1,0 +1,69 @@
+(function($) {
+	App.module.ImageLoader = {
+		_threshold: 100,
+
+		init: function() {
+			var timeoutId = 0;
+			$(window)
+				.off('scroll')
+				.on('scroll', function() {
+					window.clearTimeout(timeoutId);
+					timeoutId = window.setTimeout(function() {
+						this.update();
+					}.bind(this), 200);
+				}.bind(this))
+				.trigger('scroll');
+		},
+
+		update: function() {
+			this._updateProductImages();
+			this._updateProductTiles();
+		},
+
+		_updateProductImages: function() {
+			//console.log("_updateProductImages()");
+			var $this = this,
+				products = $('.products-grid li.item'),
+				minY = window.scrollY == undefined ? document.documentElement.scrollTop : window.scrollY,
+				maxY = minY + $(window).height(),
+				item, img, offsetTop;
+
+			products.each(function() {
+				item = $(this);
+				offsetTop = item.offset().top;
+				if(!item.hasClass('loaded-image') && offsetTop <= maxY && offsetTop >= minY - $this._threshold) {
+					// load products image
+					img = item.find('a.product-image > img');
+					if(img.length) {
+						img.attr('src', img.data('src'));
+						item.addClass('loaded-image');
+					}
+				}
+			});
+		},
+
+		_updateProductTiles: function() {
+			//console.log("_updateProductTiles()");
+			var $this = this,
+				tiles = $('.products-grid li.item .color-tile'),
+				minY = window.scrollY == undefined ? document.documentElement.scrollTop : window.scrollY,
+				maxY = minY + $(window).height(),
+				tile, img, offsetTop;
+
+			tiles.each(function() {
+				tile = $(this);
+				offsetTop = tile.offset().top;
+				if(tile.is(':visible') && !tile.hasClass('loaded-tile') && offsetTop <= maxY && offsetTop >= minY - $this._threshold) {
+					// load products image
+					img = tile.find('> img');
+					if(img.length) {
+						img.attr('src', img.data('src'));
+						tile.addClass('loaded-tile');
+					}
+				}
+			});
+		}
+	};
+
+	App.module.ImageLoader.init();
+})($jq);

@@ -35,13 +35,15 @@ class Snooper extends HttpFetcher{
             mkdir($this->cache_folder."/".$dhost."/js");
             mkdir($this->cache_folder."/".$dhost."/css");
             mkdir($this->cache_folder."/".$dhost."/img");
+            mkdir($this->cache_folder."/".$dhost."/fonts");
         }
         $this->_print("Current host ['".$dhost."']");
-        parent::__construct($a["cookies"][$dhost]);
+        parent::__construct(isset($a["cookies"][$dhost])?$a["cookies"][$dhost]:[]);
     }
     public function get(){
         $file = $this->cache_folder."/".$this->_makeFileName($this->full_url);//.date("Ymd");
-        $fi = pathinfo($file);
+        $fi = pathinfo($file);$fi["extension"]=preg_replace("/\?.*/i","",$fi["extension"]);
+
         $this->_print("Cache file:".$file);
         if($this->cache_use&&file_exists($file)){
             $this->_print("Load from cache".$this->cache_use);
@@ -55,8 +57,10 @@ class Snooper extends HttpFetcher{
         $this->content = $this->getmedia($this->content);
         $this->_print("Relinking .. ");
         $this->replace();
-        $this->_print("Traslating ..[".$fi["extension"]."] file=".$file);
-        if(!in_array($fi["extension"],["js","css","png","gif","jpg","svg"])) $this->content = $this->translate($this->content);
+        if(!in_array($fi["extension"],["js","css","png","gif","jpg","svg","cur"])){
+            $this->_print("Traslating ..[".$fi["extension"]."] file=".$file);
+            $this->content = $this->translate($this->content);
+        }
         $this->addToper();
 
         $this->_print("Caching .. ");
@@ -105,8 +109,8 @@ class Snooper extends HttpFetcher{
         //$t->_print(__CLASS__.__METHOD__." enter [".$in."]");
         //echo "<br/>".$t->donor_pattern;
         $patterns = [
-            "/['\"\(]\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"\)])/im",
-            "/['\"]".$t->donor_pattern."\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quote>['\"])/im"
+            "/(?<quoteStart>['\"\(])\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm|ttf)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quoteEnd>['\"\)])/im",
+            "/(?<quoteStart>['\"])".$t->donor_pattern."\/(?<path>[a-z0-9\/\-\_\.]+?)\.(?<extension>png|jpg|gif|svg|css|js|ico|cur|php|html|htm|ttf)(?<frag>\?[a-z-0-9\=\%\&\_\;\#]*)?(?<quoteEnd>['\"])/im"
         ];
         //['\"](http\:)?\/\/(www\.)?kik\.de([a-z0-9\/\-\_\.]+?)\.(png|jpg|gif|svg|css|js|ico|cur|php|html|htm)(\?[a-z-0-9\=\%\&\_\;\#]*)?(['\"])
         $replacements = function($m) use ($t){
@@ -116,9 +120,9 @@ class Snooper extends HttpFetcher{
             $src = $t->donor."/".$file.$m["frag"];
             $file_full = $t->cache_folder."/".$this->_makeFileName($file);
             if(preg_match("/^['\"]?\/\//i",$ret)) return $ret;
-            if(in_array($m["extension"],["php","html","htm"])) return $m["quote"].$src.$m["quote"];
+            if(in_array($m["extension"],["php","html","htm"])) return $m["quoteStart"].$src.$m["quoteEnd"];
             $t->loadFile($file_full,$src,$m["extension"]);
-            $ret = $m["quote"]."/".$file_full.$m["frag"].$m["quote"];
+            $ret = $m["quoteStart"]."/".$file_full.$m["frag"].$m["quoteEnd"];
             //$t->_print($m[0]."=>".$ret);
             return $ret;
         };
@@ -142,8 +146,9 @@ class Snooper extends HttpFetcher{
         $jsStart = "";$jsEnd ="";
         //$jsStart.= "<base href='".$this->localhost."?__garan_query__='/>";
         $jsStart.= "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\" crossorigin=\"anonymous\"></script>";
+        $jsStart.= "<script src=\"/js/garan.js\"></script>\n";
         $jsStart.= "<script src=\"/js/ajax.prevent.js\"></script>\n";
-        
+
 
         $this->content = preg_replace("/\<head(.*?)>/i","<head$1>\n".$jsStart,$this->content);
         $this->content = preg_replace("/\<\/head>/i",$jsEnd."\n</head>\n",$this->content);
@@ -182,9 +187,12 @@ class Snooper extends HttpFetcher{
         $pi = pathinfo($p);
         $hi = parse_url($this->donor);
         $dir = $hi["host"]."/";
-        if($pi["extension"]=="js"){$dir.="js/";}
-        elseif($pi["extension"]=="css"){$dir.="css/";}
-        elseif(in_array($pi["extension"],["jpg","gif","png","ico","svg","jpeg"])){$dir.="img/";}
+        if(isset($pi["extension"])){
+            if($pi["extension"]=="js"){$dir.="js/";}
+            elseif(in_array($pi["extension"],["css","css.map","map"])){$dir.="css/";}
+            elseif(in_array($pi["extension"],["jpg","gif","png","ico","svg","jpeg"])){$dir.="img/";}
+            elseif(in_array($pi["extension"],["ttf","woft"])){$dir.="fonts/";}
+        }
         $ret = $dir.preg_replace("/[\:\/\-\\\]/m","_",$p);
         return $ret;
     }

@@ -1,0 +1,3 @@
+if(typeof $j !== 'undefined' && typeof $j.cookie !== 'undefined' ) {
+$j.cookie('restrictedAccess','false');
+}

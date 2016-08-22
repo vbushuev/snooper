@@ -1,0 +1,498 @@
+(function($) {
+
+	// //////////////////////////////////////////////////////////// CategoryFilter ////////
+	App.module.CategoryFilter = function(target) {
+		if(! target)
+			throw new Error("target missing for CategoryFilter()");
+
+		this._target = target;
+	};
+
+	App.module.CategoryFilter.prototype = {
+		_target		: null,
+		_categories	: [],
+
+		init: function() {
+			//console.log("CategoryFilter.init()", this._target);
+		},
+
+		/**
+		 *
+		 * @param categoryObj
+		 * @param optionsData
+		 * @param opened
+		 * @returns {App.module.CategoryFilterCategory}
+		 */
+		addCategory: function(categoryObj, optionsData, opened) {
+            console.log("addCategory()");
+			if(opened == undefined) opened = false;
+            //opened = false;
+            categoryObj.is_extra_filter = !opened;
+			this._title = categoryObj.title;
+
+			var category = new App.module.CategoryFilterCategory(categoryObj, optionsData);
+			category.onOptionChange = this._onOptionChange.bind(this);
+            //console.log(categoryObj);
+			if(opened || (categoryObj.is_desktop && categoryObj.default_opened)) {
+				App.tick(function() {
+					category.toggle();
+				});
+			}
+
+			this._target.append(category.getTemplate());
+
+			this._categories.push(category);
+
+			return category;
+		},
+
+		onComplete: function(resetUri) {
+			if ($jq('.category-filter .btn-reset').is(":visible")) {
+				$('#filter-reset').show().on('click', function() {
+					location.assign(resetUri);
+				});
+			}
+		},
+
+		/**
+		 *
+		 * @private
+		 */
+		_onOptionChange: function() {
+			console.log("CategoryFilter._onOptionChange()");
+			console.log($jq('.category-filter .btn-reset').is(":visible"));
+		}
+	};
+
+	// //////////////////////////////////////////////////////////// CategoryFilterCategory ////////
+
+	App.module.CategoryFilterCategory = function(categoryObj, optionsData) {
+		this._categoryObj   = categoryObj;
+		this._title         = categoryObj.title;
+		this._key 	        = categoryObj.key;
+		console.log("Dinge: ");
+		console.log(optionsData, categoryObj);
+		this._init(optionsData);
+	};
+
+	App.module.CategoryFilterCategory.prototype = {
+		_categoryObj	: null,
+		_title			: '',
+		_key			: '',
+		_opened			: true,
+		_options		: [],
+		_className		: 'category-filter-category',
+		_tmpl			: null,
+		_optionsHeight	: 0,
+		_resetURL		: null,
+
+		getTemplate: function() {
+			return this._tmpl;
+		},
+
+		setResetUrl: function(val) {
+			this._resetURL = val;
+		},
+
+		/**
+		 *
+		 * @param bool
+		 */
+		setResetable: function(bool) {
+			if(bool) {
+                this._categoryObj.default_opened = true;
+                this._tmpl.addClass('x');
+            }else {
+                this._categoryObj.default_opened = false;
+                this._tmpl.removeClass('x');
+            }
+		},
+
+		reset: function() {
+			for(var i= 0; i < this._options.length; i++) {
+				var option = this._options[i];
+				option.setChecked(false);
+				option.getInput().next().removeClass('active');
+			}
+			this.setResetable(false);
+
+			if(this._resetURL) {
+				location.href = this._resetURL;
+			}
+		},
+
+		/**
+		 *
+		 * @param {Boolean} bool
+		 */
+		open: function(bool) {
+			if(bool)	this._tmpl.addClass('opened');
+			else 		this._tmpl.removeClass('opened');
+		},
+
+		toggle: function() {
+			var optionsContainer = this._tmpl.find('div.options-container');
+
+			if(this._tmpl.hasClass('opened')) {
+				this.open(false);
+				optionsContainer.css('height', 0);
+			} else {
+				this.open(true);
+				optionsContainer.css('height', this._optionsHeight);
+			}
+            if(this._categoryObj.is_desktop && this._categoryObj.is_extra_filter){
+                App.generic.Tracker.trackClick('Attribute '+ this._title, 'Attribute Filter');
+            }
+		},
+
+		/**
+		 *
+		 * @param optionsData
+		 * @private
+		 */
+		_init: function(optionsData) {
+			var $this = this;
+			console.log(this._key);
+			this._options 	= [];
+			this._tmpl 		= this._getTemplate(this._key);
+			console.log(this._tmpl);
+			// Add options
+			var options = this._tmpl.find('ul.options');
+			console.log(this._key);
+			if (this._key === 'price') {
+				var catData = this._categoryObj,
+					optionsData = optionsData[0];
+
+				optionsData.type = catData.type;
+				var option = this._addOption(optionsData),
+					options = this._tmpl.find('div.options-container'),
+					lowerElmt = this._tmpl.find('#price-lower span'),
+					upperElmt = this._tmpl.find('#price-upper span'),
+					Link = $.noUiSlider.Link;
+
+				var equal = !!((catData.selected_min == catData.selected_max
+					&& catData.selected_min == catData.absolute_min));
+
+				this._tmpl.find('#price-slider')
+					.noUiSlider({
+						start: [
+							equal ? 0 : catData.selected_min,
+							equal ? 100 : catData.selected_max
+						],
+						connect: true,
+						step: 1,
+						margin: 1,
+						range: {
+							'min': equal ? 0 : catData.absolute_min,
+							'max': equal ? 100 : catData.absolute_max
+						},
+						serialization: {
+							lower: [
+								new Link({
+									target: lowerElmt,
+									method: 'text',
+									format: {
+										// Postfix the value with an Euro symbol
+										//postfix: ' \u20AC',
+										postfix: ' ' + catData.unit,
+										decimals: 0
+									}
+								})
+							],
+							upper: [
+								new Link({
+									target: upperElmt,
+									method: 'text',
+									format: {
+										postfix: ' ' + catData.unit,
+										decimals: 0
+									}
+								})
+							],
+							format: {
+								decimals: 0
+							}
+						}
+					})
+					.on('set', function() {
+						var val = $(this).val(),
+							lower = val[0],
+							upper = val[1],
+							element = option.getTemplate().find('input');
+
+						option._value = optionsData.value.replace('%5BVALUE%5D', lower + '+-+' + upper);
+
+						element
+							.val(option._value)
+							.prop('checked', true)
+							.trigger('change');
+					});
+
+				if(option.isChecked()) {
+					this.setResetable(true);
+				}
+
+				options.append(option.getTemplate());
+
+
+				// Mobile workaround
+				$this._optionsHeight = 52;
+			} else if (this._key === 'size_searchable') {
+				for(var i= 0, len = optionsData.length; i < len; i++) {
+					var option = this._addOption(optionsData[i]),
+						modulus = i%3;
+
+					if(option.isChecked()) {
+						$this.setResetable(true);
+                        setTimeout(function() {
+                            //$this.toggle();
+                        }, 1000);
+					}
+
+					if (modulus == 0) var optionLi = $('<li><ul></ul></li>');
+					optionLi.find('ul').append(option.getTemplate());
+
+					if (modulus == 2 || i === len-1) {
+						options.append(optionLi);
+					}
+				}
+			} else {
+				for(var i= 0, len = optionsData.length; i < len; i++) {
+					var option = this._addOption(optionsData[i]);
+
+					if(option.isChecked()) {
+                        $this.setResetable(true);
+						setTimeout(function() {
+                            //$this.toggle();
+                        }, 1000);
+					}
+
+					options.append(option.getTemplate());
+				}
+			}
+
+			// Calculate options-container height (on next tick)
+			if (this._key !== 'price') {
+				App.tick(function() {
+					$this._optionsHeight = options.outerHeight();
+				});
+			}
+
+			// Title event listener
+			var title = this._tmpl.find('.title');
+			title.on('click', function() {
+				$this.toggle();
+				return false;
+			});
+
+			// Reset event listener
+			var reset = this._tmpl.find('.btn-reset');
+			reset.on('click', function() {
+				$this.reset();
+				return false;
+			});
+		},
+
+		/**
+		 *
+		 * @param optionData
+		 * @returns {CategoryFilterOption}
+		 * @private
+		 */
+		_addOption: function(optionData) {
+			var option = new App.module.CategoryFilterOption(optionData);
+			option.onChange = this._onOptionChange.bind(this);
+
+			this._options.push(option);
+			return option;
+		},
+
+		_getTemplate: (function() {
+			var id = 0;
+
+			return function(type) {
+				var element;
+
+				switch (type) {
+					case 'price':
+						element = $(
+							'<div id="'+ this._className +'-'+ (id++) +'" class="'+ this._className +' '+ this._className +'-'+ this._key +'">' +
+							'	<div class="title">'+ this._title +'</div>'+
+							'	<span class="btn-reset" title="' + Translator.translate('CategoryFilter reset ' + this._key) + '">x</span>' +
+							'	<div class="options-container">' +
+							'	    <div class="price-values">' +
+							'		    <div id="price-lower"><span>0</span></div>' +
+							'		    <div id="price-upper"><span>100</span></div>' +
+							'		    <div class="clearer"></div>' +
+							'	    </div>'+
+							'		<div id="price-slider"></div>' +
+							'	</div>'+
+							'</div>');
+						break;
+					default:
+						element = $(
+							'<div id="'+ this._className +'-'+ (id++) +'" class="'+ this._className +' '+ this._className +'-'+ this._key +'">' +
+							'	<div class="title">'+ this._title +'</div>'+
+							'	<span class="btn-reset" title="' + Translator.translate('CategoryFilter reset ' + this._key) + '">x</span>' +
+							'	<div class="options-container">' +
+							'		<ul class="options"></ul>' +
+							'	</div>'+
+							'</div>');
+						break;
+				}
+
+				return element;
+			}
+		})(),
+
+		_onOptionChange: function() {
+			this.setResetable(false);
+			for(var i = 0; i < this._options.length; i++) {
+				var option = this._options[i];
+				if(option.isChecked()) {
+					// set resetable
+					this.setResetable(true);
+				}
+			}
+
+			this.onOptionChange();
+		}
+	};
+
+	// //////////////////////////////////////////////////////////// CategoryFilterOption //////////
+
+	/**
+	 *
+	 * @param optionData
+	 * @constructor
+	 */
+	App.module.CategoryFilterOption = function(optionData) {
+		this._checked 	= optionData.checked === undefined 	? false 		: optionData.checked;
+		this._type 		= optionData.type === undefined 	? 'checkbox' 	: optionData.type;
+		this._icon 		= optionData.icon === undefined 	? null		 	: optionData.icon;
+		this._title		= optionData.title === undefined 	? ''		 	: optionData.title;
+		this._value		= optionData.value === undefined 	? ''		 	: optionData.value;
+		this._name		= optionData.name === undefined 	? ''		 	: optionData.name;
+		this._searchId	= optionData.search_id === undefined ? 0		 	: optionData.search_id;
+		this._count	    = optionData.count === undefined ? 0		 	    : optionData.count;
+
+		this._init();
+	};
+
+	App.module.CategoryFilterOption.prototype = {
+		_checked	: false,
+		_type		: '',			// checkbox|radio|slider
+		_icon		: null,			// null|url|hex|size
+		_title		: '',
+		_value		: '',
+		_name		: '',
+		_searchId	: 0,
+		_count	    : 0,
+
+		_className	: 'category-filter-option',
+		_tmpl		: null,
+
+		getTemplate: function() {
+			return this._tmpl;
+		},
+
+		getInput: function() {
+			return this.getTemplate().find('input');
+		},
+
+		setChecked: function(bool) {
+			this.getInput().attr('checked', bool);
+		},
+
+		isChecked: function() {
+			return this.getInput().is(':checked');
+		},
+
+		_init: function() {
+			this._tmpl = this._getTemplate();
+			this._initEvents();
+		},
+
+		_initEvents: function() {
+			var self = this;
+			this._tmpl.on('change', 'input', this._onInputChange.bind(this));
+
+			if (App.Browser.IEVersion === 8) {
+				this._tmpl.on('click', 'label', function() {
+					self._tmpl.find('input').trigger('change');
+				});
+			}
+		},
+
+		_onInputChange: function() {
+			this.onChange(this);
+
+			if (this.isChecked()) {
+				this.getInput().next().addClass('active');
+			} else {
+				this.getInput().next().removeClass('active');
+			}
+
+			if((App.Browser.IEVersion === 8 && this._value.validURL()) || this._value.validURL) {
+				location.href = this._value;
+			}
+		},
+
+		_getTemplate: (function() {
+			var id = 0;
+
+
+			return function() {
+				var liId		= this._className +'-'+ (id++),
+					inputId		= liId + '-input',
+					checked 	= this._checked ? ' checked="checked"' : '',
+					name		= this._name ? ' name="'+ this._name +'"' : '',
+					inputStr 	= '',
+					iconStr 	= '',
+					titleStr	= '<label for="'+ inputId +'" class="text'
+						+ (this._checked ? ' active' : '') + '"><span>' + this._title + '</span>'
+						+ (this._count ? ' <span class="item-count">(' + this._count + ')</span>' : '')
+						+ '</label>';
+
+				switch (this._type) {
+					case 'checkbox':
+						inputStr = '<input type="checkbox" id="'+ inputId +'" value="'+ this._value +'"'+ checked +' '
+							+ name +' data-searchid="'+ this._searchId +'">';
+						break;
+					case 'radio':
+						inputStr = '<input type="radio" id="'+ inputId +'" value="'+ this._value +'"'+ checked +' '
+							+ name +' data-searchid="'+ this._searchId +'">';
+						break;
+					case 'slider':
+						inputStr = '<div class="price-val-box"><input type="checkbox" id="'+ inputId +'" value="'+ this._value +'"'+ checked +' '
+							+ name +' data-searchid="'+ this._searchId +'"></div>';
+						/*inputStr += '<input type="checkbox" id="'+ inputId +'" value="'+ this._value +'"'+ checked +' '
+							+ name +' data-searchid="'+ this._searchId +'">';*/
+						return $(inputStr);
+				}
+
+				if(this._icon) {
+					if(this._icon.indexOf('#') == 0) {
+						// Hex color
+						iconStr += '<div class="icon color" style="background-color: '+ this._icon +'"></div>';
+					} else if(this._icon == 'size') {
+						iconStr = '';
+					} else {
+						iconStr += '<img class="icon url" src="'+ this._icon +'">';
+					}
+				}
+
+				return $(
+					'<li id="'+ liId +'" class="'+ this._className +'">' +
+					'	' + inputStr +
+					'	' + titleStr +
+					'</li>')
+					.find('label').prepend(iconStr)
+					.end();
+			}
+		})()
+	};
+
+	App.module.CategoryFilterOption.CHANGE = 'CategoryFilterOptionChange';
+
+})(jQuery);

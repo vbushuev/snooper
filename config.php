@@ -43,7 +43,7 @@ $env = [
 		"vertbaudet" => "www.vertbaudet.com",
 		"t-a-o" => "www.t-a-o.com",
 		"zulily" => "www.zulily.com",
-
+		"ernstings-family" => "www.ernstings-family.de"
 	],
 	"cookies" => [
 		"www.walzkidzz.de" => [
@@ -110,7 +110,9 @@ $env = [
 			"store" => "www.asos.com",
             "uk-website#lang" => "en-G"
             */
-        ]
+        ],
+		"www.ctshirts.com" => [],
+		"www.ernstings-family.de" => []
 	]
 ];
 ?>

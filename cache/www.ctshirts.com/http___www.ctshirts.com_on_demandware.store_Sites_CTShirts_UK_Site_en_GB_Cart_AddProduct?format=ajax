@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="js-minicart-total minicart__total">
+
+
+<span class="minicart-total__text desktop-only">Хозяйственная Сумка</span>
+<svg viewbox="0 0 15 21" class="header__icon desktop-only">
+<use xlink:href="#icon-bag"></use>
+</svg>
+
+
+<a href="https://ctshirts.gauzy.bs2/uk/cart" title="Checkout" class="mini-cart-link mobile-only">
+<svg viewbox="0 0 15 21" class="header__icon">
+<use xlink:href="#icon-bag"></use>
+</svg>
+<span class="minicart-quantity mobile-only"></span>
+</a>
+
+</div>
+<div class="js-mini-cart-content minicart__content">
+
+<div class="mini-cart-header">
+В корзине
+</div>
+
+
+
+</div>
+
+
+
+

@@ -1,0 +1,739 @@
+(function ($, proto) {
+
+    App.module.ProductOptionsConfigurable = function (productId, colorParam) {
+        this._productId = productId;
+        this._colorParam = colorParam;
+
+        this.getAttributes();
+    };
+
+    // Constants
+    App.module.ProductOptionsConfigurable.COLOR_ATTRIBUTE_ID = 80;
+    App.module.ProductOptionsConfigurable.SIZE_ATTRIBUTE_ID = 243;
+    App.module.ProductOptionsConfigurable.VARIANTE_ATTRIBUTE_ID = 272;
+
+    App.module.ProductOptionsConfigurable.prototype = {
+        _productId:    0,
+        _colorParam:   null,
+        _spConfig:     null,
+        _selectAttrId: null,
+        _colorAttrId:  null,
+        _imagesId:     {},
+
+        /**
+         * Retrieves attributes, called by constructor
+         */
+        getAttributes: function () {
+            var $this = this;
+            var testModeParam = App.config.testmode ? "?testmode=true" : "";
+
+
+            $.getJSON(App.config.baseUrl + 'kikshop/ajax_catalog_product/getProductAttributesJson/id/' + this._productId + testModeParam, function (data) {
+                if (!data.hasOwnProperty('jsonConfig')) {
+                    data.jsonConfig = null;
+                }
+
+                if (data.jsonConfig) {
+                    $this._init(data.jsonConfig);
+                    if (Object.keys(data.jsonConfig.attributes).length && data.jsonConfig.attributes[App.module.ProductOptionsConfigurable.COLOR_ATTRIBUTE_ID]) {
+                        $this._initThumbs(data.jsonConfig.attributes[App.module.ProductOptionsConfigurable.COLOR_ATTRIBUTE_ID]);
+                    }
+                    $(window).trigger('attributesLoaded');
+                }
+                $.getJSON(App.config.baseUrl + 'kikshop/ajax_catalog_product/setLastViewedProduct/id/' + $this._productId);
+
+            });
+        },
+
+        /**
+         *
+         * @param productConfig
+         * @private
+         */
+        _init: function (productConfig) {
+            var $this = this;
+
+            // Darstellungsart
+            var darstellungsart = $('input#kik_darstellungsart').val();
+            if (typeof(darstellungsart) !== 'undefined') {
+                var parts = darstellungsart.split('-');
+                darstellungsart = [parts[0], parts[1]];
+            }
+            else {
+                darstellungsart = ['K', 'K'];
+            }
+
+            var spConfig = new this.ProductConfigCustom(productConfig, darstellungsart, this._initEvents.bind(this));
+            //spConfig.initEvents = this._initEvents.bind(this);
+            this._spConfig = spConfig;
+
+            // Speditionsartikel
+            if (productConfig.carrier === 923) {
+                $('.kik-carrier-info').addClass('active');
+            }
+
+            $H(spConfig.config.attributes).each(function (obj) {
+                var objValueKey = $('#attribute-code-' + obj.value.code).index();
+
+                if (!$this._selectAttrId) {
+                    $this._selectAttrId = obj.key;
+                }
+
+                // This to get colors, sizes and varieties from all buyable products
+                if (obj.value.code === 'color' || obj.value.code === 'size' || obj.value.code === 'variante') {
+                    if (obj.value.code === 'size') {
+                        spConfig.sizeAttrId = obj.key;
+                        if (spConfig.darstellungsart[objValueKey] === 'K') {
+                            var html = '<ul>';
+                            html += '</ul>';
+                            $('#attribute-container-' + spConfig.sizeAttrId).html(html);
+                        }
+                    }
+                    else {
+                        if (obj.value.code === 'variante') {
+                            spConfig.varianteAttrId = obj.key;
+                            /*console.log('spConfig.darstellungsart[objValueKey]: ', spConfig.darstellungsart[objValueKey]);
+                             if (spConfig.darstellungsart[objValueKey] === 'K') {
+                             var html = '<ul>';
+                             html += '</ul>';
+                             $('#attribute-container-' + spConfig.sizeAttrId).html(html);
+                             }*/
+                        }
+                        else {
+                            if (obj.value.code === 'color') {
+                                $this._colorAttrId = obj.key;
+                                (obj.value.options).each(function (obj2) {
+                                    obj2.imageNames.each(function (item) {
+                                        $this._imagesId[item] = obj2.id;
+                                    });
+                                });
+                            }
+                        }
+                    }
+                    if (spConfig.darstellungsart[objValueKey] !== 'K') {
+                        $('#attribute-container-' + obj.key).prev().show();
+                    }
+                }
+            });
+
+            if (App.config.isAjax) {
+                this._setDefaultConfigOptions();
+            }
+            else {
+                Event.observe(window, 'load', function () {
+                    $this._setDefaultConfigOptions();
+                });
+            }
+
+            if (this._getQueryParam('sColor')) {
+                console.log($('li#value' + this._getQueryParam('sColor')));
+                $('li#value' + this._getQueryParam('sColor') + ' span').trigger('click');
+            }
+        },
+
+        _getQueryParam: function (name) {
+            return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+        },
+
+        /**
+         * Initializes Events on Tiles
+         * Fired by ProductConfigCustom.initEvents()
+         * @private
+         */
+        _initEvents: function () {
+            var $this = this;
+
+            // jQuery Color-Pallet here
+            $('.tileClicked')
+                .off('click.tile')
+                .on('click.tile', function () {
+                    var tile = $(this).attr('tile').split('|');
+                    $this._spConfig.tileClicked(tile[0], tile[1]);
+                    return false;
+                });
+            if ($jq('.scribble_img').length) {
+                var image = $('#image'),
+                    imgLink = $jq(".product-image").find("a"),
+                    origSrc = image.attr('src');
+                $('.more-views li span')
+                    .off('click.moreViews')
+                    .on('click.moreViews', function (e) {
+                    $('.more-views li span').removeClass('selected');
+
+                        var origImg = image.attr('kik'),
+                            imgId = $(this).children().attr('kik'),
+                            reg = new RegExp(origImg, 'g'),
+                            imgLiCl = imgLink.attr('class'),
+                            newSrc = origSrc.replace(reg, imgId);
+                        $('.product-flags-big').show();
+                        if (!imgLiCl) {
+                            imgLink.addClass('overlayMe');
+                            imgLink.removeAttr('onclick');
+                            imgLink.removeAttr('style');
+                        }
+
+                        if (imgId.indexOf("kik.de") > -1) {
+                            newSrc = imgId;
+                            $('.product-flags-big').hide();
+                            imgLink.removeClass('overlayMe');
+                            imgLink.attr("onclick", "return false;");
+                            imgLink.attr("style", "cursor: default");
+                        }
+                        image.attr({
+                                       src: newSrc,
+                                       kik: imgId
+                                   });
+
+                    $this._selectColorOption(imgId, e);
+                    $(this).addClass('selected');
+                });
+            } else
+            {
+                $('.more-views li span')
+                    .off('click.moreViews')
+                    .on('click.moreViews', function (e) {
+                    $('.more-views li span').removeClass('selected');
+
+                        var image = $('#image'),
+                            origSrc = image.attr('src'),
+                            origImg = image.attr('kik'),
+                            imgId = $(this).children().attr('kik');
+
+                        var reg = new RegExp(origImg, 'g');
+                        var newSrc = origSrc.replace(reg, imgId);
+
+                        image.attr({
+                                       src: newSrc,
+                                       kik: imgId
+                                   });
+
+                        $this._selectColorOption(imgId, e);
+                        $(this).addClass('selected');
+                    });
+            }
+
+        },
+
+        /**
+         * Show all thumbnails, that are available in the attribute data
+         * @param attrData
+         * @private
+         */
+        _initThumbs: function (attrData) {
+
+            if (attrData.code != 'color') {
+                return;
+            }
+
+            var moreViewContainer = $jq('#more-views-container');
+
+            if (!moreViewContainer.find('li').hasClass('scribble')) {
+                moreViewContainer.find('li').hide();
+            }
+
+            for (var i = 0; i < attrData.options.length; i++) {
+                for (var n = 0; n < attrData.options[i].imageNames.length; n++) {
+                    var idArr = attrData.options[i].imageNames[n].split('_');
+                    var id = idArr.slice(1).join('_');
+                    moreViewContainer.find('li img[src*=' + id + ']').parents('li').show();
+                }
+            }
+
+            // SELECT FIRST ELEMENT
+            var origImg = $('#image').attr('kik');
+
+            if (!this._imagesId[origImg]) {
+                for (var j in this._imagesId) {
+                    origImg = j;
+                    break;
+                }
+            }
+
+            this._selectColorOption(origImg);
+            var selectElement = $('.product-data div.pallet-container-element:first').find('select');
+            if (selectElement.css('display') !== 'none') {
+                // first is dropdown
+                if (selectElement.val() === '') {
+                    var value = selectElement.find('option[value!=""]:first').val();
+                    selectElement.val(value);
+                    this._spConfig.reloadPrice();
+                    this._spConfig.configureElement(proto('attribute' + this._selectAttrId));
+                }
+            }
+            else {
+                // first is color-tile
+                //selectElement = $('.product-data div.pallet-container-element:first').find('select');
+
+                var query = window.location.search;
+                var qParams = query.toQueryParams();
+                var scolor = qParams.scolor;
+                var scolorSelected = false;
+                if (scolor) {
+                    scolor = decodeURIComponent(scolor);
+                    var sTile = selectElement.next().find('a[title="' + scolor + '"]');
+                    if (sTile.attr('title')) {
+                        sTile.click();
+                        scolorSelected = true;
+                    }
+                }
+                if (!scolorSelected) {
+                    if (selectElement.val() === '') {
+                        selectElement.next().find('li[class!="soldout"]:first a').click();
+                    }
+                    else {
+                        var attributeId = selectElement.attr('id').replace('attribute', '');
+                        $('.product-data a[tile="' + selectElement.val() + '|' + attributeId + '"]').click();
+                    }
+                }
+            }
+        },
+
+        _selectColorOption: function (value, event) {
+            if (this._colorAttrId) {
+                if (typeof(this._imagesId[value]) !== 'undefined') {
+                    this._spConfig.isSelectImage = true;
+                    var attribute = proto('attribute' + this._colorAttrId);
+                    attribute.setValue(this._imagesId[value]);
+                    this._spConfig.configureElement(attribute);
+                    this._spConfig.isSelectImage = false;
+                    this._spConfig.updateAvailability(this._colorAttrId);
+                }
+            }
+        },
+
+        _setDefaultConfigOptions: function () {
+            var $this = this;
+
+            $H(this._spConfig.config.attributes).each(function (obj) {
+                if (typeof(obj.value.options) !== 'undefined') {
+                    if (obj.value.options.size() == 1) {
+                        proto('attribute' + obj.key).selectedIndex = 1;
+                    }
+                    else {
+                        if ($this._colorParam) {
+                            proto('attribute' + obj.key).value = $this._colorParam;
+                            $this._spConfig.reloadImgaes();
+                        }
+                    }
+                }
+            });
+        },
+
+        ProductConfigCustom: Class.create(Product.Config, {
+            _optionsPrice:   null,
+            sizes:           [],
+            sizeAttrId:      null,
+            varianteAttrId:  null,
+            colors_tiles:    {},
+            isSelectImage:   false,
+            darstellungsart: null,
+            initEvents:      function () {
+            },
+            sizeProducts:    [],
+            colorProducts:   {},
+
+            initialize: function (config, darstellungsart, initEvents) {
+                this.darstellungsart = darstellungsart;
+
+                if (initEvents) {
+                    this.initEvents = initEvents;
+                }
+
+                var jsonConfig = eval('(' + $jq('#hid_jsonConfig').val() + ')');
+                this._optionsPrice = new Product.OptionsPrice(jsonConfig);
+
+                this.config = config;
+                this.taxConfig = this.config.taxConfig;
+                if (config.containerId) {
+                    this.settings = $('#' + config.containerId + ' ' + '.super-attribute-select');
+                }
+                else {
+                    this.settings = $('.super-attribute-select');
+                }
+                this.state = new Hash();
+                this.priceTemplate = new Template(this.config.template);
+                this.prices = config.prices;
+
+                // Set default values from config
+                if (config.defaultValues) {
+                    this.values = config.defaultValues;
+                }
+
+                // Overwrite defaults by inputs values if needed
+                if (config.inputsInitialized) {
+                    this.values = {};
+                    this.settings.each(function (element) {
+                        if (element.value) {
+                            var attributeId = element.id.replace(/[a-z]*/, '');
+                            this.values[attributeId] = element.value;
+                        }
+                    }.bind(this));
+                }
+
+                // Put events to check select reloads
+                this.settings.each(function (i, element) {
+                    Event.observe(element, ' change', this.configure.bind(this))
+                }.bind(this));
+
+                // fill state
+                this.settings.each(function (i, element) {
+                    var attributeId = element.id.replace(/[a-z]*/, '');
+                    if (attributeId && this.config.attributes[attributeId]) {
+                        element.config = this.config.attributes[attributeId];
+                        element.attributeId = attributeId;
+                        this.state[attributeId] = false;
+                    }
+                }.bind(this));
+
+                // Init settings dropdown
+                var childSettings = [];
+                for (var i = this.settings.length - 1; i >= 0; i--) {
+                    var prevSetting = this.settings[i - 1] ? this.settings[i - 1] : false;
+                    var nextSetting = this.settings[i + 1] ? this.settings[i + 1] : false;
+                    if (i == 0) {
+                        this.fillSelect(this.settings[i])
+                    }
+                    else {
+                        this.settings[i].disabled = true;
+                    }
+                    proto(this.settings[i]).childSettings = childSettings.clone();
+                    proto(this.settings[i]).prevSetting = prevSetting;
+                    proto(this.settings[i]).nextSetting = nextSetting;
+                    childSettings.push(this.settings[i]);
+                }
+
+                // Set values to inputs
+                this.configureForValues();
+
+                document.observe("dom:loaded", this.configureForValues.bind(this));
+            },
+
+            reloadPrice: function () {
+                var price = 0;
+                var oldPrice = 0;
+                for (var i = this.settings.length - 1; i >= 0; i--) {
+                    var selected = this.settings[i].options[this.settings[i].selectedIndex];
+                    //alert(selected.toJSON());
+                    if (selected.config) {
+                        //alert(this.settings[i].selectedIndex);
+                        price += parseFloat(selected.config.price);
+                        oldPrice += parseFloat(selected.config.oldPrice);
+                    }
+                }
+
+                this._optionsPrice.changePrice('config', {'price': price, 'oldPrice': oldPrice});
+                this._optionsPrice.reload();
+
+                this.reloadImages();
+
+                return price;
+            },
+
+            reloadImages: function () {
+                for (var i = this.settings.length - 1; i >= 0; i--) {
+                    var attrId = this.settings[i].attributeId;
+                    //if (this.config.attributes[attrId].code == 'color' || this.config.attributes[attrId].code == 'size') {
+                    if (this.config.attributes[attrId].code == 'color'
+                        || this.config.attributes[attrId].code == 'size'
+                        || this.config.attributes[attrId].code == 'variante') {
+
+                        var objValueKey = $('#attribute-code-' + this.config.attributes[attrId].code).index();
+
+                        var selected = this.settings[i].options[this.settings[i].selectedIndex];
+
+
+                        if (selected.config) {
+                            var mainImg = selected.config.images.mainImg;
+                            var imgSrc = selected.config.images.mainImgSrc;
+
+                            if (this.darstellungsart[objValueKey] === 'K') {
+                                $('#attribute-container-' + attrId + ' ul li').each(function (key, val) {
+                                    $(val).removeClass('selected');
+                                });
+                                proto('attribute-container-' + attrId).down('li#value' + selected.config.id).addClassName('selected');
+                            }
+
+                            //var extraHtml = selected.config.images.extraHtml;
+                            if (this.config.attributes[attrId].code == 'color') {
+                                if (!this.isSelectImage) {
+                                    if (mainImg) {
+                                        if ($('.overlay').children('.product-shop').length >= 1) {
+                                            var imgParts = mainImg.split('380-460');
+                                            mainImg = imgParts[0] + '280-335' + imgParts[1];
+                                        }
+                                        proto('image').setAttribute('src', mainImg);
+                                        $('.more-views li a').each(function (index, elem) {
+                                            if (elem) {
+                                                if (elem.id == 'thumbnail-' + imgSrc) {
+                                                    $(elem).addClass('selected');
+                                                }
+                                                else {
+                                                    $(elem).removeClass('selected');
+                                                }
+                                            }
+                                        });
+                                    }
+                                    else {
+                                        //Bug
+                                        proto('image').setAttribute('src', noProductImage);
+                                        $('.more-views li a').each(function (elem) {
+                                            $(elem).removeClassName('selected');
+                                        });
+                                    }
+                                }
+                                //$('more-views-container').update(extraHtml);
+                                //alert();
+                            }
+                        }
+                        else {
+                            if (this.config.attributes[attrId].code == 'color') {
+                                proto('image').setAttribute('src', defaultImg);
+                                var count = 1;
+                                $('.more-views li a').each(function (index, elem) {
+                                    if (count == 1) {
+                                        $(elem).addClass('selected');
+                                    }
+                                    else {
+                                        $(elem).removeClass('selected');
+                                    }
+                                    ++count;
+                                });
+                            }
+                        }
+                    }
+                }
+            },
+
+            fillSelect: function (element) { // changing element
+                var attributeId = element.id.replace(/[a-z]*/, '');
+                var options = this.getAttributeOptions(attributeId);
+                var objValueKey = $('.pallet-container-' + attributeId).index();
+
+                this.clearSelect(element);
+                if (!this.config.attributes[attributeId]) {
+                    return;
+                }
+
+                if (!window.customLabelStatus) {
+                    element.options[0] = new Option(this.config.attributes[attributeId].chooseText, '');//element.chooseText, '');
+                }
+                else {
+                    element.options[0] = new Option(this.config.chooseText, '');
+                }
+                var tileContainer = proto('attribute-container-' + attributeId);
+                tileContainer.update('');
+
+                var prevConfig = false;
+                if (element.prevSetting) {
+                    prevConfig = element.prevSetting.options[element.prevSetting.selectedIndex];
+                }
+
+                var product_availability = {};
+                if (this.config.hasOwnProperty('product_availability')) {
+                    product_availability = this.config.product_availability;
+                }
+
+                var tiles = '';
+                if (options) {
+                    tiles = '<ul>';
+
+                    if (attributeId == this.sizeAttrId) {
+                        // Size
+                        var size_tiles = {};
+                        //var sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+                        $.each(this.sizes, function (key, val) {
+                            size_tiles[val] = '<li class="soldout"><span>' + val + '</span></li>';
+                        });
+                    }
+
+                    var index = 1;
+                    for (var i = 0; i < options.length; i++) {
+                        var allowedProducts = [];
+                        // Creating Color-Pallet
+                        if (prevConfig) {
+                            for (var j = 0; j < options[i].products.length; j++) {
+                                if (prevConfig.config.allowedProducts
+                                    && prevConfig.config.allowedProducts.indexOf(options[i].products[j]) > -1) {
+                                    allowedProducts.push(options[i].products[j]);
+                                }
+                            }
+                        }
+                        else {
+                            allowedProducts = options[i].products.clone();
+                        }
+
+                        var colorProducts = [],
+                            available_instore = false,
+                            available_online = false,
+                            available_classes = '',
+                            k;
+
+                        if (allowedProducts.size() > 0) {
+                            if (options[i].optionTile !== null) {
+                                var key = options[i].optionTile.split('<span>')[1].split('</span>')[0];
+
+                                if (attributeId == this.sizeAttrId) {
+                                    // match productId
+                                    this.sizeProducts = options[i].products;
+
+                                    var productId = 0,
+                                        colorOptionId = parseInt($('#attribute' + App.module.ProductOptionsConfigurable.COLOR_ATTRIBUTE_ID).val());
+                                    colorProducts = this.colorProducts[colorOptionId];
+
+                                    if (colorProducts && this.sizeProducts) {
+                                        for (k = 0; k < colorProducts.length; k++) {
+                                            if ($.inArray(colorProducts[k], this.sizeProducts) != -1) {
+                                                productId = colorProducts[k];
+                                                break;
+                                            }
+                                        }
+                                    }
+
+                                    // check availability
+                                    if (product_availability[productId]) {
+                                        available_instore = product_availability[productId].instore ? true : false;
+                                        available_online = product_availability[productId].online ? true : false;
+                                    }
+                                    else {
+                                        // log
+                                        console.warn(key, 'size availability not found', productId)
+                                    }
+
+                                    //console.log(key, "available_instore", available_instore, "available_online", available_online, "sizeProducts", this.sizeProducts, "colorOptionId", colorOptionId);
+
+                                    if (!available_instore) {
+                                        available_classes += 'not_available_instore ';
+                                    }
+                                    if (!available_online) {
+                                        available_classes += 'not_available_online';
+                                    }
+
+									size_tiles['#'+key] = '' + // workaround damit die Reihenfolge der Keys nicht als Zahl sortiert werden
+										'<li id="value' + options[i].id + '" class="'+ available_classes +'">' +
+										'	<span href="' + location.href + '#" class="tileClicked" title="' + this.getOptionLabel(options[i]) + '" tile="' + options[i].id + '|' + attributeId + '" data-available-instore="'+ (available_instore ? 1 : 0) +'" data-available-online="'+ (available_online ? 1 : 0) +'">' +
+										'		' + options[i].optionTile + '' +
+										'	</span>' +
+										'</li>';
+								} else {
+									this.colorProducts[options[i].id] = options[i].products;
+
+                                    colorProducts = this.colorProducts[options[i].id];
+
+                                    // check availability
+                                    if (colorProducts) {
+                                        for (k = 0; k < colorProducts.length; k++) {
+                                            if (product_availability[colorProducts[k]]) {
+                                                if (product_availability[colorProducts[k]].instore) {
+                                                    available_instore = true;
+                                                }
+
+                                                if (product_availability[colorProducts[k]].online) {
+                                                    available_online = true;
+                                                }
+                                            }
+                                            else {
+                                                // log
+                                                console.warn(key, 'color availability not found', colorProducts[k]);
+                                            }
+                                        }
+                                    }
+
+                                    if (!available_instore) {
+                                        available_classes += 'not_available_instore ';
+                                    }
+                                    if (!available_online) {
+                                        available_classes += 'not_available_online';
+                                    }
+
+                                    options[i].optionTile = options[i].optionTile.replace('<img src="', '<img width="17" height="17" src="');
+
+									this.colors_tiles['#'+key] = '' + // workaround damit die Reihenfolge der Keys nicht als Zahl sortiert werden
+										'<li id="value' + options[i].id + '" class="'+ available_classes +'">' +
+										'	<span href="' + location.href + '#" class="tileClicked" title="' + this.getOptionLabel(options[i]) + '" tile="' + options[i].id + '|' + attributeId + '" data-available-instore="'+ (available_instore ? 1 : 0) +'" data-available-online="'+ (available_online ? 1 : 0) +'">' +
+										'		' + options[i].optionTile + '' +
+										'	</span>' +
+										'	' + (!available_online ? '<div class="tile-crossed"></div>' : '') +
+										'</li>';
+								}
+							}
+							options[i].allowedProducts = allowedProducts;
+							element.options[index] = new Option(this.getOptionLabel(options[i], options[i].price), options[i].id);
+							element.options[index].config = options[i];
+							index++;
+						}
+					}
+
+                    if (this.darstellungsart[objValueKey] === 'K') {
+                        if (attributeId == this.sizeAttrId) {
+                            $.each(size_tiles, function (key, val) {
+                                tiles += val; // ???
+                            });
+                        }
+                        else {
+                            $.each(this.colors_tiles, function (key, val) {
+                                tiles += val;
+                            });
+                        }
+
+                        tiles += '</ul>';
+                        tileContainer.update(tiles);
+                    }
+
+                    // re-init events
+                    this.initEvents();
+                }
+            },
+
+            tileClicked: function (val, attrId) {
+                var attribute = proto('attribute' + attrId);
+                attribute.setValue(val);
+                this.configureElement(attribute);
+                console.log(val, attrId);
+                // Update kik-attr of #image mainimage
+                var fileSource = $('li#value' + val).find('img').attr('src');
+                if (typeof(fileSource) != 'undefined') {
+                    var kikVal = fileSource.split('/zoom/kik/')[1].split('/')[0].split('tile_')[1];
+                    kikVal = 'k_' + kikVal;
+                    $('#image').attr('kik', kikVal);
+                }
+
+                this.updateAvailability(attrId);
+            },
+
+			updateAvailability: function(attrId) {
+				var attrContainer = $('#attribute-container-'+ attrId),
+					available_online = attrContainer.find('li.selected > span').data('available-online') == '1',
+					available_instore = attrContainer.find('li.selected > span').data('available-instore') == '1',
+					productData = $('.product-data');
+
+                // Update icons
+                if (productData.find('div.availability div.icon.online').length && productData.find('div.availability div.icon.branch').length) {
+                    productData.find('div.availability div.icon.online')[0].className = 'icon online' + (available_online ? ' available' : '');
+                    productData.find('div.availability div.icon.branch')[0].className = 'icon branch' + (available_instore ? ' available' : '');
+                }
+
+                // Update cart-button
+                var addtoCart = $('div.add-to-cart');
+                if (available_online) {
+                    // Online
+                    addtoCart.addClass('available_online');
+                    addtoCart.removeClass('available_instore available_nowhere');
+                }
+                else {
+                    if (available_instore) {
+                        // Instore
+                        addtoCart.removeClass('available_online available_nowhere');
+                        addtoCart.addClass('available_instore');
+                    }
+                    else {
+                        // None
+                        addtoCart.removeClass('available_online available_instore');
+                        addtoCart.addClass('available_nowhere');
+                    }
+                }
+            }
+        })
+    }
+
+
+})($jq, $);

@@ -13,6 +13,7 @@
         background-color: rgba(85,125,161,.9);
         color: rgba(255,255,255,1);
         z-index: 999;
+        overflow: visible;
     }
     @media (min-width: 768px){
         #garan24-toper-content {
@@ -50,7 +51,7 @@
         padding:0 4px;
         font-size: 14px;
     }
-    #garan24-toper .garan24-button{
+    .garan24-button{
         height: 36px;
         line-height: 36px;
         display: inline-block;
@@ -67,16 +68,17 @@
         text-transform: uppercase;
         border:solid 2px rgba(85,125,161,1);
     }
-    #garan24-toper .garan24-button:hover{
+    .garan24-button:hover{
         background-color: rgba(255, 255, 255, 1);
         color:rgba(85,125,161,1);
         border-color: rgba(255, 255, 255, 1);
+        text-decoration: none;
     }
-    #garan24-toper .garan24-button.garan24-button-success{
+    .garan24-button.garan24-button-success{
         background-color: rgba(92,184,92,1);
         color:rgba(255,255,255,1);
     }
-    #garan24-toper .garan24-button.garan24-button-success:hover{
+    .garan24-button.garan24-button-success:hover{
         border-color: rgba(92,184,92,1);
         color:rgba(255,255,255,1);
     }
@@ -220,7 +222,20 @@
     #garan-cart-full .currency-amount{
         font-weight: 700;
     }
-
+    #garan24-add2cart-block {
+        background-color: rgba(85,125,161,.98);
+        padding:1em 3em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .garan24-add2cart-block-ctshirts {}
+    .garan24-add2cart-block-babywalz {
+        clear:both;
+    }
+    #garan24-add2cart-block #garan24-add2cart-button{
+        padding-left:2em;
+        padding-right: 2em;
+    }
     /*body{padding-top: 56px;}*/
 
 </style>
@@ -246,6 +261,10 @@
         </ul>
     </div>
 </div>
+<!--
+<div id="garan24-add2cart-block"><a id="garan24-add2cart-button" class="garan24-button garan24-button-primary" href="#">В корзину&nbsp;&nbsp;<i class="fa fa-plus"></i></a></div>
+-->
+
 <div id="garan24-overlay">
     <!--<div id="garan24-overlay-cover"></div>-->
     <div id="garan24-overlay-message">
@@ -253,5 +272,4 @@
         <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
     </div>
 </div>
-<script src="/js/jquery.cookie.js"></script>
 <script src="/js/snooper.js"></script>

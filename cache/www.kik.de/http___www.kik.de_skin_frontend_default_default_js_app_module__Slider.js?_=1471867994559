@@ -1,0 +1,194 @@
+
+(function($) {
+
+    /**
+     * Applies Slider functionality to existing HTML structure
+     * @param sliderNode            HTML of predefined structure, see example
+     * @param itemsPerPage          Count of items shown at one time
+     * @constructor
+     * 
+     * @example
+        <div class="kikSlider slider1">
+            <div class="container">
+                <ul>
+                    <li>
+                        SINGLE CONTENT ITEM
+                    </li>
+                <ul>
+            </div>
+        </div>
+
+        var slider1 = new App.module.Slider( $jq('.slider1'), 5 );
+     */
+    App.module.Slider = function(sliderNode, itemsPerPage) {
+        this._node = $(sliderNode);
+        this.itemsPerPage = itemsPerPage;
+        this.init();
+    };
+    
+    App.module.Slider.prototype = {
+        itemsPerPage: 1,            // Count of items shown at one time
+        slideWidth: null,           // Size of one page, default is width of slider
+        
+        _node: null,                // slider container node
+        _leftBtnNode: null,         // left paging button node
+        _rightBtnNode: null,        // right paging button node
+        _page: 0,                   // current page
+
+        /**
+         * Adds paging buttons and adds event listeners
+         */
+        init: function() {
+            this._leftBtnNode = $('<div class="btnLeft"></div>');
+            this._rightBtnNode = $('<div class="btnRight"></div>');
+            
+            this._node.append(this._leftBtnNode).append(this._rightBtnNode);
+
+	        this.leftClickFunc = function() {  this.slide(-1);  }.bind(this);
+	        this.rightClickFunc = function() {  this.slide(1);  }.bind(this);
+            this.enableClick();
+            
+            this._page = this._validatePage(this._page);
+
+            // Detect touch events
+            if ('Hammer' in window) {
+                var dragging = false;
+                var hammerSettings = {
+                    prevent_default: false,
+                    show_touches: false,
+                    swipe: false,
+                    transform: false
+                };
+                
+                // Drag event
+                Hammer(this._node[0], hammerSettings).on('drag', function(event) {
+                    if (dragging) {
+                        return;
+                    }
+                    dragging = true;
+                    var dir = event.gesture.direction == 'right' ? -1 : 1;
+                    this.slide(dir);
+                }.bind(this));
+
+                // Release event
+                Hammer(this._node[0], hammerSettings).on('release', function() {
+                    dragging = false;
+                }.bind(this));
+            }
+        },
+
+
+
+	    enableClick: function() {
+		    this._node
+			    .on('click', '.btnLeft', this.leftClickFunc)
+			    .on('click', '.btnRight', this.rightClickFunc);
+	    },
+
+	    disableClick: function() {
+		    this._node
+			    .off('click', '.btnLeft', this.leftClickFunc)
+			    .off('click', '.btnRight', this.rightClickFunc);
+	    },
+
+        /**
+         * Slides in the given direction.
+         * @param {number} direction         Direction to slide, 1 or -1 (or more)
+         */
+        slide: function(direction) {
+            this._page = this._validatePage(this._page + direction);
+                
+            // Get scrolling distance and position to scroll to
+            var slideWidth = (this.slideWidth || this._node.width()) + (parseInt(this._node.css('margin-left')) / 2);
+            var position = -slideWidth * this._page;
+
+            // CSS or JS animation
+            this._node.trigger('animationStart', {direction : direction > 0 ? 'left' : 'right'});
+            if ($('html').hasClass('cssanimations') || $('body').hasClass('mobile')) {
+	            this._node.one('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', function() {
+					this._node.trigger('animationEnd');
+	            }.bind(this));
+                this._node.find('.container > ul').css({
+                    'transform': 'translate3d( ' + position + 'px,0,0)'
+                });
+            }
+            else {
+	            this._node.find('.container > ul').animate({
+                    'left': position + 'px'
+                }, 300, function() {
+		            this._node.trigger('animationEnd');
+	            }.bind(this));
+            }
+
+        },
+
+	    /**
+	     * Function for adding event listeners on kik-slider
+	     * Available events:
+	     *  - animationStart
+	     *  - animationEnd
+	     * @param eventName
+	     * @param cb
+	     */
+	    on: function( eventName, cb ) {
+		    this._node.on( eventName, cb );
+	    },
+
+	    /**
+	     * Function for removing event listeners
+	     * @param eventName
+	     * @param cb
+	     */
+	    off: function( eventName, cb ) {
+		    this._node.off( eventName, cb );
+	    },
+
+        /**
+         * Checks the page number. Returns a valid page;
+         * @param {number} page
+         * @returns {number}
+         * @private
+         */
+        _validatePage: function(page) {
+            var itemCount = this._node.find('li').length;
+            var minPage = 0;
+
+            var maxPage = Math.ceil(itemCount / this.itemsPerPage) - 1;
+            
+            page = Math.max(page, minPage);
+            page = Math.min(page, maxPage);
+            
+            this._toggleButtons( page !== minPage, page !== maxPage );
+            
+            return page;
+        },
+
+        /**
+         * Checks the paging buttons and toggles inactive classes
+         * @param {boolean} leftActive
+         * @param {boolean} rightActive
+         * @private
+         */
+        _toggleButtons: function(leftActive, rightActive) {
+            var inactiveClassName = 'inactive';
+            
+            // Check left button
+            if (leftActive) {
+                this._leftBtnNode.removeClass(inactiveClassName);
+            }
+            else {
+                this._leftBtnNode.addClass(inactiveClassName);
+            }
+
+            // Check right button
+            if (rightActive) {
+                this._rightBtnNode.removeClass(inactiveClassName);
+            }
+            else {
+                this._rightBtnNode.addClass(inactiveClassName);
+            }
+        }
+        
+    };
+
+})(jQuery);

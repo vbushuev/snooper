@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+
+
+ <html lang="de" > 
+  <head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script><script src="/js/garan.js"></script>
+<script src="/js/ajax.prevent.js"></script>
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <base href="//ernstings-family.gauzy.bs2/shop/servlet/">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Der Ernsting&#039;s family Mode Online-Shop. Günstige Kleidung für die ganze Familie einfach online bestellen und kostenlos in die Filiale liefern lassen." />
+
+    <meta name="language" content="de" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1"/>
+
+    <link rel="canonical" href="//ernstings-family.gauzy.bs2/" />
+
+    <link rel="alternate" hreflang="de" href="//ernstings-family.gauzy.bs2/" />
+
+    <link rel="alternate" hreflang="de-AT" href="http://www.ernstings-family.at/" />
+
+    <link rel="shortcut icon" href="//ernstings-family.gauzy.bs2/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_images_iphone.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/wcsstore/ErnstingStore/images/iphone@2x.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_images_ipad.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/wcsstore/ErnstingStore/images/ipad@2x.png" />
+    
+      <meta name="msvalidate.01" content="463DE426D2C13CC14310A5C8AD624154" />
+    
+    <link href="/cache/www.ernstings-family.de/css/wcsstore_ErnstingStore_css_main.package.css" rel="stylesheet" type="text/css" media="screen"/>
+
+    <link href="/cache/www.ernstings-family.de/css/wcsstore_ErnstingStore_css_main_nmag.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/cache/www.ernstings-family.de/css/wcsstore_ErnstingStore_css_orderstrain_nmag.css" rel="stylesheet" type="text/css" />
+    <link href="/cache/www.ernstings-family.de/css/wcsstore_ErnstingStore_css_print_stnd.css" rel="stylesheet" type="text/css" media="print" />
+    
+
+    <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_mootools.js"></script>
+    <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_main.package.js"></script>
+
+            <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_traecking_eluminate.min.js"></script>
+        
+    <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_traecking_cmef.js"></script>
+    <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_traecking_zone.js"></script>
+
+      <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_de_mouseflow.de.js"></script>
+      <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_de_ignore_de.js"></script>
+      <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_de_SEO_Ernstings_DE.min.js"></script>
+    
+
+    <script type="text/javascript">
+      // Cookie detection
+      if (!navigator.cookieEnabled) {
+        location.href = '//ernstings-family.gauzy.bs2/html/error_no_cookies.html';
+      }
+      // Global settings for all JS functions
+      var cancelOrderAndShop;
+      var settings = {
+        basePath: '//ernstings-family.gauzy.bs2/shop/servlet/',
+        storeId: '10001',
+        langId: '-3',
+        catalogId: '10002',
+        pId: 'ef_pages_home',
+        categoryId: '-1'
+      };
+      $j = jQuery.noConflict();
+      jQuery(function() {
+        // tooltips for all elements with title-attributes.
+        jQuery('body:not(.tablet) *[title]').efTooltip();
+        // date of birth warning
+        jQuery('.dob_warning').efAdultWarning(settings);
+        jQuery().efMinicart(settings);
+      });
+    </script>
+
+    <link href="/cache/www.ernstings-family.de/css/wcsstore_ErnstingStore_css_startpage.css" rel="stylesheet" type="text/css" media="screen"/>
+    <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_jquery.tools.scrollable.js"></script>
+
+    <meta name="og:title" content="Kleidung &amp; Mode Online Shop | Ernsting&#039;s family" />
+
+    <meta name="og:description" content="Der Ernsting&#039;s family Mode Online-Shop. Günstige Kleidung für die ganze Familie einfach online bestellen und kostenlos in die Filiale liefern lassen." />
+
+    <meta name="og:image" content="/cache/www.ernstings-family.de/img/facebook_share_ernstings_logo.jpg" />
+
+
+<title>Kleidung & Mode Online Shop | Ernsting's family</title>
+
+
+  
+</head>
+
+  <body style="background-image: url('//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160822_Kampagne_Marke_eshop_stage.jpg');" class="de">
+  
+  <noscript>
+    <style type="text/css">
+      div#wrap * { display: none; }
+      div#header, div#header .logo, div#header .logo * { display: block; }
+    </style>
+  </noscript>
+  <script language="javascript1.1" type="text/javascript">
+      var browserOldVersionMessage = function(){
+        var $messageLink = jQuery('<a href="//ernstings-family.gauzy.bs2/html/old_browser_version.html"></a>').appendTo('body');
+        $messageLink.attr('class', 'oldbrowser adaptiveLayer');
+        $messageLink.attr('id', 'oldbrowserLink');
+        jQuery( document ).ready(function() {
+          jQuery("#oldbrowserLink").click();
+          $j.cookie("oldBrowserShow", "true", {expiry: 0, domain: '', path: '/' }); 
+        });
+      }
+      
+      if($j.cookie("oldBrowserShow") != "true"){
+        var operaBrowserInfo = navigator.userAgent.match(/(OPR)\/(\S+)/ || [,,,]);
+        var anotherBrowserInfo = navigator.userAgent.match(/(Safari|Chrome|Firefox|MSIE|Trident)\/(\S+)/ || [,,,]);
+        if(operaBrowserInfo){
+          if(operaBrowserInfo[2].split('.')[0] <= 12){
+            browserOldVersionMessage();
+          }
+        } else if (anotherBrowserInfo){
+          var browserName = anotherBrowserInfo[1];
+          var browserVersion = anotherBrowserInfo[2].split(".")[0];
+          switch (true) {
+            case /Trident/.test(browserName): //MSIE
+              if(browserVersion <= 5){
+                browserOldVersionMessage();
+              }
+              break;
+            case /Firefox/.test(browserName):
+              if(browserVersion <= 15){
+              browserOldVersionMessage();
+              }
+              break;
+            case /Chrome/.test(browserName):
+              if(browserVersion <= 22){
+                browserOldVersionMessage();
+              }
+              break;
+            case /Safari/.test(browserName):
+              if(browserVersion < 533){
+                browserOldVersionMessage();
+              }
+              break;
+            default:
+            break;
+          }
+        }
+      }
+  </script>
+  <script language="javascript1.1" type="text/javascript">
+    // <![CDATA[
+    if ( typeof cmef !== 'undefined') { // MT3374 Script-Blockierung    
+        cmef.setClientID('90119446',false,'www9.ernstings-family.de','ernstings-family.de');
+    }
+    // ]]>
+  </script>
+  
+    <div id="meta_nav">
+    <div class="top">
+      <div class="wrap">
+        <ul>
+          <li>
+            <a href="http://unternehmen.ernstings-family.de/unternehmen/" title="Unternehmen" target="_blank">Unternehmen</a>
+          </li>
+          <li>
+            <a href="http://karriere.ernstings-family.de" title="Karriere" target="_blank">Karriere</a>
+          </li>
+          <li class="active current sub">
+            <a href="//ernstings-family.gauzy.bs2/" title="Shop" class="active current sub">Shop</a>
+          </li>
+          <li>
+            <a href="http://blog.ernstings-family.com" title="Blog" target="_blank">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  
+  <div id="container">
+  
+    <div id="homescreenHint" style="display: none"><div></div></div>
+    <div id="wrap">
+         <script type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_efPageload.js"></script>
+        
+     
+      <script language="javascript1.1" type="text/javascript">
+        // <![CDATA[
+        if ( typeof cmef !== 'undefined') { // MT3374 Script-Blockierung
+          cmef.createPageviewTag("Startseite", "Home", null);
+          cmef.saveMmcParameter();
+        }
+        // ]]>
+      </script>
+
+
+   
+    <div id="header">
+      
+  <div class="logo print_hide"><a href="//ernstings-family.gauzy.bs2/">Ernsting's family - Von fröhlichen Familien empfohlen.</a></div>
+<img id="print_logo" src="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_css_img_logo.gif" alt="Ernsting's family - Von fröhlichen Familien empfohlen." />
+
+    </div>
+   
+    <hr class="oosText" />
+
+
+<div id="content_wrap" class="spWide">
+  
+
+<div id="spStageContainer">
+  
+<div class="spTeaserBar spTeaserBarFirst spTeaserBarLast spLayoutHorizontal">
+
+    <div class="spTeaserBarT">
+      <a id="spStageLink" href="//ernstings-family.gauzy.bs2/prospekt/kinder-special.html"></a> 
+    </div>
+
+    <div class="spTeaserBarT spT0Product">
+       
+    </div>
+
+  </div>
+
+</div>
+<div id="spTeaserBarContainer" class="spTeaserBarContainerFirst">
+  
+<div class="spTeaserBarT" style="width:470px;margin-right:20px;">
+
+<div class="spTeaserBar spTeaserBarFirst spTeaserBarLast" style="height:420px;">
+
+    <div class="spTeaserBarT">
+      <a href="//ernstings-family.gauzy.bs2/prospekt/das-aktuelle-kinder-special.html">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160822_eshop_homepage_teaser01.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+  </div>
+
+<div class="spTeaserBarT" style="width:470px;">
+
+<div class="spTeaserBar spTeaserBarFirst spTeaserBarLast" style="height:420px;">
+
+    <div class="spTeaserBarT">
+      <a href="//ernstings-family.gauzy.bs2/prospekt/das-family-wochenangebot.html">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160819_eshop_homepage_teaser01.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+  </div>
+
+</div> 
+<div id="spTeaserBarContainer" class="spTeaserBarContainerSecond">
+  
+<div class="spTeaserBar spTeaserBarFirst" style="height:210px;">
+
+<div class="spTeaserBarT" style="width:470px;margin-right:20px;">
+
+    <div class="spTeaserBarT">
+      <a href="//ernstings-family.gauzy.bs2/prospekt/aktuelle-ernstings-family-online-specials.html">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160822_eshop_homepage_teaser03.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+<div class="spTeaserBarT" style="width:470px;">
+
+    <div class="spTeaserBarT">
+      <a href="//ernstings-family.gauzy.bs2/eshop/SALE-Babys,,,,232911,2.html">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160819_eshop_homepage_teaser04.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+  </div>
+
+<div class="spTeaserBar spTeaserBarLast spTeaserBarOverlay" style="height:210px;">
+
+<div class="spTeaserBarT" style="width:470px;margin-right:20px;">
+
+    <div class="spTeaserBarT">
+      <a href="//ernstings-family.gauzy.bs2/prospekt/aus-den-family-online-angeboten,,2.html">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160819_eshop_homepage_teaser03a.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+<div class="spTeaserBarT" style="width:470px;">
+
+    <div class="spTeaserBarT">
+      <a href="//aktionen.ernstings-family.de/app">
+<img src="//images.ernstings-family.com/ErnstingStore/mood_images/dynamisch/160822_eshop_homepage_teaser05_presale.jpg" alt="" />
+</a>
+ 
+    </div>
+
+  </div>
+
+  </div>
+
+</div> 
+
+
+</div>
+
+
+<div class="clear"></div>
+<hr class="oosText" />
+
+
+<script type="text/javascript">
+  clearCurrentCategory(); 
+  $j(function() {
+    // initialize scrollable
+    $j(".scrollable").scrollable({ mousewheel: true, circular: true });
+    if(window.tabletScrollableConfig) {
+        tabletScrollableConfig($j(".scrollable"));
+    }
+  });
+  
+  ;(function($) {
+    
+    $.fn.extend({
+      efSurplusInfoTooltip : function(settings) {
+        return this.efTooltip({
+          extraClass : 'spTooltipOverlay',
+          posOffsetX : 5,
+          posOffsetY : 5,
+          contents : _getSpTtContents
+        });
+      }
+    });
+    
+    function _getSpTtContents(ev) {
+      return $(this).parent().next().html();
+    };
+    
+  })(jQuery);
+  
+  jQuery(function() {
+    jQuery('.surplusTooltip').efSurplusInfoTooltip();
+  });
+  
+  // Click-Action for label of newsletter form
+  $j('#spSurplusNewsletter label').click(function() {
+    $j('#ts_order_nl').submit();
+    return false;
+  });
+
+  // Click-Action for label of filialfinder form
+  $j('#spSurplusStoresearch label').click(function() {
+    $j('#ts_order_fs').submit();
+    return false;
+  });
+</script>
+
+
+<ul id="navi_main" class="navi">
+  <li id="navi_main_li_aktuell">
+    <a id="navi_main_href_aktuell" href="//ernstings-family.gauzy.bs2/prospekt/kinder-special.html">Aktuell</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+  <li id="navi_main_li_vorschau">
+    <a id="navi_main_href_vorschau" href="//ernstings-family.gauzy.bs2/prospekt/das-ernstings-family-wochenangebot.html">Vorschau</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+
+  <li id="navi_main_li_jetztneu">
+    <a id="navi_main_href_jetztneu" href="//ernstings-family.gauzy.bs2/kat/online-exklusiv.html">Jetzt NEU!</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_sale">
+    <a id="navi_main_href_sale" href="//ernstings-family.gauzy.bs2/eshop/SALE-Babys,,,,232911,2.html">SALE</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_maedchen">
+    <a id="navi_main_href_maedchen" href="//ernstings-family.gauzy.bs2/kat/maedchenmode.html">Mädchen</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_jungs">
+    <a id="navi_main_href_jungs" href="//ernstings-family.gauzy.bs2/kat/jungenmode.html">Jungen</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_damen">
+    <a id="navi_main_href_damen" href="//ernstings-family.gauzy.bs2/kat/damenmode.html">Damen</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_herren">
+    <a id="navi_main_href_herren" href="//ernstings-family.gauzy.bs2/kat/herrenmode.html">Herren</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+
+
+  <li id="navi_main_li_myhome">
+    <a id="navi_main_href_myhome" href="//ernstings-family.gauzy.bs2/kat/my-home.html">My Home</a>
+
+    <div class="navi_main_flyout navi_main_temporary"></div>
+  
+  </li>
+
+  <li id="navi_main_li_reisen">
+    <a id="navi_main_href_reisen" href="http://reisen.ernstings-family.de/">Reisen</a>
+    <div class="navi_main_flyout">
+    
+      
+      
+      <div class="navi_main_inner_flyout">
+        <ul class="navi_ts_1col large" id="navi_ts">
+          
+                <li id="catList396939" class="first">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials Alle Reisen" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_allereisen_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche" style="text-decoration: none;">Alle Reisen</a><br />
+                      Willkommen!
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+                <li id="catList396940">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsreiseprospekt" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials Aktuelle Angebote" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_aktuelleangebote_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsreiseprospekt" style="text-decoration: none;">Aktuelle Angebote</a><br />
+                      Aus unserem Reiseflyer
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+                <li id="catList396941">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingspkwreisen" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials PKW Reisen" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_pkwreisen_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingspkwreisen" style="text-decoration: none;">PKW Reisen</a><br />
+                      Unabhängig unterwegs
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+                <li id="catList396942">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsbadereisen" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials Badereisen" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_badereisen_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsbadereisen" style="text-decoration: none;">Badereisen</a><br />
+                      Sonne, Strand &amp; Mehr!
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+                <li id="catList396943">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingszeitzuzweit" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials Zeit zu zweit" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_zeitzuzweit_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingszeitzuzweit" style="text-decoration: none;">Zeit zu zweit</a><br />
+                      Entdecken Sie die Welt!
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+                <li id="catList396944" class="last">
+                  <div class="linkAll ts_inner large" style="cursor: pointer;">
+                    
+                    <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsfreizeitparks" style="text-decoration: none;">
+                      <img width="148" height="94" alt="Specials Freizeitparks" src="//images.ernstings-family.com/ErnstingStore/mood_images/statisch/151013_reisen_freizeitparks_eshop_zeitleiste.jpg" />
+                    </a>
+                    <p style="text-decoration: none;">
+                      
+                      <a href="http://reisen.ernstings-family.de/suche?utf8=%E2%9C%93&amp;theme=ernstingsfreizeitparks" style="text-decoration: none;">Freizeitparks</a><br />
+                      Spaß &amp; Erholung
+                    </p>
+                  </div>
+                  <div class="shaddow"></div>
+                </li>
+            
+
+        </ul>
+      </div>
+      
+    </div>
+  </li>
+
+
+</ul>
+<div class="clear"></div>
+
+
+
+<div id="navi_meta" class="navi">
+  <div id="minicart_response">
+
+    <div id="minicart" class="empty">
+      
+      <div id="tsLogo">
+        <a class="tsSiegel" target="_blank" href="https://www.trustedshops.com/shop/certificate.php?shop_id=XD4D76C26AA1E5682338AE3ECC3106C9B">Trusted Shops Gütesiegel - Bitte hier Gültigkeit prüfen!</a>
+      </div>
+      
+      <div id="minicartContent">
+        <p id="minicartDetails">
+          <span id="minicartCount">Warenkorb&nbsp;0 Artikel</span> <span id="minicartSeperator">|</span> <span id="minicartPrice">0,00 &euro;</span>
+        </p>
+      </div>
+    
+      <a id="minicartButton" href="//ernstings-family.gauzy.bs2/shop/servlet/efZurKasse?storeId=10001&amp;catalogId=10002&amp;langId=-3"></a>
+    
+      <a id="minicartBag" href="//ernstings-family.gauzy.bs2/shop/servlet/efZurKasse?storeId=10001&amp;catalogId=10002&amp;langId=-3"></a>
+      <div class="clear"></div>
+    </div>
+    
+  
+  </div>
+  
+
+  <div id="formSearch">
+    
+
+
+  
+<div id="userInfo">
+  <ul id="navi_metaLinks">
+
+    <li><a id="minicartLinkMyAccount" href="//ernstings-family.gauzy.bs2/shop/servlet/efMeinKontoInfo?storeId=10001&amp;catalogId=10002&amp;langId=-3"></a></li>
+    <li>|</li>
+    <li class="last"><a id="minicartLinkWishlist" href="//ernstings-family.gauzy.bs2/shop/servlet/efMeinKontoMerkzettel?storeId=10001&amp;catalogId=10002&amp;langId=-3&amp;listId=.">Merkzettel</a></li>
+  
+  </ul>
+  
+  <script type="text/javascript">
+      document.getElementById('minicartLinkMyAccount').innerHTML = 'Mein Konto';
+    </script>
+</div>
+
+    <form action="efKatalogSucheExtern" method="get" id="efKatalogSuche" name="efKatalogSuche" onsubmit="return submitSearch();" >
+      <input type="hidden" name="storeId" value="10001" />
+      <input type="hidden" name="catalogId" value="10002"/>
+      <input type="hidden" name="langId" value="-3"/>
+      <fieldset>
+        <legend id="formSearchLegend"></legend>
+        <input id="searchTerm" type="text" name="searchTerm" onClick="clearSearchBox(this)" value="Suchbegriff eingeben ..." autocomplete="off" maxlength="40" />
+        <button id="formSearchSubmit" type="submit"></button>
+      </fieldset>
+    </form>
+    <div id="search_suggest" class=""></div>
+    <script type="text/javascript">
+      //<![CDATA[
+        var doneSubmitSearch = false;
+        function submitSearch() {
+          if (!doneSubmitSearch && $j('#searchTerm').attr('value') && !(/^[\ ]*$/.test($j('#searchTerm').attr('value')))) {
+            doneSubmitSearch = true;
+            location = '//ernstings-family.gauzy.bs2/shop/servlet/efKatalogSucheExtern?storeId=10001&catalogId=10002&langId=-3&searchTerm=' + $j('#searchTerm').attr('value');
+          }
+          return false;
+        }
+      //]]>
+    </script>
+    
+          <script language="JavaScript" type="text/javascript" src="/cache/www.ernstings-family.de/js/wcsstore_ErnstingStore_js_ff_ffsuggest.block.jquery.jsonp.nm.min.js"></script>
+      
+      <script language="JavaScript" type="text/javascript">
+        var suggest = new FFSuggest();
+        var searchURL = "/services/ff/suggest";
+        var formname = "efKatalogSuche";
+        var queryParamName = "searchTerm";
+        var divLayername = "search_suggest";
+        var instanceName = "suggest";
+        var debugMode = false;
+        var channelParamName = "channel";
+        var channel = "de";
+        
+        //suggest.init(searchURL, formname, queryParamName, divLayername, instanceName, debugMode, channelParamName, channel);
+        
+        var debugMode   = false;
+        var showImages    = false;
+        
+        //tracking parameters
+        var sid       = null;
+        var uid       = null;
+        var site      = null;
+        var sourceRefKey  = null;
+        
+        onDisplayCallback   = function(sourceRefKey) {
+          //tracking.display(channel, sourceRefKey, sid, uid, site);
+        };
+        
+        suggest.init(searchURL, formname, queryParamName, divLayername, instanceName, debugMode, channelParamName, channel, showImages, 
+          sid, uid, site, sourceRefKey, onDisplayCallback);
+          
+        function addStoreInformation(url) {
+          return url + "&=&langId=-3&storeId=10001&catalogId=10002";
+        }
+          
+        //document.onmousedown = suggest.hideLayerOutsideCall;
+        //document.getElementById('formSearchLegend').innerHTML = 'Suchformular';
+        //document.getElementById('formSearchSubmit').innerHTML = 'Suchen';
+    </script>
+    
+  </div>
+
+
+
+  <script type="text/javascript">
+    document.getElementById('minicartButton').innerHTML = 'Ihr Warenkorb';
+    document.getElementById('minicartLinkMyAccount').innerHTML = 'Mein Konto';
+    document.getElementById('minicartBag').innerHTML = 'Ihr Warenkorb';
+  </script>
+</div>
+<div class="clear"></div>
+
+ 
+
+<div id="footer" class="spWide checkout-footer">
+    <div >
+         <img   src="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_css_img_headerfooter_label_vorteilsleiste.png">
+    </div>
+  
+    <div class="two_columns_row_footer">
+
+        <div class="two_column">
+            <div class="headlineBorderless">
+                <h3>JETZT NEWSLETTER ABONNIEREN</h3>
+            </div>
+            <form method="get" action="#" name="FooterNewsletter" id="ts_order_nl">
+                <fieldset>
+                    <input type="hidden" value="de_DE" id="ts_locale" name="locale">
+                    <input type="text" onfocus="if(this.value=='E-Mail Adresse eingeben ...') this.value=''" onblur="if(this.value=='') this.value='E-Mail Adresse eingeben ...'" name="uemail" value="E-Mail Adresse eingeben ..." id="ts_mailaddress">
+                    <button type="submit">E-Mail-Adresse eintragen</button>
+                      <img width="55" height="55" alt="Jetzt 10% Rabatt sichern!" src="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_css_img_headerfooter_label_jetzt_newsletter_abonnieren.png">
+                </fieldset>
+              
+            </form>
+        </div>
+
+        <div class="two_column">
+            <div class="headlineBorderless">
+                <h3>FILIALSUCHE</h3>
+                
+            </div>
+            
+            <form action="" method="get" name="FooterFilialsuche"  class="branch_search" >
+                <fieldset>
+                    <input type="text" class="storeSearchField"  autocomplete="off" value="Postleitzahl oder Ort eingeben ..." name="zipCode"                
+                    data-resultlist="http://service.ernstings-family.de/filialen/filialsuche" data-source="http://service.ernstings-family.de/filialen/api/store/search/" data-placeholdertext="Postleitzahl oder Ort eingeben ...">
+                    <a href="http://service.ernstings-family.de/filialen/filialsuche" class="storeSearchLink"></a>
+                    <img width="55" height="55" alt="Jetzt 10% Rabatt sichern!" src="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_css_img_headerfooter_label_filialsuche.png">
+                </fieldset>
+                
+            </form>
+        </div>
+    </div>
+    
+    
+    
+ 
+    <div class="clear"></div>
+
+    <div class="three_columns_row_footer">
+
+        <div class="two_column">
+            <div class="headline icon">
+                <h3>Wir sind für Sie da!</h3>
+            </div>
+            <ul>
+                <li>
+                    0180 5 833033*
+                </li>
+                <li>
+                    <a href="mailto:kundenservice@ernstings-family.com">kundenservice@ernstings-family.com</a><br>
+                    Mo-Fr: 8-18 Uhr <br/>
+                    <br><br>
+                    <span class="small">*14 ct/Min. (inkl. MwSt.) aus dem dt. Festnetz<br/>max 42 ct/Min. (inkl. MwSt.) aus dem dt. Mobilfunknetz</span>
+                </li>
+            </ul>
+        </div>
+        
+        
+        
+          <div class="one_column">
+            <div class="headline icon">
+              <h3>Unsere Zahlarten</h3>
+            </div>
+            <ul>
+        
+              <li>
+                Zahlung in der Filiale
+              </li>
+          
+              <li>
+                SEPA-Lastschrift
+              </li>
+          
+              <li>
+                Kauf auf Rechnung
+              </li>
+          
+              <li>
+                PayPal
+              </li>
+          
+              <li>
+                Kreditkarte
+              </li>
+          
+              <li>
+                Sofortüberweisung
+              </li>
+          
+              <li>
+                Per Nachnahme
+              </li>
+          
+            </ul>
+          </div>
+      
+          <div class="one_column">
+            <div class="headline icon">
+              <h3>Unser Service</h3>
+            </div>
+            <ul>
+        
+              <li>
+                Kostenloser Versand in die Filiale
+              </li>
+          
+              <li>
+                Versand per DHL
+              </li>
+          
+              <li>
+                Kostenloser Rückversand
+              </li>
+          
+              <li>
+                4 Wochen Rückgaberecht
+              </li>
+          
+              <li>
+                Mit Käuferschutz
+              </li>
+          
+              <li>
+                Trusted Shops zertifiziert
+              </li>
+          
+            </ul>
+          </div>
+      
+
+    </div>
+
+    <div class="clear"></div>
+    
+    
+  <div class="one_column_row_footer">
+    <section>
+      
+        <p>
+          <strong>
+            Kleidung, Deko und Spielwaren für die ganze Familie im Online Shop!&nbsp;
+            Topaktuell und günstig online bestellen:
+          </strong>
+        </p>
+        <br />
+            
+      <p>
+        Bei Ernsting&#180;s family k&#246;nnen Sie Kleidung online bestellen ohne Einkaufsstress. Unser Sortiment bietet eine gro&#223;z&#252;gige Auswahl an <a href="//ernstings-family.gauzy.bs2/kat/damenmode.html">Damenkleidung</a>, <a href="//ernstings-family.gauzy.bs2/kat/jungenmode.html">Jungen-</a> und <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode.html">M&#228;dchenkleidung</a> und <a href="//ernstings-family.gauzy.bs2/kat/herrenmode.html">Herrenw&#228;sche</a>. Sie finden bei uns <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-jacken-westen.html">Damenjacken</a>, <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-strickjacken-sweatjacken.html">-pullover</a>, und <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-t-shirts-polos.html">-shirts</a>, <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-roecke-kleider.html">-r&#246;cke</a>, <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-jeans-hosen.html">Damenjeans</a>, <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-schmuck.html">Schmuck</a> und <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-schals-tuecher.html">Accessoires</a>. Auch <a href="//ernstings-family.gauzy.bs2/kat/damenmode-gina-benotti-grosse-groessen.html">Damenmode in gro&#223;en Gr&#246;&#223;en</a> ist nun im Online Shop erh&#228;ltlich. Unser <a href="//ernstings-family.gauzy.bs2/kat/outfit-lookbook.html">Lookbook</a> gibt Ihnen monatlich frische Modetipps und pr&#228;sentiert die Must-Haves der aktuellen Saison. Ihr Kind kommt nat&#252;rlich auch nicht zu kurz. Unsere Marken &quot;Topomini&quot; und &quot;Topolino&quot; begeistern nicht nur mit g&#252;nstiger <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-babies.html">Babykleidung</a> und <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-minis.html">Kinderbekleidung</a>, sondern auch mit <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-babies-babyausstattung.html">Geschenkideen zur Geburt</a> und <a href="//ernstings-family.gauzy.bs2/kat/my-home-spielen-lernen.html">Spielwaren</a>. In den bequemen <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-babies-babyausstattung.html">Stramplern</a>, <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-babies-waesche-nachtwaesche.html">Baby-Unterw&#228;sche</a> und <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-babies-struempfe-schuhe.html">Baby-Socken</a> werden sich Ihre Sch&#252;tzlinge richtig wohl f&#252;hlen. Mit unserer <a href="//ernstings-family.gauzy.bs2/kat/topomini-pure-collection-bio-babymode.html">Topomini Pure Collection</a> tragen wir Verantwortung: Entdecken Sie kuschelweiche, nachhaltige Babymode aus Biobaumwolle in dezenten Farben und mit liebevollen Details. Unsere Marke &quot;Yigga&quot; &#252;berzeugt mit modischer, strapazierf&#228;higer und preiswerter Bekleidung f&#252;r Kinder ab Gr&#246;&#223;e 134. Unsere g&#252;nstige <a href="//ernstings-family.gauzy.bs2/kat/jungenmode-kids.html">Jungen-</a> und <a href="//ernstings-family.gauzy.bs2/kat/maedchenmode-kids.html">M&#228;dchenbekleidung</a> bietet alles, was kleine Abenteurer oder schon gr&#246;&#223;ere Teenager ben&#246;tigen. Wenn gespielt werden m&#246;chte, wird mit &quot;Monster High&quot;, &quot;Die Eisk&#246;nigin&quot;, &quot;Cars&quot; oder &quot;Filly&quot; das Kinderzimmer richtig fr&#246;hlich und bunt. Wir haben <a href="//ernstings-family.gauzy.bs2/kat/my-home-spielen-lernen.html">Spielzeug f&#252;r Babys, Kinder- und Kleinkinder-Spielzeug</a>. Auch daheim sollte es mal ab und zu einen Wandwechsel geben - daf&#252;r haben wir zur Dekoration <a href="//ernstings-family.gauzy.bs2/kat/my-home-sommeraccesoires.html">Kerzen</a>, <a href="//ernstings-family.gauzy.bs2/kat/my-home-wohnaccessoires.html">Wohnaccessoires</a>, <a href="//ernstings-family.gauzy.bs2/kat/my-home-bad-wellness.html">Frottee f&#252;rs Badezimmer</a> und <a href="//ernstings-family.gauzy.bs2/kat/my-home-buecher.html">Bilderrahmen</a> im Sortiment. Wenn Sie Ihren Liebsten eine Freude bereiten wollen, k&#246;nnen Sie bei uns auch bequem Gutscheine kaufen und per Post oder E-Mail versenden lassen. Das Online Shopping bei Ernsting&#180;s family ist vollkommen risikolos. Der Versand Ihrer Mode ist in die Filiale kostenlos. Sollten Sie Fragen haben, k&#246;nnen Sie sich an unseren kompetenten Kundenservice mit der Service-Hotline 01805-833 033* wenden. Wir sind f&#252;r Sie da und beraten Sie gerne. Viel Freude im Ernsting's family Online Shop!
+      </p>
+      <br />
+    </section>
+  </div>
+
+<div class="four_columns_row_footer">
+ 
+ 
+    <div class="one_column" id="navi_footer_service">
+      <div class="headline">
+        <h3>
+      
+        <span>Service</span>
+      
+        </h3>
+      </div>
+      <ul class="navi_footer_sub">
+     
+        <li>
+      
+             <a href="//ernstings-family.gauzy.bs2/eshop/Specials-Gutscheine,,,,261418,2.html">Gutscheine</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/lieferung">Lieferung</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/umtausch">Umtausch</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/zahlungsart">Zahlarten</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/groessen-info">Größeninfo</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/technische_informationen">Techn. Infos</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/qualitaet">Qualitätsmerkmale</a>
+      
+        </li>
+    
+      </ul>
+    </div>
+  
+    <div class="one_column" id="navi_footer_ueberuns">
+      <div class="headline">
+        <h3>
+      
+        <span>Über uns</span>
+      
+        </h3>
+      </div>
+      <ul class="navi_footer_sub">
+     
+        <li>
+      
+             <a href="http://unternehmen.ernstings-family.de" target="_blank">Unternehmen</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="//ernstings-family.gauzy.bs2/kontakt">Kontakt</a>
+      
+        </li>
+    
+        <li id="navi_footer_presse_sub">
+      
+             <a href="http://unternehmen.ernstings-family.de/presse" target="_blank">Presse</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://karriere.ernstings-family.de/stellenmarkt" target="_blank">Stellenmarkt</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://karriere.ernstings-family.de/" target="_blank">Karriere</a>
+      
+        </li>
+    
+      </ul>
+    </div>
+  
+    <div class="one_column" id="navi_footer_informationen">
+      <div class="headline">
+        <h3>
+      
+        <span>Informationen</span>
+      
+        </h3>
+      </div>
+      <ul class="navi_footer_sub">
+     
+        <li>
+      
+             <a href="http://service.ernstings-family.de/hilfe/faq">FAQ</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/informationen/impressum">Impressum</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/informationen/agb">AGB</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/informationen/datenschutz">Datenschutz</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/informationen/partnerprogramm">Partnerprogramm</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/informationen/widerrufsrecht">Widerrufsrecht</a>
+      
+        </li>
+    
+      </ul>
+    </div>
+  
+    <div class="one_column" id="navi_footer_community">
+      <div class="headline last">
+        <h3>
+      
+        <span>Family</span>
+      
+        </h3>
+      </div>
+      <ul class="navi_footer_sub">
+     
+        <li>
+      
+             <a href="http://aktionen.ernstings-family.de/jahreskarte ">Jahreskarte</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://aktionen.ernstings-family.de">Aktionen</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://blog.ernstings-family.com/">Blog</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://service.ernstings-family.de/expertenteam">Expertenteam</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://reisen.ernstings-family.de/">Reisen</a>
+      
+        </li>
+    
+        <li>
+      
+             <a href="http://aktionen.ernstings-family.de/app">Unsere App</a>
+      
+        </li>
+    
+      </ul>
+    </div>
+  
+
+</div> 
+
+    <div class="clear"></div>
+
+   
+    <div class="two_columns_row_footer social">
+
+        <div class="two_column">
+          
+            <a target="_blank" class="facebook" href="http://www.facebook.com/pages/Ernsting-s-family/198391219433">Facebook</a>
+          
+            <a target="_blank" class="twitter" href="https://twitter.com/Ernstingsfamily">Twitter</a>
+          
+            <a target="_blank" class="youtube" href="http://www.youtube.com/user/ernstingsfamily">Youtube</a>
+          
+            <a target="_blank" class="pinterest" href="http://pinterest.com/ernstingsfamily">Pinterest</a>
+          
+            <a target="_blank" class="instagram" href="https://www.instagram.com/ernstingsfamily/?hl=de">Instagram</a>
+          
+        </div>
+
+        <div class="two_column flags">
+        
+      <a href="http://www.ernstings-family.at/" class="btn_country_flag btn_country_flag_AT_off">http://www.ernstings-family.at/</a>
+
+      <a href="//ernstings-family.gauzy.bs2/" class="btn_country_flag btn_country_flag_DE">//ernstings-family.gauzy.bs2/</a>
+
+        </div>
+
+    </div>
+  
+    <div class="clear"></div>
+  
+</div>
+
+    
+    
+     <a id=restrictedAccess class="subtext link-light adaptiveLayer" href="efRestrictedAccess?storeId=10001&amp;catalogId=10002&amp;langId=-3"></a> 
+     
+     <script type="text/javascript" src="/restrictedAccess"></script>
+    
+     <script type="text/javascript">
+     
+        //<![CDATA[
+         $j(document).ready(function() {
+           if ($j.cookie('restrictedAccess') == 'true' && $j.cookie('restrictedAccessUsed') == 'false' ){
+            //$j('#restrictedAccess').trigger('click');
+            alert('Liebe Kollegen,\n\nder Webshop wird derzeit noch technisch aktualisiert.\nBitte schauen Sie im Laufe des Tages noch mal vorbei.\nVielen Dank für Ihr Verständnis.\n\nBeste Grüße,\nIhr E-Commerce Team');
+            $j.cookie('restrictedAccessUsed','true');
+           }
+         });
+        //]]>
+    </script>
+
+  <script type="text/javascript">
+    var productIds = "";
+    try {
+      productIds = getProductIds();
+    }
+    catch(err) {
+      productIds = "";
+    }
+    
+    var google_tag_params = {
+      ecomm_prodid: productIds,
+      ecomm_pagetype: "home",
+      ecomm_category: "others",
+      ecomm_totalvalue: 0.0,
+    };
+  </script>
+ 
+  
+  <script type="text/javascript">
+    /* <![CDATA[ */
+      var google_conversion_id =  1008716061;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1008716061/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+
+
+    </div>
+  </div>
+  
+  
+    <script type="text/javascript" async="async" src="//ad.dyntracker.de/tm_js.aspx?trackid=F0A54A38A8BF5E2A8450D5951FA53F9C&mode=2&dt_freetext=&dt_subid1=&dt_subid2=&dt_keywords="></script>
+    
+    <noscript>
+      <hr class="oosText">
+      <div id="container_noscript">
+        <div id="wrap_noscript">
+          <div class="error_page">
+            <a href="//ernstings-family.gauzy.bs2/">
+              <img src="/cache/www.ernstings-family.de/img/wcsstore_ErnstingStore_images_javascript_fallback.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </noscript>
+    
+<div id="wishListOverlay" class="category_overlay">
+  <div class="category_overlay_shadow">
+    <div class="category_overlay_inner">
+      <span><strong>Der Artikel wurde dem Merkzettel hinzugefügt:</strong></span>
+      
+      <ul id="wishListOverlay_itemList">
+        <li id="wishListOverlay_itemTemplate">
+          <br class="clear"/>
+          <img class="wishListOverlay_icon"/>
+          <br class="clear"/>
+          <strong class="wishListOverlay_name"></strong><br>
+          <span class="wishListOverlay_price"></span><br>
+          Gr. <span class="wishListOverlay_size"></span><br>
+       
+        </li>
+      </ul>
+      
+      <br/>
+
+      <p class="legal_notice">
+        Warenwert inkl. MwSt. ggf. zzgl. <a href="//ernstings-family.gauzy.bs2/hilfe/lieferbedingungen.layer.html" class="modal underline">Service-/ Versandkosten</a>
+      </p>
+      <a href="efMeinKontoMerkzettel?storeId=10001&catalogId=10002&langId=-3&listId=." class="btn_merkzettel_overlay">Merkzettel</a>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+  <style>
+    @import url("//fonts.googleapis.com/css?family=Lato");
+    @import url("//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic");
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+    #garan24-toper{
+        display: none;
+        font-family: 'Open Sans';
+        position: fixed;
+        top: 0;
+        left:0;
+        width:100%;
+        height:48px;
+        background-color: rgba(85,125,161,.9);
+        color: rgba(255,255,255,1);
+        z-index: 999;
+        overflow: visible;
+    }
+    @media (min-width: 768px){
+        #garan24-toper-content {
+            width: 750px;
+        }
+    }
+    @media (min-width: 992px){
+        #garan24-toper-content {
+            width: 970px;
+        }
+    }
+    @media (min-width: 1200px){
+        #garan24-toper-content{
+            width: 1170px;
+        }
+    }
+    #garan24-toper-content{
+        height:48px;
+    }
+    #garan24-toper .garan24-logo{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #garan24-toper .garan24-logo code{
+        border:solid 2px rgba(255,255,255,1);
+        color:rgba(255,255,255,1);
+        font-weight: 400;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        height:24px;
+        line-height: 24px;
+        font-family: 'Lato';
+        padding:0 4px;
+        font-size: 14px;
+    }
+    .garan24-button{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        padding: 0 8px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(85,125,161,.8);
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        text-transform: uppercase;
+        border:solid 2px rgba(85,125,161,1);
+    }
+    .garan24-button:hover{
+        background-color: rgba(255, 255, 255, 1);
+        color:rgba(85,125,161,1);
+        border-color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+    }
+    .garan24-button.garan24-button-success{
+        background-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    .garan24-button.garan24-button-success:hover{
+        border-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    #garan24-toper-content {
+        padding: 0 16px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #garan24-toper-content .garan24-toper-menu{
+        list-style: none;
+        display: inline-block;
+        font-size: 12pt;
+        font-family: 'Lato','Open Sans';
+        font-weight: 300;
+        height:48px;
+        line-height: 48px;
+        margin:0;
+        vertical-align: middle;
+    }
+    #garan24-toper-content .garan24-toper-menu li{
+        display: inline-block;
+        height:48px;
+        line-height: 48px;
+        margin:0;
+    }
+    #garan24-toper-content .garan24-toper-menu-right{
+        float:right;
+
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(0,0,0,.6); /*rgba(92,184,92,1)*/
+        text-align: center;
+        padding: 0 5px;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        border:solid 2px rgba(85,125,161,1);
+        position: relative;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart:hover{
+        border-color: rgba(255,255,255,1);
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-quantity{
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        width:12px;
+        height:12px;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: rgba(255,255,255,1);
+        padding:0 5px;
+        font-size: 10px;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-amount{
+        display: inline-block;
+        margin-left: 12px;
+        font-weight: 400;
+    }
+    #garan24-overlay{
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        top:56px;left: 0;
+        background-color: rgba(0,0,0,.3);
+        z-index:999;
+        display: none;
+    }
+    #garan24-overlay-cover{
+        position: absolute;
+        top:0;left: 0;bottom: 0;right: 0;
+        /*
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+        */
+    }
+    #garan24-overlay-message{
+        z-index:1000;
+        background-color: rgba(255,255,255,1);
+        overflow: auto;
+        position: relative;
+        margin: 6em 20%;
+        padding: 2em;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 14pt;
+        text-align: center;
+    }
+    #garan-cart-full{
+        display: none;
+        z-index: 1000;
+        background-color: rgba(255,255,255,1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: absolute;
+        padding: 1em;
+        width: 640px;
+        overflow: auto;
+        right:0;
+        border:solid 4px rgba(85,125,161,1);
+    }
+    #garan-cart-full table{
+        width:100%;
+    }
+    #garan-cart-full table,#garan-cart-full table tr td{
+        border:none;
+        line-height: normal;
+    }
+    #garan-cart-full table tr td a{
+        color:rgba(85,125,161,.7);
+    }
+    #garan-cart-full table tr td img{
+        height: 64px;
+    }
+    #garan-cart-full table tr td a:hover{
+        color:rgba(85,125,161,1);
+    }
+    #garan-cart-full table tr.total td{
+        border-top:dotted 1px rgba(85,125,161,1);
+        text-align: right;
+        color:rgba(0,0,0,.8);
+        font-size: 110%;
+        font-weight: 700;
+    }
+    #garan-cart-full .small{
+        font-size: 90%;
+        font-weight: 300;
+    }
+
+    #garan-cart-full .currency-amount{
+        font-weight: 700;
+    }
+    #garan24-add2cart-block {
+        background-color: rgba(85,125,161,.98);
+        padding:1em 3em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .garan24-add2cart-block-ctshirts {}
+    .garan24-add2cart-block-babywalz {
+        clear:both;
+    }
+    #garan24-add2cart-block #garan24-add2cart-button{
+        padding-left:2em;
+        padding-right: 2em;
+    }
+    /*body{padding-top: 56px;}*/
+
+</style>
+<div id="garan24-toper">
+    <div id="garan24-toper-content">
+        <ul class="garan24-toper-menu garan24-toper-menu-left">
+            <li class="garan24-logo">G&nbsp;<code>24</code></li>
+        </ul>
+        <ul class="garan24-toper-menu garan24-toper-menu-right">
+            <li>
+                <a id="garan-cart" class="garan24-cart" href="#">
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw" area-hidden="true"></i>
+                    <!--
+                        <i class="fa fa-shopping-cart" area-hidden="true"></i>
+                        <sup id="garan24-cart-quantity">0</sup>
+                        <span id="garan24-cart-amount">0 руб.</span>
+                        <div id="garan-cart-full"></div>
+                    -->
+                </a>
+
+            </li>
+            <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
+        </ul>
+    </div>
+</div>
+<!--
+<div id="garan24-add2cart-block"><a id="garan24-add2cart-button" class="garan24-button garan24-button-primary" href="#">В корзину&nbsp;&nbsp;<i class="fa fa-plus"></i></a></div>
+-->
+
+<div id="garan24-overlay">
+    <!--<div id="garan24-overlay-cover"></div>-->
+    <div id="garan24-overlay-message">
+        <span class="garan24-overlay-message-text">here is message</span><br />
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+    </div>
+</div>
+<script src="/js/snooper.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+(function($) {
+
+	App.module.TooltipLayer = function(target, scope) {
+		if(! target)
+			throw new Error("target missing for TooltipLayer()");
+
+		this._target = target;
+
+		if(scope)
+			this._scope = scope;
+	};
+
+	App.module.TooltipLayer.prototype = {
+		_target		: null,
+		_scope		: null,
+		_className	: 'tooltipLayer',
+		_x			: 0,
+		_y			: 0,
+		_width		: 'auto',
+		_height		: 'auto',
+		_content	: '',
+		_tmpl		: null,
+
+		getContent: function() {
+			return this._content;
+		},
+
+		_getTemplate: (function() {
+			var id = 0;
+
+			return function() {
+				return $('' +
+					'<div id="'+ this._className +'-'+ (id++) +'" class="'+ this._className +'" style="left:'+ this._x +'px; top:'+ this._y +'px; width: '+ this._width +'">' +
+					'	<div class="triangle"></div>' +
+					'	<span class="close">x</span>' +
+					'	<div class="body" style="min-height: '+ this._height +'">' +
+					'		'+ this._content +
+					'	</div>' +
+					'</div>')
+					.data({
+						scope: this._scope,
+						target: this._target
+					});
+			}
+		})(),
+
+		isLoading: function(bool) {
+			if(bool) {
+				$('div.body', this._tmpl).addClass('loading');
+			} else {
+				$('div.body', this._tmpl).removeClass('loading');
+			}
+
+			return this;
+		},
+
+		init: function(width, height) {
+			var $this 	= this,
+				offset 	= this._target.offset(),
+				x 		= offset.left,
+				y 		= offset.top,
+				removed = false;
+
+			this._width 	= width ? width +"px" : 'auto';
+			this._height 	= height ? height +"px" : 'auto';
+			this._x			= x - 17;
+			this._y			= y + this._target.height() - 2;
+			this._tmpl 		= this._getTemplate();
+
+			$('.'+ this._className).each(function() {
+				var tmpl = $(this);
+
+				if($this._target[0] === tmpl.data('target')[0]) {
+					removed = true;
+				}
+
+				if($this._scope) {
+					if(tmpl.data('scope') === $this._scope) {
+						tmpl.remove();
+					}
+				}
+			});
+
+			this._tmpl.find('span.close').on('click', function() {
+				$this.remove();
+				return false;
+			});
+
+			if(! removed) {
+				$('body')
+					.append(this._tmpl)
+					.on('click.tooltipLayer', function() {
+						$this.remove();
+
+				 		$('body').off('click.tooltipLayer');
+					});
+
+				$this._tmpl.on('click', function(e) {
+					e.stopPropagation();
+				});
+			}
+
+			return this;
+		},
+
+		fill: function(content) {
+			this._content = content;
+
+			$('div.body', this._tmpl).html(this._content);
+
+			return this;
+		},
+
+		remove: function() {
+			this._tmpl.remove();
+		},
+
+		closeOnMouseLeave: function() {
+			var $this = this;
+
+			$this._target.on('mouseleave.tooltip', function() {
+				$this._target.off('mouseleave.tooltip');
+				$this.remove();
+			});
+		}
+	};
+
+})(jQuery);

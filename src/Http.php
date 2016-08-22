@@ -40,7 +40,7 @@ class Http{
             CURLOPT_FRESH_CONNECT => 1,
             CURLOPT_FORBID_REUSE => 1,
             CURLOPT_AUTOREFERER => 1,
-            CURLOPT_FOLLOWLOCATION => 1,
+            //CURLOPT_FOLLOWLOCATION => 1,
 
             CURLOPT_VERBOSE => 1,
             CURLINFO_HEADER_OUT => 1,

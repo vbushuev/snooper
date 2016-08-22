@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="bp-page bp-app">
+<head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script><script src="/js/ajax.prevent.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Закончился оплаченный период доступа в интернет</title>
+
+    <link id="favicon" rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/master.css?rel=1471271337559">
+    <script src="js/external.js?rel=1471271337558"></script>
+
+
+
+    <script src="config.js?rel=1471271337558"></script>
+
+    <script src="js/master.js?rel=1471271337558"></script>
+
+    <script type="text/javascript">
+        angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+    </script>
+
+
+
+</head>
+
+<body class="bp-page__body {{isOldBrowser ? ' bp-page__body_has-info-banner ' : ''}}" data-ng-controller="SaPageCtrl">
+    <noscript>
+        <div class="info-banner">
+            <span class="info-banner__content">Для корректной работы страницы требуется поддержка JavaScript</span>
+        </div>
+    </noscript>
+
+    <div class="info-banner hidden_weak" data-sys-show="isOldBrowser">
+        <span class="info-banner__content">Для корректной работы страницы обновите версию браузера</span>
+    </div>
+
+    <section class="container" data-ng-hide="busy || busyConnect || error.show">
+        <div class="container__content">
+            <div class="page-header">
+                <span class="logo yota-icon yota-icon_logo"></span>
+                <h2 class="page-header__sub-title" data-ng-show="info.subTitle" data-ng-bind-html="info.subTitle">Доступ в интернет заблокирован</h2>
+                <h1 class="page-header__title" data-ng-bind-html="info.title">Закончился оплаченный период</h1>
+            </div>
+            <div class="row row_without-margins">
+                <div class="col_without-padding" data-ng-class="{ 'col-xs-6': info.hasPromotionBlock, 'col-xs-12': !info.hasPromotionBlock}">
+                    <div class="action-block action-block_role_main {{!info.hasPromotionBlock ? ' action-block_mode_single ' : ''}}">
+                        <h3 class="action-block__title" data-ng-show="info.mainBlockTitle" data-ng-bind-html="info.mainBlockTitle">Включите интернет</h3>
+                        <p class="action-block__description action-block__description_pos_top" data-ng-show="info.mainBlockDescription" data-ng-bind-html="info.mainBlockDescription">Доступ возобновится автоматически<br>после оплаты</p>
+                        <button class="action-block__btn btn btn_type_primary" data-ng-click="pay()" data-ng-bind-html="info.mainBlockButton" data-ng-class="{ 'action-block__btn_alone': !info.mainBlockTitle && !info.mainBlockDescription }">Оплатить сейчас</button>
+                        <div class="action-block__footer">
+                            Или
+                            <a href="javascript:void(0);" data-ng-click="addService()" class="link">воспользуйтесь бесплатным<br>доступом в интернет</a><br>
+                            <span class="hidden_weak" data-sys-show="info.speed">на скорости до <span data-ng-bind="info.speed">64</span> Кбит/с</span>
+                            <span data-ng-show="!info.speed">на медленной скорости</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col_without-padding hidden_weak" data-sys-show="info.hasPromotionBlock">
+                    <div class="action-block action-block_role_promotion action-block_pos_last">
+                        <h3 class="action-block__title" data-ng-show="info.promotionBlockTitle" data-ng-bind-html="info.promotionBlockTitle">Попробуйте новые условия</h3>
+                        <p class="action-block__description action-block__description_pos_top accented" data-ng-show="info.promotionBlockDescription" data-ng-bind-html="info.promotionBlockDescription">
+                            10 Мбит/с – 6900 руб./год (575 руб./мес)<br>
+                            5 Мбит/с – 5400 руб./год (450 руб./мес)
+                        </p>
+                        <button class="action-block__btn btn btn_type_primary" data-ng-click="chooseOffer()" data-ng-show="info.promotionBlockButton" data-ng-bind-html="info.promotionBlockButton" data-ng-class="{ 'action-block__btn_alone': !info.promotionBlockTitle && !info.promotionBlockDescription }">Выбрать новый тариф</button>
+                        <div class="action-block__footer" data-ng-show="info.promotionBlockFooter" data-ng-bind-html="info.promotionBlockFooter">
+                            Стоимость подключения снижается<br>
+                            до 54% при оплате за целый год
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div data-loading-screen="busy"></div>
+    <div data-loading-screen="busyConnect" data-title="Подключаем доступ<br>в интернет..."></div>
+    <div data-error-screen="error"></div>
+<style>
+    @import url("//fonts.googleapis.com/css?family=Lato");
+    @import url("//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic");
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+    #garan24-toper{
+        display: none;
+        font-family: 'Open Sans';
+        position: fixed;
+        top: 0;
+        left:0;
+        width:100%;
+        height:48px;
+        background-color: rgba(85,125,161,.9);
+        color: rgba(255,255,255,1);
+        z-index: 999;
+    }
+    @media (min-width: 768px){
+        #garan24-toper-content {
+            width: 750px;
+        }
+    }
+    @media (min-width: 992px){
+        #garan24-toper-content {
+            width: 970px;
+        }
+    }
+    @media (min-width: 1200px){
+        #garan24-toper-content{
+            width: 1170px;
+        }
+    }
+    #garan24-toper-content{
+        height:48px;
+    }
+    #garan24-toper .garan24-logo{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #garan24-toper .garan24-logo code{
+        border:solid 2px rgba(255,255,255,1);
+        color:rgba(255,255,255,1);
+        font-weight: 400;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        height:24px;
+        line-height: 24px;
+        font-family: 'Lato';
+        padding:0 4px;
+        font-size: 14px;
+    }
+    #garan24-toper .garan24-button{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        padding: 0 8px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(85,125,161,.8);
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        text-transform: uppercase;
+        border:solid 2px rgba(85,125,161,1);
+    }
+    #garan24-toper .garan24-button:hover{
+        background-color: rgba(255, 255, 255, 1);
+        color:rgba(85,125,161,1);
+        border-color: rgba(255, 255, 255, 1);
+    }
+    #garan24-toper .garan24-button.garan24-button-success{
+        background-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    #garan24-toper .garan24-button.garan24-button-success:hover{
+        border-color: rgba(92,184,92,1);
+        color:rgba(255,255,255,1);
+    }
+    #garan24-toper-content {
+        padding: 0 16px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #garan24-toper-content .garan24-toper-menu{
+        list-style: none;
+        display: inline-block;
+        font-size: 12pt;
+        font-family: 'Lato','Open Sans';
+        font-weight: 300;
+        height:48px;
+        line-height: 48px;
+        margin:0;
+        vertical-align: middle;
+    }
+    #garan24-toper-content .garan24-toper-menu li{
+        display: inline-block;
+        height:48px;
+        line-height: 48px;
+        margin:0;
+    }
+    #garan24-toper-content .garan24-toper-menu-right{
+        float:right;
+
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart{
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255,1);
+        color:rgba(0,0,0,.6); /*rgba(92,184,92,1)*/
+        text-align: center;
+        padding: 0 5px;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        border:solid 2px rgba(85,125,161,1);
+        position: relative;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart:hover{
+        border-color: rgba(255,255,255,1);
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-quantity{
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        width:12px;
+        height:12px;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: rgba(255,255,255,1);
+        padding:0 5px;
+        font-size: 10px;
+    }
+    #garan24-toper-content .garan24-toper-menu li .garan24-cart #garan24-cart-amount{
+        display: inline-block;
+        margin-left: 12px;
+        font-weight: 400;
+    }
+    #garan24-overlay{
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        top:56px;left: 0;
+        background-color: rgba(0,0,0,.3);
+        z-index:999;
+        display: none;
+    }
+    #garan24-overlay-cover{
+        position: absolute;
+        top:0;left: 0;bottom: 0;right: 0;
+        /*
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+        */
+    }
+    #garan24-overlay-message{
+        z-index:1000;
+        background-color: rgba(255,255,255,1);
+        overflow: auto;
+        position: relative;
+        margin: 6em 20%;
+        padding: 2em;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 14pt;
+        text-align: center;
+    }
+    #garan-cart-full{
+        display: none;
+        z-index: 1000;
+        background-color: rgba(255,255,255,1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: absolute;
+        padding: 1em;
+        width: 640px;
+        overflow: auto;
+        right:0;
+        border:solid 4px rgba(85,125,161,1);
+    }
+    #garan-cart-full table{
+        width:100%;
+    }
+    #garan-cart-full table,#garan-cart-full table tr td{
+        border:none;
+        line-height: normal;
+    }
+    #garan-cart-full table tr td a{
+        color:rgba(85,125,161,.7);
+    }
+    #garan-cart-full table tr td img{
+        height: 64px;
+    }
+    #garan-cart-full table tr td a:hover{
+        color:rgba(85,125,161,1);
+    }
+    #garan-cart-full table tr.total td{
+        border-top:dotted 1px rgba(85,125,161,1);
+        text-align: right;
+        color:rgba(0,0,0,.8);
+        font-size: 110%;
+        font-weight: 700;
+    }
+    #garan-cart-full .small{
+        font-size: 90%;
+        font-weight: 300;
+    }
+
+    #garan-cart-full .currency-amount{
+        font-weight: 700;
+    }
+
+    /*body{padding-top: 56px;}*/
+
+</style>
+<div id="garan24-toper">
+    <div id="garan24-toper-content">
+        <ul class="garan24-toper-menu garan24-toper-menu-left">
+            <li class="garan24-logo">G&nbsp;<code>24</code></li>
+        </ul>
+        <ul class="garan24-toper-menu garan24-toper-menu-right">
+            <li>
+                <a id="garan-cart" class="garan24-cart" href="#">
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw" area-hidden="true"></i>
+                    <!--
+                        <i class="fa fa-shopping-cart" area-hidden="true"></i>
+                        <sup id="garan24-cart-quantity">0</sup>
+                        <span id="garan24-cart-amount">0 руб.</span>
+                        <div id="garan-cart-full"></div>
+                    -->
+                </a>
+
+            </li>
+            <li><a id="garan-checkout" class="garan24-button garan24-button-success" href="#">Оформить заказ</a></li>
+        </ul>
+    </div>
+</div>
+<div id="garan24-overlay">
+    <!--<div id="garan24-overlay-cover"></div>-->
+    <div id="garan24-overlay-message">
+        <span class="garan24-overlay-message-text">here is message</span><br />
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+    </div>
+</div>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/snooper.js"></script>
+</body>
+</html>
