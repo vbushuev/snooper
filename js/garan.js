@@ -19,7 +19,7 @@ $g= {
                 + "; expires=" + e.toUTCString()
                 + (typeof o.domain !="undefined" ? "; domain=" + o.domain : "")
                 + (typeof o.path !="undefined" ? "; path=" + o.path : "")
-                + (typeof p.secure !="undefined" ? "; secure" : "");
+                + (typeof o.secure !="undefined" ? "; secure" : "");
             return true;
         }
     }
@@ -347,3 +347,4 @@ var collectData={
 
     window.productArtnumList =(typeof productArtnumList !="undefined")?productArtnumList:["5994586767"];
     window.selfUID = (typeof selfUID != "undefined")?selfUID:"58688";
+    window.artNumber = (typeof artNumber != "undefined")?artNumber:"58688";
